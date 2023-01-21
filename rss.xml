@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Jan 2023 14:49:19 GMT</lastBuildDate><item><title><![CDATA[KenpoKungFuリリースしました]]></title><description><![CDATA[日本国憲法を1時間に1回つぶやくTwitterBotと、憲法と各国家試験のうち憲法分野で
+出題された過去問題を表示するWebサイトを作成しました。 構成 java11 SQLite3 SQLite JDBC Driver twittered]]></description><link>https://masayoshi.work/KenpoKungFuリリースしました/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuリリースしました/</guid><pubDate>Tue, 31 Jan 2023 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;日本国憲法を1時間に1回つぶやくTwitterBotと、憲法と各国家試験のうち憲法分野で
+出題された過去問題を表示するWebサイトを作成しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;構成
+&lt;ul&gt;
+&lt;li&gt;java11&lt;/li&gt;
+&lt;li&gt;SQLite3
+&lt;ul&gt;
+&lt;li&gt;SQLite JDBC Driver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;twittered&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bd5c536ac61089f85632cec731a3f4b7/0b533/kamae.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVR42p2UO07EMBCGEy8sEtqKilX2BNBSQeUUnIKGC0BBgURP5RSUCKGtoIMLAKKBioIGiYKal5DgBoj9/ApWxGMSS7/GTux/Zv4ZO8sEY1SVDoXxtvNISYAKqB20HkWlw2GdpUSdCN0hYyPUOfP+yOg97BjMWgdFG8Jas0orb8s57BdEoFwOzpQ4ykCYB7IFDm8ToWG9GWXgu4pzsXYUpIe9s9FBcI+dwa4gwxnzKbGWMTowBG+FJTQu3RfwAdaTyrcinAePXr/yCJyArYa+QkJTEz6RuiU8Bedgo1V0P0T47DXUV1R5iKMB6bfrxQbha2wZIt1Pb48o3dQ7GHDoHXuBPRzZwhi9G9vK7hX0n7sFqiY0rmWOw79r7IPbY/ze/x+D2NA+0stQ4VW3NvqA+Y2dx0xEVy7AVvQTB0vJtzHr28JF6O64+N2b5pDVajG8NP3wbw3CnVpDYcrNSHuJtt/fjaDKDUKVtI8jAHls+k6v9W+S/DUm4cbs98Ik4+4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;aaaaaaa&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bd5c536ac61089f85632cec731a3f4b7/0b533/kamae.png&quot;
+        srcset=&quot;/static/bd5c536ac61089f85632cec731a3f4b7/c26ae/kamae.png 158w,
+/static/bd5c536ac61089f85632cec731a3f4b7/6bdcf/kamae.png 315w,
+/static/bd5c536ac61089f85632cec731a3f4b7/0b533/kamae.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。お仕事のご連絡はDMで。 使用言語/DB Perl BASH PHP Java MySQL PostgreSQL SQLite 取得資格 AWS Certified Solutions Architect Associate Azure…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Sun, 01 Jan 2023 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。お仕事のご連絡はDMで。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用言語/DB&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perl&lt;/li&gt;
+&lt;li&gt;BASH&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;SQLite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;取得資格&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS Certified Solutions Architect Associate&lt;/li&gt;
+&lt;li&gt;Azure Fundamentals&lt;/li&gt;
+&lt;li&gt;ITパスポート&lt;/li&gt;
+&lt;li&gt;ITILファウンデーション&lt;/li&gt;
+&lt;li&gt;Linux Professional Institute Certification Level 3
+&lt;ul&gt;
+&lt;li&gt;LPI-303 Security&lt;/li&gt;
+&lt;li&gt;LPI-304 Virtualization &amp;#x26; High Availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Oracle Certified Java Programer,Silver SE 7&lt;/li&gt;
+&lt;li&gt;ORACLE MASTER Bronze Oracle Database 12c&lt;/li&gt;
+&lt;li&gt;PHP5技術者認定準上級&lt;/li&gt;
+&lt;li&gt;Red Hat Certified System Administrator&lt;/li&gt;
+&lt;li&gt;VBAエキスパート&lt;/li&gt;
+&lt;li&gt;Windows Server 2008 Server Administrator&lt;/li&gt;
+&lt;li&gt;情報セキュリティマネジメント&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
