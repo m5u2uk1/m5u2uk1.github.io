@@ -24,7 +24,7 @@ description: "masayoshi について"
     - LPI-303 Security
     - LPI-304 Virtualization & High Availability
   - Oracle Certified Java Programer,Silver SE 7
-  - ORACLE MASTER Bronze Oracle Database 12c
+  - ORACLE MASTER Bronze Oracle Database 10g
   - PHP5技術者認定準上級
   - Red Hat Certified System Administrator
   - VBAエキスパート
