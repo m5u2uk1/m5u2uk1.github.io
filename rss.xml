@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Jan 2023 00:11:46 GMT</lastBuildDate><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Feb 2023 06:33:55 GMT</lastBuildDate><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[TwitterBotと、憲法と各国家試験のうち憲法分野で
+出題された過去問題を表示するWebサイトを作成しました。 構成 java11 SQLite3 SQLite JDBC Driver 行政書士試験の過去問題について対応中です。しばらくおまちください。]]></description><link>https://masayoshi.work/KenpoKungFuRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuRelease/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;TwitterBotと、憲法と各国家試験のうち憲法分野で
+出題された過去問題を表示するWebサイトを作成しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;構成
+&lt;ul&gt;
+&lt;li&gt;java11&lt;/li&gt;
+&lt;li&gt;SQLite3
+&lt;ul&gt;
+&lt;li&gt;SQLite JDBC Driver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;行政書士試験の過去問題について対応中です。しばらくおまちください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT CLOSE します]]></title><description><![CDATA[Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
+Twitter社やtwittered…]]></description><link>https://masayoshi.work/20230206/</link><guid isPermaLink="false">https://masayoshi.work/20230206/</guid><pubDate>Mon, 06 Feb 2023 13:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
+Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888&quot;&gt;https://twitter.com/kenpo_kungfu/status/1622427549182885888&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
 行政書士試験問題の掲載を許諾頂きました。ありがとうございます。 適切に運用するため、いくつかコードを追加する予定です。
 引き続き構築に励みたいと考えております。]]></description><link>https://masayoshi.work/20230126/</link><guid isPermaLink="false">https://masayoshi.work/20230126/</guid><pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
 行政書士試験問題の掲載を許諾頂きました。ありがとうございます。&lt;/p&gt;
