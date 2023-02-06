@@ -1,11 +1,13 @@
 ---
 title: KenpoKungFu βリリースしました
 date: "2023-02-06T15:32:00.000Z"
-description: "KenpoKungFui βリリースしました"
+description: "KenpoKungFu βリリースしました"
 ---
 
 TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。
+
+https://kenpokungfu.masayoshi.work/KenpoKungFu/Main
 
 - 構成
   - java11
