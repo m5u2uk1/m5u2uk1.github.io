@@ -25,7 +25,12 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        masayoshi.work 
+        <a href="/about/">aboutme</a>
+        {` `}
+        <a href="https://kenpokungfu.masayoshi.work/KenpoKungFu/">憲法カンフー</a>
+        {` `}
+	<br></br>
+        masayoshi.work
         &copy; {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>

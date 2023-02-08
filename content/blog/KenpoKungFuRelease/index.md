@@ -7,7 +7,7 @@ description: "KenpoKungFu βリリースしました"
 TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。
 
-https://kenpokungfu.masayoshi.work/KenpoKungFu/Main
+https://kenpokungfu.masayoshi.work/KenpoKungFu/
 
 - 構成
   - java11
