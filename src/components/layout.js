@@ -29,6 +29,8 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://kenpokungfu.masayoshi.work/KenpoKungFu/">憲法カンフー</a>
         {` `}
+        <a href="https://tsumige.masayoshi.work/">TsumiGe β版</a>
+        {` `}
 	<br></br>
         masayoshi.work
         &copy; {new Date().getFullYear()}, Built with
