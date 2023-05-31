@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Feb 2023 12:23:26 GMT</lastBuildDate><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[TwitterBotと、憲法と各国家試験のうち憲法分野で
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 May 2023 09:05:06 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;国内で販売されていたファミリーコンピュータソフトは約1000本近くあります。
+子供の頃に買ってもらったはいいものの、最後まで終わることが出来ずに
+次に目移りしてしまったソフトは何本あるでしょう。&lt;/p&gt;
+&lt;p&gt;よく「積む」といいますが、実際にカセットを積んだらどの程度高くなるでしょう。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tsumige.masayoshi.work/&quot;&gt;https://tsumige.masayoshi.work/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;構成&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;php8.1
+&lt;ul&gt;
+&lt;li&gt;laravel 10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SQLite3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;デモンストレーション用なので認証周りをオミットしています。また、定期的にDBが削除されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。 https://kenpokungfu.masayoshi.work/KenpoKungFu/ 構成 java11 SQLite3 SQLite JDBC…]]></description><link>https://masayoshi.work/KenpoKungFuRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuRelease/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://kenpokungfu.masayoshi.work/KenpoKungFu/&quot;&gt;https://kenpokungfu.masayoshi.work/KenpoKungFu/&lt;/a&gt;&lt;/p&gt;
