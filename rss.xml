@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 May 2023 22:54:44 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;国内で販売されていたファミリーコンピュータソフトは約1000本近くあります。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Jun 2023 23:31:06 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 447px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACtElEQVR42p2RXUiTURjH3+u6CIKuhCjqJoKgi5CQtG8oqCyIBvkRlt+m7sNlM2c55/d05iqdFNXFKC+ypjY/pi1niRlapk5Xw9qFhh8hBFFM+HXe1yylrjrw43l4zv9/znOeIwUDfvTnVeSknMU/PsDCtJ8WuxVffyfn9kURtXEjxuhjfP3sZ37mE99/fKPebCI2IgKbSY/nsR3rVTXHIsPxjY4gTfp95KadIzc5jsZblXhdjbQ9vEP/cyeOm2XEHNpL+tFDvOlpY3r6Iwtfpjh5IJKdYRs4cjACQ0Ysx3fvYPeW9QR875AC46PUmDXUVRmpNuowadOwGHPQpiXQ9KABV4uD+goz+oR4hl91MD7cQ2JMNLs2h7F96ybC1q1hR9haVHu2MTkxhvQx8IGsC2coykunt/sR7wY9dDU5eHr/Nu5GB+5HDl50OfGPDTAVnGDSP0i3y0H+xUSSVac4sT+clNOHyRcjC04GkHr7BsjIMaLOvUb2pQJyr5ZiMJWLWMIlYzH5RZWYyqwUllvJE/Wc/CIuXysT0Yz2ShH6ghL0QpclvN6Xr5BeDw1TKAwV1+sos96ipOqGQmn1TcwWm6jXY2u4R03dHSVfub+M7DOV1zAw+BZpaHiEYmG02OxU1tYL7AqyudZ+lxviMDnKyIdabA2/dH+QvfIlg2/Fp3h6+0jVGJT21YZCBY0gW4zAWGyhWAjlC2WD/GTdCt0y2jwT6boreLx9SLNz83Q+8+L29P5FR3fPKv6lkel6vqSdmZ1DGpt4T0xSFrHJ2cSlqBVik7K5kKknUwxa7j5Nm/ebFLWBhHTdKn18qgZVQgYT7wNLHbZ2PKO1vZvmNjdPnnYKOmh2uWlp78Lp6lTqcq7URe50uZV8GafwNLW0L3UYCi3i9XoJBoP4fD5CoRD/uxYXF/kJq8Sq+3yUO+kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ScreenShot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png&quot;
+        srcset=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/c26ae/tsumigeSS.png 158w,
+/static/1243793c1ed5aefd78bc43afb74d52f8/6bdcf/tsumigeSS.png 315w,
+/static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png 447w&quot;
+        sizes=&quot;(max-width: 447px) 100vw, 447px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;国内で販売されていたファミリーコンピュータソフトは約1000本近くあります。
 子供の頃に買ってもらったはいいものの、最後まで終わることが出来ずに
 次に目移りしてしまったソフトは何本あるでしょう。&lt;/p&gt;
 &lt;p&gt;よく「積む」といいますが、実際にカセットを積んだらどの程度高くなるでしょう。&lt;/p&gt;
@@ -19,7 +49,37 @@
 &lt;p&gt;デモンストレーション用なので認証周りをオミットしています。また、定期的にDBが削除されます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[TwitterBotと、憲法と各国家試験のうち憲法分野で
-出題された過去問題を表示するWebサイトを作成しました。 https://kenpokungfu.masayoshi.work/KenpoKungFu/ 構成 java11 SQLite3 SQLite JDBC…]]></description><link>https://masayoshi.work/KenpoKungFuRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuRelease/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;TwitterBotと、憲法と各国家試験のうち憲法分野で
+出題された過去問題を表示するWebサイトを作成しました。 https://kenpokungfu.masayoshi.work/KenpoKungFu/ 構成 java11 SQLite3 SQLite JDBC…]]></description><link>https://masayoshi.work/KenpoKungFuRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuRelease/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 444px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5klEQVR42lWPWU9aURSF7z9t0rTpQx/61OemFscOabUNCdRInWW4WKmR1KFxBi4VraBAgQsyKkqpgIKon9vbNLU5+bL2Xmed7H2U5PowyY1J4qtT6JvjpP1jxKQ2et8YKfGSG+OGpjYn/nHr/UX6xNoIxcg8SsDewYzZgsdsZmPiFb6plywM9TNnfY/X8oGdzz3szPQQmu5iSzUZhNydhr99e2fc97Ll6pDBYyg++2ucAxN8sQyx+MnC0rCFgNovtZWRvlH8rl6hm5DnDXvzZoOwdwBN7SHo7pXsrfahubrQ/XaU745n7HpMMkmY/qPbomFPN4u2p3w0PcD6/B6a18Zp+YCTQorc3jqDL+4z1P2Iwc6HON49wfn2sXx7FCXpd6AHp9E1NylNNdA1F+mgKohvqEr2xxzF2AqF6DL58FcyATsZzSE4ORB03ySH+0soq/4A60GNSPInbaAltOUUy3mCkV1241FiuTSJbFoyMcKJGMWjrATLXDeP7lDm6vwQZa+UIFMpUG01yDfK5M9O+N38RbVepnbRJFTaxxZSyVSLnLbOqEiufl7lspalXc/Rrt1BeiV8nCDXOCJe0ZmNLrCcCbBfinAlux63a3ji31jLhZhNrHDBNXXZ/lz8S3l8WS8I+f+4AZPcF8FZydqoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ScreenShot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png&quot;
+        srcset=&quot;/static/191a49bbbff4808f257bd91305e658a1/c26ae/kkSS.png 158w,
+/static/191a49bbbff4808f257bd91305e658a1/6bdcf/kkSS.png 315w,
+/static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png 444w&quot;
+        sizes=&quot;(max-width: 444px) 100vw, 444px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://kenpokungfu.masayoshi.work/KenpoKungFu/&quot;&gt;https://kenpokungfu.masayoshi.work/KenpoKungFu/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
