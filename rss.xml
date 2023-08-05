@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Jun 2023 23:31:06 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Aug 2023 07:00:47 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 447px; &quot;
     &gt;
@@ -123,7 +123,8 @@ Twitter社やtwitteredライブラリ開発者の皆様には感謝していま�
 &lt;p&gt;学習目的なので特に政治・思想的な話題は完全にスルーします。（予防線）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[masayoshi.work リリースしました]]></title><description><![CDATA[masayoshi.work リリースしました。 GatsbyJS の gatsby-starter-blog テンプレートを使って
 極めてシンプルなサイトを作ってみました。]]></description><link>https://masayoshi.work/masayoshi.workRelease/</link><guid isPermaLink="false">https://masayoshi.work/masayoshi.workRelease/</guid><pubDate>Sat, 21 Jan 2023 23:59:00 GMT</pubDate><content:encoded>&lt;p&gt;masayoshi.work リリースしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;GatsbyJS&lt;/a&gt; の gatsby-starter-blog テンプレートを使って
-極めてシンプルなサイトを作ってみました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。お仕事のご連絡はDM(@MasayoshiWork)で。 使用言語/DB Perl BASH PHP Java MySQL PostgreSQL SQLite 取得資格 AWS Certified Solutions Architect…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Sun, 01 Jan 2023 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。お仕事のご連絡はDM(@MasayoshiWork)で。&lt;/p&gt;
+極めてシンプルなサイトを作ってみました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。実務では開発と縁がない模様。 ご連絡はDM(@MasayoshiWork)でお願いいたします。。 申し訳ございません。現在お仕事は承っておりません。 使用言語/DB Perl BASH PHP Java MySQL PostgreSQL…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Sun, 01 Jan 2023 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。実務では開発と縁がない模様。&lt;/p&gt;
+&lt;p&gt;ご連絡はDM(@MasayoshiWork)でお願いいたします。&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;使用言語/DB&lt;/p&gt;
@@ -159,4 +160,10 @@ Twitter社やtwitteredライブラリ開発者の皆様には感謝していま�
 &lt;li&gt;情報セキュリティマネジメント&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;申し訳ございません。現在お仕事は承っておりません。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>
