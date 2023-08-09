@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Aug 2023 07:00:47 GMT</lastBuildDate><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Aug 2023 11:22:25 GMT</lastBuildDate><item><title><![CDATA[ボク SAP の道のり]]></title><description><![CDATA[本日のAWS学習 XXXってなんだっけ DB系もわけわからなくなっている。 nanda? 自分なりの解釈 Amazon DynamoDB NoSQLマン。JSON でゲットできるかな Amazon Redshift…]]></description><link>https://masayoshi.work/20230909/</link><guid isPermaLink="false">https://masayoshi.work/20230909/</guid><pubDate>Sat, 09 Sep 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;h2&gt;XXXってなんだっけ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DB系もわけわからなくなっている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;nanda?&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;自分なりの解釈&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon DynamoDB&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NoSQLマン。JSON でゲットできるかな&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon Redshift&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;データウェアハウジング。早いからビッグデータ分析に便利。エクサバイトとかもう悪夢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;AWS Database Migration Service&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;AWS DMS。SRC側はオンラインで実行できる。バックのRDBMSが違っててもOKPK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;ENI&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Elastic Network Interface 仮想ネットワークカード。VPC内に作る。東芝ではない。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon DocumentDB&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;MongoDB のマネージドサービス。こやつもNoSQL。Dynamoとの違い、大規模なことしたいなら、こっちを選ぶ。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon Neptun&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;ネプチューン。イチバン！マネージド型グラフデータベース。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon Quantum Ledger Database&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;マネージド台帳データベースサービス。いかなる監査でもエントリが削除できん。イミュータブル&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon ElastiCache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Redis と Memcached を提供しとる。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon DynamoDB Accelerator&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;DAX 。DynamoDBでキャッシュサービス使いたいならコレ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;AWS PrivateLink&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;仮想プライベートクラウド (VPC)、サポートされる AWS サービス、およびお客様のオンプレミスネットワーク間のプライベート接続を、お客様のトラフィックを公衆インターネットに公開することなく提供&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;所感
+&lt;ul&gt;
+&lt;li&gt;AWSさん、公式動画内でDBベンダーをわり DIS るのね。&lt;/li&gt;
+&lt;li&gt;Oracle さんの巻き返しはあるかな？ないかな？今時の DBA 界隈はどうなっているんだろう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;本日のLPIC学習&lt;/h1&gt;
+&lt;p&gt;5年ぶりなのでターゲットを改めて確認してみる。&lt;/p&gt;
+&lt;h2&gt;現在のステータス&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;301 試験。とっくに死亡。coreなんてものはなかったんだ。&lt;/li&gt;
+&lt;li&gt;302 試験はとっくに死亡。
+&lt;ul&gt;
+&lt;li&gt;今は300になってる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;303 試験。バージョンが上がっているけどまだ存在はする。
+&lt;ul&gt;
+&lt;li&gt;私のはなんでINACTIVEになっているのか不明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;304 試験が分割されておる。
+&lt;ul&gt;
+&lt;li&gt;305 と 306 。2つの認定資格になりおった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;次のターゲット&lt;/h2&gt;
+&lt;p&gt;300 試験が各種試験の情報が出回っていてチャレンジしやすいと見た。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[インフラエンジニアとしてのアウトプットを]]></title><description><![CDATA[…]]></description><link>https://masayoshi.work/init/</link><guid isPermaLink="false">https://masayoshi.work/init/</guid><pubDate>Wed, 09 Aug 2023 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;きっかけ&lt;/h1&gt;
+&lt;p&gt;　インフラエンジニアとして活動することになった今日この頃。
+開発に色目を使ったり、日頃遊びに遊びまくったツケがどんどん溜まっていて
+理想のタスク処理には程遠い状態になっています。&lt;/p&gt;
+&lt;p&gt;　ここは一つツケの精算としてインフラ面に着目したアウトプットをしていこうと思ったのです。はい。
+開発系は週末に楽しもうと思います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;なお、開発系のアウトプットは&lt;a href=&quot;https://masayoshi.work/&quot;&gt;こちら&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;直近の対策したいこと&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;AWS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SAA を取得していたので、SAPと行きたいところだが、しばらく触れていなかったので AWS の知識が完全に吹っ飛んでいた。タクティクス・オウガのランスロットさん状態。
+&lt;ul&gt;
+&lt;li&gt;AWS のリハビリからスタートしていく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LPIC&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level3 の更新がそろそろ入るので期限までにはどうにかしたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 447px; &quot;
     &gt;
