@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Aug 2023 09:10:08 GMT</lastBuildDate><item><title><![CDATA[現在製作中のApp]]></title><description><![CDATA[クリシェ裁判(仮称) 名前からお察しください。 スクリーンショット indexより  登録より]]></description><link>https://masayoshi.work/20230811/</link><guid isPermaLink="false">https://masayoshi.work/20230811/</guid><pubDate>Fri, 11 Aug 2023 18:02:00 GMT</pubDate><content:encoded>&lt;h1&gt;クリシェ裁判(仮称)&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Aug 2023 12:39:02 GMT</lastBuildDate><item><title><![CDATA[8/12 は休憩メイン]]></title><description><![CDATA[前回のタイトルもひどかったけど、このタイトルも相当酷いね。 本日のAWS学習 AWS Directory Service AD Connector オンプレの既存ADを使用可能 Simple AD AWS の Samba4 ベースのマネージドサービス AWS Managed…]]></description><link>https://masayoshi.work/20230812/</link><guid isPermaLink="false">https://masayoshi.work/20230812/</guid><pubDate>Sat, 12 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前回のタイトルもひどかったけど、このタイトルも相当酷いね。&lt;/p&gt;
+&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AWS Directory Service&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AD Connector
+&lt;ul&gt;
+&lt;li&gt;オンプレの既存ADを使用可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simple AD
+&lt;ul&gt;
+&lt;li&gt;AWS の Samba4 ベースのマネージドサービス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AWS Managed Microsoft AD
+&lt;ul&gt;
+&lt;li&gt;AWS の Microsoft Active DIrectory マネージドサービス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AWS SSO が消えてIAMアイデンティティセンターが爆誕してた。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;gatsby-plugin-twitter の適用。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&quot;&gt;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;連絡はDMでといいつつDM解放しておりませんでした。本当に申し訳ございませんでした。&lt;/p&gt;&amp;mdash; masayoshi.work (@MasayoshiWork) &lt;a href=&quot;https://twitter.com/MasayoshiWork/status/1689260536121507840?ref_src=twsrc%5Etfw&quot;&gt;August 9, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[現在製作中のApp]]></title><description><![CDATA[クリシェ裁判(仮称) 名前からお察しください。 スクリーンショット indexより  登録より]]></description><link>https://masayoshi.work/20230811/</link><guid isPermaLink="false">https://masayoshi.work/20230811/</guid><pubDate>Fri, 11 Aug 2023 18:02:00 GMT</pubDate><content:encoded>&lt;h1&gt;クリシェ裁判(仮称)&lt;/h1&gt;
 &lt;p&gt;名前からお察しください。&lt;/p&gt;
 &lt;h2&gt;スクリーンショット&lt;/h2&gt;
 &lt;h3&gt;indexより&lt;/h3&gt;
@@ -15,7 +50,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACnklEQVR42k2RWUhUYRiGB+oi6L6oixAqKqFCi7IuumiB6DKii+qmi/IqaCGCgqJsX2i1BRQtsgWLSp20lNJ2JpfRtBlHneXMOc7iLGeZc86M5jz9TkRdfPz/9y8P7/u9Dts20dIxYlEZVdOQfD/xdbzC96mJznevaXM24HV9QI0GiEmDpMQ7TQ6ghXxo8VHURAxdV7EyokwdR9YyUGM+Bnxe3N4QT27c5Pza2VxbM4OjK2eyZe50jpfOwlm+icYzB3DVP+ZrbSWWt5d4twvJ9Q0lIGELmG0kcFimhqXJyAPD9D9oEJ9uUbFxHbVlJVwrXcKlZUXUzy/m2ZwiGteV0LxqA8dKFlJbcRhXzR367l1moOkFRjpB1kzhsIVU3Ugy3N6F51EzzSdvcmHbTvYsWMS+ecs5uLSM2yVlPCwu5u6CabxcMYc7m9dzavtmzu/aStX+vVSdrkBTU9gZodAWCo20QlgOMypL9HR9542YW111JTeuXqS2poanNXfpvH+W9nM7cFcfItH9npinB3ebk/rrx3E+f8ivcRNTj+MwMxqTGYW8qUA2Sk6TCAx2ko4O0dfZgeLvRRruIRL2oiYlDFUhkw6SM8cY8zzj49XFfLm9GjX4npxt/AH+EkDsKEbCTzoi0osNI4+4CQ52kYoMIg318P3zWyKBXrICposQc5k4ac8r4s0niLacJBNsJzsFnIo6p4ULoITiYUz2COCQUOgjqXiJhwdIjnoL95HgD6KhfoyxEcyUH9Xfh/6tkdTXFsZTskg6+Qc4YShkhVU7HSrUhCEzrocLZ9aUPbFOuciqIcxkoCAgnwnzofIIV8rLubh7N972OiYn7X+W8+YoeStSqEmx/1v/93nr/z5CqNvJj9bH9LfWkRrpEDPU+Q2AUZoZGMX5GAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAClklEQVR42k2S20tUURTGfRGC/gCpHiq6UAaVKGj1IBRB0VtED9VLPWRP0YUg6kHSsAvdDZVAnAjLSEG08VISWojVmDmmjjOjzfU4ztG5nHPmnDOj6a99RkofFmt/a6/1rW/vtXLSaQMlISPPhEmqCiHPOJ6+Nrz9dgY/ddJjb8f9/QvJGT/RoIe4yFMlH0rQiypHUGIymqgzdMtUctKmhiJ7GfO6cboDND2r5u6BPJ7sX8ONorUc25BLeWEeHRcO877qMo53TQy8rMF0jzA75CDk+Ma0L4RpaKRTc+SYFrMiER6bYvRVO+1Vz6k8XIqtpICnhTt5sGczzVvyaV63ifbSArqKD3GzYDu2ymt8b6hl5MVDxuytaMk50npcKNSTaFqMyd4fTLzppOtWNfdOnOb81h1c3LiXK7v3UVtQQmP+Luq25dJatJ7aowepOHmEe2eOU3+pjPrblSjJuFAYEwoNlVRCKJRCRIQN/3DQbW+jsb6G6if3sdkaeGurY/DlHfrunsJZf5XYUC+yaxhnTwfNz8qxtzSyuGBgqLPkWB+5qE+DISw9Q1oN4vMMEo96cQ72IfmcBKZ+EglPkIwF0ZRpIcDPvD7LrKuFL493MlBTjOLvJWOmVhGmo6TmfpOY8aBEJwlPDeP3DGVxaPInjv4PRHwjZJIBtKiHjC6TcLUhd5YT7a5AD1iEmjUUlYwSyhbGpAnmJJeY+qRYEy+x6Qnk8Ljw7ux9xP9LrM4YmmhsxH0kfo+gfn1PfKCLTFwSQ4ktK/yTkgRpEFN0NxMBFjSJeS2cbWRhy//RRUEymCWy8JIe4nPNdR6VlXH/3Fncva9ZWjRXnrxkRP6bhf/FFlfFVnKWz4EhO6M9TYx+fE1iqo95U+UvSOabKSjeJCkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -47,7 +82,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 77.21518987341771%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWklEQVR42o2TT2gcdRTHFw8ecvagInio9RKsbfVQhIKUiofeBAVRsAetgmKNtAS2qEgsNWKkTUuICI2JVmxjmoRYm6SamCVQTc0a0t3NJm12s9nZ7O7M7Mxkd/7vn4+/2YaYnvTwnfeHed957/vehFy7QknOsLZ2h4KmE52eYLqrjalzH/LjmZN0tn/A9Z7TSPM3SM5NUgjei8+zGf8LPbWMJmXQVQVH8DhmiZBrGRjFZRKrKW7NxRjo7OLTA4/S/WwLHz/TwiuPPUB4VwtDh59k8O2XmO0+y9Cp99Fi86jRW6xNTbK+eJuyYeCZMiHH1DDLBaSbiyz1jXDtoy46XjhM7969nG5t5Vzrbq4+sYfLD+/mp/27GN93gBOPP0L45UMMd4SZ/TzMXH8vxWwG3w46FISaLpOciZIYm2H0TA9fvvkubzy9j7f2PMeJg0f44tCLXDq4n2+eepDh5x9i7NhrfNv+HmffOcp34eN0th0nny/iWUrQoY6lSyhqDk3Lk15LkhD6RKbGGBwc4JfxMX6bHOX2xACzF8OsXL9AaXkOV8kQvznFZ0Lj8bEhGp6BIyYNWYKwbuXA3oDAOnnwZWpmjqWFWeLRCEo2TjYdI5mIcndlETm3RN2ViVy7xEDHMYb6z1OzNvAqRUK2IAyKA9RF0t1cp5CJUcolkVYX2EgvogoCo7CCdDdK5NdRVCmBbayTuHEFubeDka+/QlNSVIORtwkFWRPCr1Yk/LK05eeEn23CEx+zSml8kUeJ4YrahUQKx3GgVsL9t0PpPtSb3ebuj7chQVXl7+nLdLW/zvCVPgZ7PuH3qxeoCx1DVkWnauapO+oOKNRsoaOt0NjKNVx1y1eExjqpxRn+mPiehcgwf07+IBb0s+hYDgg1fKdCUSkhCyhqiaKsYFm2iFXurKa3c/lCsYkgrxllKrZHHcjkitiOK86mtEXomqQzEmvrWcoVEymXRxcFfrVGxbSERm6zwHG9pnU9v5kL4Ps+xmYZzxWxqQoNBWHV0dkoyCiKTPBv63oJs2LQqHk06v49uwP1nai6iAc138Iui5EDsu4Rg7aLNU72eaQyRSF6Xmw8v31O/4WqeW+BzS1XHY1T/RWOnq/zapdPbEUQelLzXIK7/D+oNW1OEMr8A4F/EmunREE+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 77.21518987341771%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR42o2TTWxUVRTHm5i4wLWJGhcmpHEhCIomJIbEKNENKxcaE42a+MGChI/YQCrBmBIIjVQpKKgJYFGSWkoLrUhpbGtbE2yh0NKZ0lJmOu2bzsz7mDcf7/u9mZ/3vamAOxa/nHNu7v2fe885t86xy+TlFKmFebJ5nRuDfQwd3slg6y7aDzZwaM8OLh8/gHS9n9mxfrLhvth1ivFr6IlZdCmFrirYVhnb0KhzzCKF3BwziSTXxmOcaW7hq41P0fryY+x7aRXvPP0IjatX0bn5WTq2vsXfR7+lc+928kJUnRhnYaCfxVvTlIpFPFOmzjZ0zFIW6eotZk53c2lfC01vbObE+vUcWPMcR9bU01X/PO1P1HNuw2r6XtxIwzNP0vj263Q3NTJ6qJHxthPISyk8Ox/eUCevK9z+a4J47zAXDx7n64+38cG6F/hk3St8vmkLza+9ya+bNvDT2kfpevVxej59j9O7t3Fk60ec+WIHzTu3k8nmxA1VcUOzgKlLqNoy+XyG5MIscfGckcFeznW0celyDwNXLjDd18boyUbm/vgObW4MV1kkdnWA/btFjXs6qboF7FKOOssoUDXTYC0LhHUy4Cs4Rpr4zVGmJ4bJLcVZTMaYid9gfm4KJT1DxVEY+f0sbfs/4/zPRwnMZVxDrgkG4nC4UBE4xSWyqWm09G2ku5MsJ6dQhV8UjZPmJxj58yKqFMcqLBLv/w35hyYu/PgNupIgsNSaYEUIVlYEQ3G/HCLVEgm8khQRJjPzSXxjmaoSI2zo5EwCwzQgyOOU5QcEo8PSPf/+2gOxGVpJlETj5lA7LXvep7vjFB3ff8nQ+WNRHYWgLjJmqdjq/wgsRSBTdUQcoUU2sBXwdBJTw/zT9wuTw12MXTkrGtQraqhQZ5Z1PKdMTtGQBaqWF76CaVlRfOduEkXVyMlKNBrZnIysqmh6kZJp4/o+KSlL2TBwTe2+YDIlsbAoUSqbLKWz6IUivh+IjRa242DZjrBuZB3Xi9ZCPM+nWCrjuk7t60VPtnUyIrOiyoR/W9c1jLIYp4pXI3BX/JqthPEKFd+Bqk/gWVgl0ZRQrLW7yK6TAQ2nXBIpWRQ9I8Yoc6/LD0PYrKjLgaOzt83gw2NV3j3sE7sjBL10NBr/jdLDkY4E/wX9MRNFwou4qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -103,7 +138,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1&gt;本日のgatsbyｊｓ&lt;/h1&gt;
+&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;sitemap つけ忘れていたので対策。&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ボク SAP の道のり]]></title><description><![CDATA[本日のAWS学習 XXXってなんだっけ DB系もわけわからなくなっている。 nanda? 自分なりの解釈 Amazon DynamoDB NoSQLマン。JSON でゲットできるかな Amazon Redshift…]]></description><link>https://masayoshi.work/20230809/</link><guid isPermaLink="false">https://masayoshi.work/20230809/</guid><pubDate>Wed, 09 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
@@ -231,7 +266,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACtElEQVR42p2RXUiTURjH3+u6CIKuhCjqJoKgi5CQtG8oqCyIBvkRlt+m7sNlM2c55/d05iqdFNXFKC+ypjY/pi1niRlapk5Xw9qFhh8hBFFM+HXe1yylrjrw43l4zv9/znOeIwUDfvTnVeSknMU/PsDCtJ8WuxVffyfn9kURtXEjxuhjfP3sZ37mE99/fKPebCI2IgKbSY/nsR3rVTXHIsPxjY4gTfp95KadIzc5jsZblXhdjbQ9vEP/cyeOm2XEHNpL+tFDvOlpY3r6Iwtfpjh5IJKdYRs4cjACQ0Ysx3fvYPeW9QR875AC46PUmDXUVRmpNuowadOwGHPQpiXQ9KABV4uD+goz+oR4hl91MD7cQ2JMNLs2h7F96ybC1q1hR9haVHu2MTkxhvQx8IGsC2coykunt/sR7wY9dDU5eHr/Nu5GB+5HDl50OfGPDTAVnGDSP0i3y0H+xUSSVac4sT+clNOHyRcjC04GkHr7BsjIMaLOvUb2pQJyr5ZiMJWLWMIlYzH5RZWYyqwUllvJE/Wc/CIuXysT0Yz2ShH6ghL0QpclvN6Xr5BeDw1TKAwV1+sos96ipOqGQmn1TcwWm6jXY2u4R03dHSVfub+M7DOV1zAw+BZpaHiEYmG02OxU1tYL7AqyudZ+lxviMDnKyIdabA2/dH+QvfIlg2/Fp3h6+0jVGJT21YZCBY0gW4zAWGyhWAjlC2WD/GTdCt0y2jwT6boreLx9SLNz83Q+8+L29P5FR3fPKv6lkel6vqSdmZ1DGpt4T0xSFrHJ2cSlqBVik7K5kKknUwxa7j5Nm/ebFLWBhHTdKn18qgZVQgYT7wNLHbZ2PKO1vZvmNjdPnnYKOmh2uWlp78Lp6lTqcq7URe50uZV8GafwNLW0L3UYCi3i9XoJBoP4fD5CoRD/uxYXF/kJq8Sq+3yUO+kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVR42pWRW0jTcRTH914vEfRSIBgEPUT0EIVGN7IHwS5CkGQqlnnN63Tqcl42p3NzutrMZnQhMLIHM5c6N6+bWC60rKabeZmBVtoFQigEP/32V6rXfvDhfDnne36/c/jJ5memUFw+T35KLH6fh++LfmxWExMvHCQcP8rRkBBKz0bx45Ofr0sBfv5awapVc/FQOBZNAQNtVurLcog6fIBJ71tkc/4JitISKEyOo+WmAVdXC10tdxkZaOdhQw2xEcdIjzzJq0E7HxcDfP+2QPSJI+zbsY3IiHCUV+M4FbaXsJ1bmZkUF05PejFp82g0qqhTyVHnpVGrykeelsiTR0102h5i1VeiuJTAuKcb3xsXSbFn2B+6nT27QtmxZTN7t28i5vBuZn1eZIGZ92SJlTXKDNx9rbwZ7aentZmOB3dwPm7GKfRQbztTEx4WPviY9Y/S29lMSWYSyTHRnD5+kJRzJ1GlXmB+dhrZ0HMPV/NLySmsEJRRVF6NUqOnUERFaRUqjQF1jUlCqdZTUFJJcYWO/BIt8msayaNQVZEtet3DI8hejo1ToatHf/0WOlMj1UYLVYLquga0tWb0N25hbrrP9ca7GISWagKdqOvqb0q+GhGDD3pGXyMbG38nGi3UmpuovWFdx2zFIB4wW+9huX1fikFMjXcwWtZ9hn8I9lYbGxh7LT5lwP2c1FylNH5usfoP2YXlqLRGaSKt0UyVmCS4slys/NdXIcU8pYYMeQn97mFkS8tfcPS76Blw45QYEnpI0t19g+v0DmIXOPvdG/z19Gz4u/tcfF5aRub1TRF7JYu45GziUnKIF1wUOilTQZaiTJo+Xa4kLUiekpTcIhLT5ZI/fsOfkJpLTGIGvinxy8tfvtLR3cczey+2rh7aOhw8eeagvdMp5Z52OqS8zb5ea+9yipxT0v/SarOztCwmXF1dxeVyEQjM4fV6WVlZIXjW1tb43xO86zfwf6vkvzvYYgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -282,7 +317,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5klEQVR42lWPWU9aURSF7z9t0rTpQx/61OemFscOabUNCdRInWW4WKmR1KFxBi4VraBAgQsyKkqpgIKon9vbNLU5+bL2Xmed7H2U5PowyY1J4qtT6JvjpP1jxKQ2et8YKfGSG+OGpjYn/nHr/UX6xNoIxcg8SsDewYzZgsdsZmPiFb6plywM9TNnfY/X8oGdzz3szPQQmu5iSzUZhNydhr99e2fc97Ll6pDBYyg++2ucAxN8sQyx+MnC0rCFgNovtZWRvlH8rl6hm5DnDXvzZoOwdwBN7SHo7pXsrfahubrQ/XaU745n7HpMMkmY/qPbomFPN4u2p3w0PcD6/B6a18Zp+YCTQorc3jqDL+4z1P2Iwc6HON49wfn2sXx7FCXpd6AHp9E1NylNNdA1F+mgKohvqEr2xxzF2AqF6DL58FcyATsZzSE4ORB03ySH+0soq/4A60GNSPInbaAltOUUy3mCkV1241FiuTSJbFoyMcKJGMWjrATLXDeP7lDm6vwQZa+UIFMpUG01yDfK5M9O+N38RbVepnbRJFTaxxZSyVSLnLbOqEiufl7lspalXc/Rrt1BeiV8nCDXOCJe0ZmNLrCcCbBfinAlux63a3ji31jLhZhNrHDBNXXZ/lz8S3l8WS8I+f+4AZPcF8FZydqoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB20lEQVR42mXO20/ScRjH8d+f2lqtmy666b5mBOhcTSscrGIMEwkBBcsGuSaBHH4OZByCOP3kmBwiheQk774CXXnx2vM8n+/32R6p6DdROLaQ9W1TDH5ACW3O+qzPOpsLx1szxRtBy5z4/z+fs5D3m2mkPEgR6xKuDT1unY6AZZWgdQXv+zUODK+FN5zuaYi7tMScaqIO1cJzkWtnbzc1vrdM1L5EIbCJFLKuYlvfYl9v5KtJz6HJQMS+LnoD5hUzYbuW8I6GmPsFae8GKY+OxMErZIcG2bks/s6rbFdTClmRTmxPSLhVxHdVnC7EnCqRqTk0Pubts3sYnt5B/mLkolWmXS9STftFfhej+gHvVPexrT3C9vIhOb+4sBD+SEl2UpQdFCJ2igslMZdOdkVuRxEq8c/UM0cz1aQHRewpEdvMmbwjrtvm/Mchki8UJiBHSOZ/MgGGwmQ6ot6qIicTxDNpshWFXFkhlc+QEOrNMoxaXA+aTIfCol4PfiGlGnmUTo3usE+t3xTa/Bn8pttrcTkaEK2lMUYdnHUbXAyv6Az/0rvqMrmsMO5Vb5GSrTyV/jnZTon9jJcjJUK6kWQqrmyPeriy3/heifEp52Mkru8zZjDuMRHLk37tln/EZRiX2ckd8QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -317,7 +352,8 @@
 &lt;p&gt;行政書士試験の過去問題について対応中です。しばらくおまちください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT CLOSE します]]></title><description><![CDATA[Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
 Twitter社やtwittered…]]></description><link>https://masayoshi.work/20230206/</link><guid isPermaLink="false">https://masayoshi.work/20230206/</guid><pubDate>Mon, 06 Feb 2023 13:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
 Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888&quot;&gt;https://twitter.com/kenpo_kungfu/status/1622427549182885888&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888&quot;&gt;https://twitter.com/kenpo_kungfu/status/1622427549182885888&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;&amp;mdash; 憲法カンフー (@kenpo_kungfu) &lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
 行政書士試験問題の掲載を許諾頂きました。ありがとうございます。 適切に運用するため、いくつかコードを追加する予定です。
 引き続き構築に励みたいと考えております。]]></description><link>https://masayoshi.work/20230126/</link><guid isPermaLink="false">https://masayoshi.work/20230126/</guid><pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
 行政書士試験問題の掲載を許諾頂きました。ありがとうございます。&lt;/p&gt;
