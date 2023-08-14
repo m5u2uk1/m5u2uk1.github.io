@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Aug 2023 14:30:45 GMT</lastBuildDate><item><title><![CDATA[サムネイルの調整]]></title><description><![CDATA[本日のgatsbyjs このWebサイトは GatsbyJS の gatsby-starter-blog…]]></description><link>https://masayoshi.work/20230813/</link><guid isPermaLink="false">https://masayoshi.work/20230813/</guid><pubDate>Sun, 13 Aug 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Aug 2023 12:22:54 GMT</lastBuildDate><item><title><![CDATA[サムネイルの調整 その2]]></title><description><![CDATA[本日のgatsbyjs gatsby-image の使い方を少し調べて、Fluid→fixedに。 Pagination をどうにか出来たら一旦落ち着く どうにも時間がかかりそうなら、LIMITだけかけて放置 本日のAWS学習 nanda? 自分なりの解釈 AWS…]]></description><link>https://masayoshi.work/20230814/</link><guid isPermaLink="false">https://masayoshi.work/20230814/</guid><pubDate>Mon, 14 Aug 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;gatsby-image の使い方を少し調べて、Fluid→fixedに。&lt;/li&gt;
+&lt;li&gt;Pagination をどうにか出来たら一旦落ち着く
+&lt;ul&gt;
+&lt;li&gt;どうにも時間がかかりそうなら、LIMITだけかけて放置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;nanda?&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;自分なりの解釈&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;AWS CloudTrail&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;APIコールとかアクティビティを記録。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ランディングゾーンがいまいち理解できなかったけど、&lt;a href=&quot;https://qiita.com/miyuki_samitani/items/bd969f900066fde83160&quot;&gt;このサイト&lt;/a&gt;がわかりやすく
+説明してくれてた。@miyuki_samitaniさん THX.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整]]></title><description><![CDATA[本日のgatsbyjs このWebサイトは GatsbyJS の gatsby-starter-blog…]]></description><link>https://masayoshi.work/20230813/</link><guid isPermaLink="false">https://masayoshi.work/20230813/</guid><pubDate>Sun, 13 Aug 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;p&gt;このWebサイトは GatsbyJS の gatsby-starter-blog テンプレートを使っていますが、
 なにぶんシンプルなのでちょっとした機能もありません。（その分早くて安全なんだけど）&lt;/p&gt;
 &lt;p&gt;そういうわけで、見様見真似でサムネイル表示を試してみました。しばらく見て微妙な場合は
