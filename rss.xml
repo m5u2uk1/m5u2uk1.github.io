@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Aug 2023 12:22:54 GMT</lastBuildDate><item><title><![CDATA[サムネイルの調整 その2]]></title><description><![CDATA[本日のgatsbyjs gatsby-image の使い方を少し調べて、Fluid→fixedに。 Pagination をどうにか出来たら一旦落ち着く どうにも時間がかかりそうなら、LIMITだけかけて放置 本日のAWS学習 nanda? 自分なりの解釈 AWS…]]></description><link>https://masayoshi.work/20230814/</link><guid isPermaLink="false">https://masayoshi.work/20230814/</guid><pubDate>Mon, 14 Aug 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Aug 2023 11:22:38 GMT</lastBuildDate><item><title><![CDATA[似ているサービス名に苦しむ]]></title><description><![CDATA[本日のAWS学習 このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。 nanda? 自分なりの解釈 Amazon CloudFront CDN AWS CloudFormation コードから AWS…]]></description><link>https://masayoshi.work/20230815/</link><guid isPermaLink="false">https://masayoshi.work/20230815/</guid><pubDate>Tue, 15 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;nanda?&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;自分なりの解釈&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;Amazon CloudFront&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;CDN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;AWS CloudFormation&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;コードから AWS リソースを自動で構築する&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;そういえばサービス名の冠に「AWS」がつくパターンと「Amazon」がつくパターンがあるけど
+何か法則があるのかもしれない。などと思ってさっと検索してみたら、&lt;a href=&quot;https://wing-degital.hatenablog.com/entry/2021/03/29/191159&quot;&gt;ailes blogさんの記事&lt;/a&gt;で秒で解決。&lt;/p&gt;
+&lt;p&gt;出典にも言及がある良記事。&lt;a href=&quot;https://stackoverflow.com/questions/33125790/why-some-services-are-called-aws-xxx-and-the-others-amazon-xxx&quot;&gt;Why some services are called &quot;AWS XXX&quot; and the others &quot;Amazon XXX&quot;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;本日のJava学習&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;言語仕様を結構忘れてる件
+&lt;ul&gt;
+&lt;li&gt;どのコンストラクタが走るかとか。&lt;/li&gt;
+&lt;li&gt;そろそろどうにかしたい。再来月あたり？？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整 その2]]></title><description><![CDATA[本日のgatsbyjs gatsby-image の使い方を少し調べて、Fluid→fixedに。 Pagination をどうにか出来たら一旦落ち着く どうにも時間がかかりそうなら、LIMITだけかけて放置 本日のAWS学習 nanda? 自分なりの解釈 AWS…]]></description><link>https://masayoshi.work/20230814/</link><guid isPermaLink="false">https://masayoshi.work/20230814/</guid><pubDate>Mon, 14 Aug 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;gatsby-image の使い方を少し調べて、Fluid→fixedに。&lt;/li&gt;
 &lt;li&gt;Pagination をどうにか出来たら一旦落ち着く
