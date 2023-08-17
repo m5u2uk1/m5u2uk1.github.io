@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Aug 2023 11:22:38 GMT</lastBuildDate><item><title><![CDATA[似ているサービス名に苦しむ]]></title><description><![CDATA[本日のAWS学習 このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。 nanda? 自分なりの解釈 Amazon CloudFront CDN AWS CloudFormation コードから AWS…]]></description><link>https://masayoshi.work/20230815/</link><guid isPermaLink="false">https://masayoshi.work/20230815/</guid><pubDate>Tue, 15 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 17 Aug 2023 10:07:07 GMT</lastBuildDate><item><title><![CDATA[そろそろ 300 をやらんと尻に火がつく]]></title><description><![CDATA[本日のLPIC対策 302 時代にさくっと取得したんだけど、その後sambaを運用することもなく。 何年も月日が経ちました。Level3は303とか304で更新してったのですが、
+それまでにゲットした301や30…]]></description><link>https://masayoshi.work/20230816/</link><guid isPermaLink="false">https://masayoshi.work/20230816/</guid><pubDate>Thu, 17 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のLPIC対策&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;302 時代にさくっと取得したんだけど、その後sambaを運用することもなく。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;何年も月日が経ちました。Level3は303とか304で更新してったのですが、
+それまでにゲットした301や302が無常にも廃止されて、無かったことみたいになってて寂しいことになりました。&lt;/p&gt;
+&lt;p&gt;そして、そろそろLevvel3の更新がやってきたのですよ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;かなり変わってきてるのでもう一度腰を据えて勉強せねばなるまい。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;とはいえ、今日は後述の U+2028 LINE SEPARATOR の扱いのせいで心の中の長州力がキレまくって&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;あまり時間を取れなかったのです。さくっと忘れて次に進もう。&lt;/p&gt;
+&lt;h2&gt;FreeIPA ? 誰君？&lt;/h2&gt;
+&lt;p&gt;認証管理システム。ADを置き換えたいっぽい。我らがRedHat社がバックにいるらしい。
+389 Directory Server なんて確かにあったなぁ。と微かに記憶に残ってるコンポーネントも採用。
+IPAといっても情報処理推進機構とは一切関係はなかろう。&lt;/p&gt;
+&lt;h1&gt;Numbers さん困った振る舞いをする&lt;/h1&gt;
+&lt;p&gt;いまだにOPTとCMDとCTRLの位置付けとかアイコンの意味がわからなくて、舌打ちをしているわけだけど
+皆様いかがお過ごしでしょうか。apple お前だけは許さんぞ。&lt;/p&gt;
+&lt;p&gt;Numbers を使ってセル内改行をしたいとき、OPT+ENTER を入力するのだけれども、CTRL+ENTER でも見た目同じように改行をします。
+あとでCSVに変換してみると、&quot;\n&quot; と　&quot;U+2028&quot; とで全く違うコードが刺さるわけだ。&lt;/p&gt;
+&lt;p&gt;しかも、後からvscで置換するのは難しいっぽい。これはうざったい。&lt;/p&gt;
+&lt;p&gt;しばらく調べて sed かますのが一番てっとり早いことがわかったので、しれっと実行して意図通りに動いたので一安心。
+私がsedするときは、大抵不可逆なことになるので、oldで保存してもらえるのはとても助かります。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-i.old&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;$&apos;s/&lt;span class=&quot;token entity&quot; title=&quot;\xE2&quot;&gt;\xE2&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\x80&quot;&gt;\x80&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\xA8&quot;&gt;\xA8&lt;/span&gt;/&lt;span class=&quot;token entity&quot; title=&quot;\\&quot;&gt;\\&lt;/span&gt;n/g&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;targetFile&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;元ネタ引用
+&lt;a href=&quot;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&quot;&gt;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Appネタ&lt;/h1&gt;
+&lt;h2&gt;クリシェ裁判（仮）&lt;/h2&gt;
+&lt;p&gt;CRADを思い出しつつ作ってみたけど、今は裁判をどう開廷するかでちょっと迷ってます。
+クリシェ自体もTLを見張ってハッシュタグのついた発言を拾って仮登録してする方法いいかな？とか思ったり思わなかったり。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Packet Tracer でハマった]]></title><description><![CDATA[Packet Tracer Cisco Packet Tracer を試してみた。VLAN で少しハマる。 VLAN 切った後しばらく経ってから導通。何か 1stepのチートシートはこれかな？ありがたし。 https://blog2.logical-dice.com/posts…]]></description><link>https://masayoshi.work/20230817/</link><guid isPermaLink="false">https://masayoshi.work/20230817/</guid><pubDate>Wed, 16 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Packet Tracer&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cisco Packet Tracer を試してみた。VLAN で少しハマる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VLAN 切った後しばらく経ってから導通。何か&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1stepのチートシートはこれかな？ありがたし。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog2.logical-dice.com/posts/wp/631/&quot;&gt;https://blog2.logical-dice.com/posts/wp/631/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS Elastic Beanstalk
+&lt;ul&gt;
+&lt;li&gt;AWS 専用の ansible 的な存在？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[似ているサービス名に苦しむ]]></title><description><![CDATA[本日のAWS学習 このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。 nanda? 自分なりの解釈 Amazon CloudFront CDN AWS CloudFormation コードから AWS…]]></description><link>https://masayoshi.work/20230815/</link><guid isPermaLink="false">https://masayoshi.work/20230815/</guid><pubDate>Tue, 15 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。&lt;/li&gt;
 &lt;/ul&gt;
