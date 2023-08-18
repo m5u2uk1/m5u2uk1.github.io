@@ -1,11 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 17 Aug 2023 10:07:07 GMT</lastBuildDate><item><title><![CDATA[そろそろ 300 をやらんと尻に火がつく]]></title><description><![CDATA[本日のLPIC対策 302 時代にさくっと取得したんだけど、その後sambaを運用することもなく。 何年も月日が経ちました。Level3は303とか304で更新してったのですが、
-それまでにゲットした301や30…]]></description><link>https://masayoshi.work/20230816/</link><guid isPermaLink="false">https://masayoshi.work/20230816/</guid><pubDate>Thu, 17 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のLPIC対策&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 18 Aug 2023 14:00:08 GMT</lastBuildDate><item><title><![CDATA[PAGINETEで苦しむなら]]></title><description><![CDATA[PAGINETEで苦しむなら]]></description><link>https://masayoshi.work/posts/20230818/second/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230818/second/</guid><pubDate>Fri, 18 Aug 2023 22:26:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;ここ数日&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%93%E3%81%93%E6%95%B0%E6%97%A5&quot; aria-label=&quot;ここ数日 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ここ数日&lt;/h2&gt;
+&lt;p&gt;gatsby-starter-blog テンプレートを使用しているのですが、どうにもこうにも
+paginate 処理を実装することが出来ない。着手してからかなり時間が経っていたことや
+commit する前に長いこと突っ走ったからエラーでグチャグチャになったこともあって
+評判が良くて paginate が既に実装済みのテンプレート
+&lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;gatsby-starter-lumen&lt;/a&gt;
+に変更することにしました。&lt;/p&gt;
+&lt;p&gt;サムネイル表示がないけど、おいおい追加します。&lt;/p&gt;
+&lt;h2 id=&quot;設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;設定&lt;/h2&gt;
+&lt;p&gt;ドキュメントが？でしたので、少しメモを取って作業しました。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;302 時代にさくっと取得したんだけど、その後sambaを運用することもなく。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定ファイルのありか&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;content/config.json&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;何年も月日が経ちました。Level3は303とか304で更新してったのですが、
-それまでにゲットした301や302が無常にも廃止されて、無かったことみたいになってて寂しいことになりました。&lt;/p&gt;
-&lt;p&gt;そして、そろそろLevvel3の更新がやってきたのですよ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;日付が us 仕様なので jp 使用にする&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kiotera-tech.com/change_design_gatsby-starter-lumen_1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;こちらのサイト&lt;/a&gt;を参考にしました。&lt;/li&gt;
+&lt;li&gt;components/Feed/Feed.tsx を修正
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;time
+className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+dateTime&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;edge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;frontmatter&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;date&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toLocaleDateString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&quot;ja-JP&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;numeric&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;numeric&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;numeric&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;edge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;frontmatter&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;date&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toLocaleDateString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ja-JP&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;numeric&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;numeric&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;time&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ファイルが消えたので、遠回りで学習中]]></title><description><![CDATA[ファイルが消えたので、遠回りで学習中]]></description><link>https://masayoshi.work/posts/20230818/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230818/</guid><pubDate>Fri, 18 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日の-lpic-学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AE-lpic-%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日の lpic 学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日の LPIC 学習&lt;/h1&gt;
+&lt;h2 id=&quot;ad-dc-ってacdcっぽくていいよね&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ad-dc-%E3%81%A3%E3%81%A6acdc%E3%81%A3%E3%81%BD%E3%81%8F%E3%81%A6%E3%81%84%E3%81%84%E3%82%88%E3%81%AD&quot; aria-label=&quot;ad dc ってacdcっぽくていいよね permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AD DC って、AC/DCっぽくていいよね&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FSMO ってなんだ？スマホの新企画っぽい。
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;良記事発見。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blogs.manageengine.jp/about_fsmo/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blogs.manageengine.jp/about_fsmo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ドメインやフォレスト内には、いくつかの特別な役割を持ったドメインコントローラーが存在しており、
+このようなドメインコントローラーは、「FSMO」や「操作マスター」と呼ばれます。
+
+＊FSMO = Flexible Single Master Operation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;なるほど、昔NT4.1とかであった PDC とかかな？って思って読み進めたらその通りだった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;sambaなんだっけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#samba%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%91&quot; aria-label=&quot;sambaなんだっけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;sambaなんだっけ&lt;/h2&gt;
+&lt;h3 id=&quot;force-directory-mode-ってなんだっけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#force-directory-mode-%E3%81%A3%E3%81%A6%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%91&quot; aria-label=&quot;force directory mode ってなんだっけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;force directory mode ってなんだっけ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;こんな感じに書いているヤツ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;smb.conf&quot;&gt;&lt;pre class=&quot;language-smb.conf&quot;&gt;&lt;code class=&quot;language-smb.conf&quot;&gt;[hogehoge]
+path = /foo/bar
+writeable = yes
+force directory mode = 777&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;force directory mode のパーミッションが適用されるって記事が多いようだけど、なんか違ってるっぽくないかな。
+&lt;ul&gt;
+&lt;li&gt;記事を書いた当時の実装がそうなっていた可能性もあるので気をつけておこう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;検証&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%A4%9C%E8%A8%BC&quot; aria-label=&quot;検証 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;検証&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;samba4 系で確認
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; samba &lt;span class=&quot;token parameter variable&quot;&gt;--version&lt;/span&gt;
+ Version &lt;span class=&quot;token number&quot;&gt;4.13&lt;/span&gt;.13-Debian
+
+ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; smb.conf
+ &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;snip&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hogehoge&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+ comment &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; verificationDirectory
+ &lt;span class=&quot;token comment&quot;&gt;# force directory mode = 0666     こいつを切り替えて検証&lt;/span&gt;
+ force directory mode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 0444
+ &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;snip&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;クライアントからマウントしてディレクトリを作成、その後Linux側でstat
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+force directory mode が &lt;span class=&quot;token number&quot;&gt;444&lt;/span&gt; の時に作成したディレクトリ
+
+&lt;span class=&quot;token function&quot;&gt;stat&lt;/span&gt; 444directory
+  File: MakeMountMac
+  Size: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;      	Blocks: &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;          IO Block: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   ディレクトリ
+Device: 801h/2049d	Inode: &lt;span class=&quot;token number&quot;&gt;55312389&lt;/span&gt;    Links: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+Access: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;0755/drwxr-xr-x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  Uid: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;65534&lt;/span&gt;/  nobody&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;   Gid: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;65534&lt;/span&gt;/ nogroup&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;snip&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+
+force directory mode が &lt;span class=&quot;token number&quot;&gt;666&lt;/span&gt; の時に作成したディレクトリ
+
+&lt;span class=&quot;token function&quot;&gt;stat&lt;/span&gt; 666directory
+  File: 666directory
+  Size: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;      	Blocks: &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;          IO Block: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   ディレクトリ
+Device: 801h/2049d	Inode: &lt;span class=&quot;token number&quot;&gt;55312388&lt;/span&gt;    Links: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+Access: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;0777/drwxrwxrwx&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  Uid: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;65534&lt;/span&gt;/  nobody&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;   Gid: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;65534&lt;/span&gt;/ nogroup&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;snip&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;結論&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B5%90%E8%AB%96&quot; aria-label=&quot;結論 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;結論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;そのセクションの共有ではディレクトリを新しく作った時…
+&lt;ul&gt;
+&lt;li&gt;❌ force directory mode そのものが適用される。&lt;/li&gt;
+&lt;li&gt;⭕️ 最低限 force directory mode の権限が付与される。それ以上の権限を指定しているならばそれが付与される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;真夏の夜のnooooooooファイル消えてる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%9C%9F%E5%A4%8F%E3%81%AE%E5%A4%9C%E3%81%AEnoooooooo%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E6%B6%88%E3%81%88%E3%81%A6%E3%82%8B&quot; aria-label=&quot;真夏の夜のnooooooooファイル消えてる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;真夏の夜のNoooooooo　ファイル消えてる！&lt;/h1&gt;
+&lt;h2 id=&quot;前回までのあらすじ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%89%8D%E5%9B%9E%E3%81%BE%E3%81%A7%E3%81%AE%E3%81%82%E3%82%89%E3%81%99%E3%81%98&quot; aria-label=&quot;前回までのあらすじ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;前回までのあらすじ&lt;/h2&gt;
+&lt;p&gt;相当昔に Docker 環境で GNU GLOBAL を使用したソースコード解析サーバを
+作ったのですが、そのタイミングで必要だった、coreutils の調査を終わってからは
+完全に放置して数年が経過していたのです。&lt;/p&gt;
+&lt;p&gt;そして今、samba4 の挙動がわからないので調べてみるかと解析サーバを起動しようとしたら
+Dockerfile が消えてた。怖いです、真夏のミステリーです。&lt;/p&gt;
+&lt;h2 id=&quot;dockerfile-再作成&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dockerfile-%E5%86%8D%E4%BD%9C%E6%88%90&quot; aria-label=&quot;dockerfile 再作成 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dockerfile 再作成&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;試作Dockerfile　仮保存
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/bd795a5cb3025396c71003b6b8deb2d9/Dockerfile_global.&quot;&gt;Dockerfile_globalMan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;最近はbashやperlで便利だったヒアドキュメントも扱えるらしい&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%80%E8%BF%91%E3%81%AFbash%E3%82%84perl%E3%81%A7%E4%BE%BF%E5%88%A9%E3%81%A0%E3%81%A3%E3%81%9F%E3%83%92%E3%82%A2%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%82%82%E6%89%B1%E3%81%88%E3%82%8B%E3%82%89%E3%81%97%E3%81%84&quot; aria-label=&quot;最近はbashやperlで便利だったヒアドキュメントも扱えるらしい permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;最近はbashやperlで便利だったヒアドキュメントも扱えるらしい&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;先頭にsyntax拡張のおまじない的なサムシングが必要
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# syntax=docker/dockerfile:1.4.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Dockerfile を書くにあたって参考にした記事は以下の通りです。
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kakakakakku.hatenablog.com/entry/2021/08/10/085625&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://kakakakakku.hatenablog.com/entry/2021/08/10/085625&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;ヒアドキュメントについて助かりました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;想像妄想憶測&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%83%B3%E5%83%8F%E5%A6%84%E6%83%B3%E6%86%B6%E6%B8%AC&quot; aria-label=&quot;想像妄想憶測 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;想像妄想憶測&lt;/h2&gt;
+&lt;p&gt;GoogleとかMicrosoftとかが提供している個人用のストレージ領域をDockerにマウントできないかしら。&lt;/p&gt;
+&lt;h2 id=&quot;おまけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%8A%E3%81%BE%E3%81%91&quot; aria-label=&quot;おまけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;おまけ&lt;/h2&gt;
+&lt;p&gt;なんだかんだいって解析環境を作ったけど、コードを追う気力まで持たなかった件。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[そろそろ 300-300 試験対策します]]></title><description><![CDATA[そろそろ 300-300 試験対策します]]></description><link>https://masayoshi.work/posts/20230817/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230817/</guid><pubDate>Thu, 17 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のlpic対策&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AElpic%E5%AF%BE%E7%AD%96&quot; aria-label=&quot;本日のlpic対策 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のLPIC対策&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;302 時代にさくっと取得したのですけど、その後はがっつりと samba を運用することもなく。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;軽くソースを調べて過ごすような感じで何年も月日が経ちました。LPIC Level3 は 303 とか 304 で更新したので
+さらに samba と疎遠になりついには、302 も廃止されて 300 に再誕して数年。&lt;/p&gt;
+&lt;p&gt;そして、そろそろ LPIC3 の更新がやってきたのですよ。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;かなり変わってきてるのでもう一度腰を据えて勉強せねばなるまい。&lt;/p&gt;
@@ -15,47 +167,53 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;あまり時間を取れなかったのです。さくっと忘れて次に進もう。&lt;/p&gt;
-&lt;h2&gt;FreeIPA ? 誰君？&lt;/h2&gt;
-&lt;p&gt;認証管理システム。ADを置き換えたいっぽい。我らがRedHat社がバックにいるらしい。
+&lt;h2 id=&quot;freeipa--誰君&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#freeipa--%E8%AA%B0%E5%90%9B&quot; aria-label=&quot;freeipa  誰君 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FreeIPA ? 誰君？&lt;/h2&gt;
+&lt;p&gt;認証管理システム。ADを置き換えたいっぽい。我らがRedHat社&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;がバックにいるらしい。
 389 Directory Server なんて確かにあったなぁ。と微かに記憶に残ってるコンポーネントも採用。
 IPAといっても情報処理推進機構とは一切関係はなかろう。&lt;/p&gt;
-&lt;h1&gt;Numbers さん困った振る舞いをする&lt;/h1&gt;
-&lt;p&gt;いまだにOPTとCMDとCTRLの位置付けとかアイコンの意味がわからなくて、舌打ちをしているわけだけど
+&lt;h1 id=&quot;numbers-が困った振る舞いをする&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numbers-%E3%81%8C%E5%9B%B0%E3%81%A3%E3%81%9F%E6%8C%AF%E3%82%8B%E8%88%9E%E3%81%84%E3%82%92%E3%81%99%E3%82%8B&quot; aria-label=&quot;numbers が困った振る舞いをする permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numbers が困った振る舞いをする&lt;/h1&gt;
+&lt;p&gt;いまだに OPT と CMD と CTRL の位置付けとかアイコンの意味がわからなくて、苦しんでおりますが
 皆様いかがお過ごしでしょうか。apple お前だけは許さんぞ。&lt;/p&gt;
 &lt;p&gt;Numbers を使ってセル内改行をしたいとき、OPT+ENTER を入力するのだけれども、CTRL+ENTER でも見た目同じように改行をします。
-あとでCSVに変換してみると、&quot;\n&quot; と　&quot;U+2028&quot; とで全く違うコードが刺さるわけだ。&lt;/p&gt;
-&lt;p&gt;しかも、後からvscで置換するのは難しいっぽい。これはうざったい。&lt;/p&gt;
+あとでCSVに変換してみると、“\n” と　“U+2028” とで全く違うコードが刺さるわけです。&lt;/p&gt;
+&lt;p&gt;しかも、後から vsc などのエディタで置換するのは難しいっぽいのです。&lt;/p&gt;
 &lt;p&gt;しばらく調べて sed かますのが一番てっとり早いことがわかったので、しれっと実行して意図通りに動いたので一安心。
 私がsedするときは、大抵不可逆なことになるので、oldで保存してもらえるのはとても助かります。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-i.old&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;$&apos;s/&lt;span class=&quot;token entity&quot; title=&quot;\xE2&quot;&gt;\xE2&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\x80&quot;&gt;\x80&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\xA8&quot;&gt;\xA8&lt;/span&gt;/&lt;span class=&quot;token entity&quot; title=&quot;\\&quot;&gt;\\&lt;/span&gt;n/g&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;targetFile&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;元ネタ引用
-&lt;a href=&quot;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&quot;&gt;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;Appネタ&lt;/h1&gt;
-&lt;h2&gt;クリシェ裁判（仮）&lt;/h2&gt;
+&lt;a href=&quot;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://stackoverflow.com/questions/16552315/removing-unicode-line-separator-u2028-in-bash&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;作成中アプリ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BD%9C%E6%88%90%E4%B8%AD%E3%82%A2%E3%83%97%E3%83%AA&quot; aria-label=&quot;作成中アプリ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;作成中アプリ&lt;/h1&gt;
+&lt;h2 id=&quot;クリシェ裁判仮&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%AF%E3%83%AA%E3%82%B7%E3%82%A7%E8%A3%81%E5%88%A4%E4%BB%AE&quot; aria-label=&quot;クリシェ裁判仮 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;クリシェ裁判（仮）&lt;/h2&gt;
 &lt;p&gt;CRADを思い出しつつ作ってみたけど、今は裁判をどう開廷するかでちょっと迷ってます。
-クリシェ自体もTLを見張ってハッシュタグのついた発言を拾って仮登録してする方法いいかな？とか思ったり思わなかったり。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Packet Tracer でハマった]]></title><description><![CDATA[Packet Tracer Cisco Packet Tracer を試してみた。VLAN で少しハマる。 VLAN 切った後しばらく経ってから導通。何か 1stepのチートシートはこれかな？ありがたし。 https://blog2.logical-dice.com/posts…]]></description><link>https://masayoshi.work/20230817/</link><guid isPermaLink="false">https://masayoshi.work/20230817/</guid><pubDate>Wed, 16 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Packet Tracer&lt;/h1&gt;
+クリシェ自体もTLを見張ってハッシュタグのついた発言を拾って仮登録してする方法いいかな？とか思ったり思わなかったり。&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;我らがと言いつつも、masayoshi.work と Red Hat 社は雇用関係にありません。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Packet Tracer でハマった]]></title><description><![CDATA[Packet Tracer でハマった]]></description><link>https://masayoshi.work/posts/20230816/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230816/</guid><pubDate>Wed, 16 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;packet-tracer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#packet-tracer&quot; aria-label=&quot;packet tracer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Packet Tracer&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Cisco Packet Tracer を試してみた。VLAN で少しハマる。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;VLAN 切った後しばらく経ってから導通。何か&lt;/li&gt;
+&lt;li&gt;VLAN 切った後しばらく経ってから導通。ラグもエミュレートしているらしい。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;1stepのチートシートはこれかな？ありがたし。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog2.logical-dice.com/posts/wp/631/&quot;&gt;https://blog2.logical-dice.com/posts/wp/631/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog2.logical-dice.com/posts/wp/631/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blog2.logical-dice.com/posts/wp/631/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;AWS Elastic Beanstalk
 &lt;ul&gt;
 &lt;li&gt;AWS 専用の ansible 的な存在？&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[似ているサービス名に苦しむ]]></title><description><![CDATA[本日のAWS学習 このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。 nanda? 自分なりの解釈 Amazon CloudFront CDN AWS CloudFormation コードから AWS…]]></description><link>https://masayoshi.work/20230815/</link><guid isPermaLink="false">https://masayoshi.work/20230815/</guid><pubDate>Tue, 15 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[似ているサービス名に苦しむ]]></title><description><![CDATA[似ているサービス名に苦しむ]]></description><link>https://masayoshi.work/posts/20230815/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230815/</guid><pubDate>Tue, 15 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;このそっくりさん、なんとかならんかな。過去の私はどうやって判別してたんだろ。&lt;/li&gt;
 &lt;/ul&gt;
@@ -78,9 +236,9 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;そういえばサービス名の冠に「AWS」がつくパターンと「Amazon」がつくパターンがあるけど
-何か法則があるのかもしれない。などと思ってさっと検索してみたら、&lt;a href=&quot;https://wing-degital.hatenablog.com/entry/2021/03/29/191159&quot;&gt;ailes blogさんの記事&lt;/a&gt;で秒で解決。&lt;/p&gt;
-&lt;p&gt;出典にも言及がある良記事。&lt;a href=&quot;https://stackoverflow.com/questions/33125790/why-some-services-are-called-aws-xxx-and-the-others-amazon-xxx&quot;&gt;Why some services are called &quot;AWS XXX&quot; and the others &quot;Amazon XXX&quot;&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;本日のJava学習&lt;/h1&gt;
+何か法則があるのかもしれない。などと思ってさっと検索してみたら、&lt;a href=&quot;https://wing-degital.hatenablog.com/entry/2021/03/29/191159&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ailes blogさんの記事&lt;/a&gt;で秒で解決。&lt;/p&gt;
+&lt;p&gt;出典にも言及がある良記事。&lt;a href=&quot;https://stackoverflow.com/questions/33125790/why-some-services-are-called-aws-xxx-and-the-others-amazon-xxx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Why some services are called “AWS XXX” and the others “Amazon XXX”&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;本日のjava学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEjava%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のjava学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のJava学習&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;言語仕様を結構忘れてる件
 &lt;ul&gt;
@@ -88,7 +246,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;li&gt;そろそろどうにかしたい。再来月あたり？？&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整 その2]]></title><description><![CDATA[本日のgatsbyjs gatsby-image の使い方を少し調べて、Fluid→fixedに。 Pagination をどうにか出来たら一旦落ち着く どうにも時間がかかりそうなら、LIMITだけかけて放置 本日のAWS学習 nanda? 自分なりの解釈 AWS…]]></description><link>https://masayoshi.work/20230814/</link><guid isPermaLink="false">https://masayoshi.work/20230814/</guid><pubDate>Mon, 14 Aug 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整]]></title><description><![CDATA[サムネイルの調整]]></description><link>https://masayoshi.work/posts/20230813/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230813/</guid><pubDate>Mon, 14 Aug 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のgatsbyjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEgatsbyjs&quot; aria-label=&quot;本日のgatsbyjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;gatsby-image の使い方を少し調べて、Fluid→fixedに。&lt;/li&gt;
 &lt;li&gt;Pagination をどうにか出来たら一旦落ち着く
@@ -97,7 +255,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -112,14 +270,13 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;ランディングゾーンがいまいち理解できなかったけど、&lt;a href=&quot;https://qiita.com/miyuki_samitani/items/bd969f900066fde83160&quot;&gt;このサイト&lt;/a&gt;がわかりやすく
-説明してくれてた。@miyuki_samitaniさん THX.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整]]></title><description><![CDATA[本日のgatsbyjs このWebサイトは GatsbyJS の gatsby-starter-blog…]]></description><link>https://masayoshi.work/20230813/</link><guid isPermaLink="false">https://masayoshi.work/20230813/</guid><pubDate>Sun, 13 Aug 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;p&gt;ランディングゾーンがいまいち理解できなかったけど、&lt;a href=&quot;https://qiita.com/miyuki_samitani/items/bd969f900066fde83160&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;このサイト&lt;/a&gt;がわかりやすく
+説明してくれてた。@miyuki_samitaniさん THX.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[サムネイルの調整]]></title><description><![CDATA[サムネイルの調整]]></description><link>https://masayoshi.work/posts/20230814/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230814/</guid><pubDate>Sun, 13 Aug 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のgatsbyjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEgatsbyjs&quot; aria-label=&quot;本日のgatsbyjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;p&gt;このWebサイトは GatsbyJS の gatsby-starter-blog テンプレートを使っていますが、
 なにぶんシンプルなのでちょっとした機能もありません。（その分早くて安全なんだけど）&lt;/p&gt;
 &lt;p&gt;そういうわけで、見様見真似でサムネイル表示を試してみました。しばらく見て微妙な場合は
 しれっと無かったことにします。→ 即日でダメと判断&lt;/p&gt;
-&lt;p&gt;そしてページネーションがうまく動かないのでしばらく寝かせる。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[8/12 は休憩メイン]]></title><description><![CDATA[前回のタイトルもひどかったけど、このタイトルも相当酷いね。 本日のAWS学習 AWS Directory Service AD Connector オンプレの既存ADを使用可能 Simple AD AWS の Samba4 ベースのマネージドサービス AWS Managed…]]></description><link>https://masayoshi.work/20230812/</link><guid isPermaLink="false">https://masayoshi.work/20230812/</guid><pubDate>Sat, 12 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前回のタイトルもひどかったけど、このタイトルも相当酷いね。&lt;/p&gt;
-&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
+&lt;p&gt;そしてページネーションがうまく動かないのでしばらく寝かせる。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[8/12 は休憩メイン]]></title><description><![CDATA[8/12 は休憩メイン]]></description><link>https://masayoshi.work/posts/20230812/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230812/</guid><pubDate>Sat, 12 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;AWS Directory Service&lt;/p&gt;
@@ -145,21 +302,21 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;p&gt;AWS SSO が消えてIAMアイデンティティセンターが爆誕してた。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;h1 id=&quot;本日のgatsbyjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEgatsbyjs&quot; aria-label=&quot;本日のgatsbyjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;gatsby-plugin-twitter の適用。
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&quot;&gt;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://rpf-noblog.com/2020-07-07/gatsby-twitter/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;連絡はDMでといいつつDM解放しておりませんでした。本当に申し訳ございませんでした。&lt;/p&gt;&amp;mdash; masayoshi.work (@MasayoshiWork) &lt;a href=&quot;https://twitter.com/MasayoshiWork/status/1689260536121507840?ref_src=twsrc%5Etfw&quot;&gt;August 9, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[現在製作中のApp]]></title><description><![CDATA[クリシェ裁判(仮称) 名前からお察しください。 スクリーンショット indexより  登録より]]></description><link>https://masayoshi.work/20230811/</link><guid isPermaLink="false">https://masayoshi.work/20230811/</guid><pubDate>Fri, 11 Aug 2023 18:02:00 GMT</pubDate><content:encoded>&lt;h1&gt;クリシェ裁判(仮称)&lt;/h1&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;連絡はDMでといいつつDM解放しておりませんでした。本当に申し訳ございませんでした。&lt;/p&gt;&amp;mdash; masayoshi.work (@MasayoshiWork) &lt;a href=&quot;https://twitter.com/MasayoshiWork/status/1689260536121507840?ref_src=twsrc%5Etfw&quot;&gt;August 9, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[現在製作中のApp]]></title><description><![CDATA[現在製作中のApp]]></description><link>https://masayoshi.work/posts/20230811/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230811/</guid><pubDate>Fri, 11 Aug 2023 18:02:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;クリシェ裁判仮称&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%AF%E3%83%AA%E3%82%B7%E3%82%A7%E8%A3%81%E5%88%A4%E4%BB%AE%E7%A7%B0&quot; aria-label=&quot;クリシェ裁判仮称 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;クリシェ裁判(仮称)&lt;/h1&gt;
 &lt;p&gt;名前からお察しください。&lt;/p&gt;
-&lt;h2&gt;スクリーンショット&lt;/h2&gt;
-&lt;h3&gt;indexより&lt;/h3&gt;
+&lt;h2 id=&quot;スクリーンショット&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88&quot; aria-label=&quot;スクリーンショット permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;スクリーンショット&lt;/h2&gt;
+&lt;h3 id=&quot;indexより&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#index%E3%82%88%E3%82%8A&quot; aria-label=&quot;indexより permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;indexより&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -170,25 +327,36 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAClklEQVR42k2S20tUURTGfRGC/gCpHiq6UAaVKGj1IBRB0VtED9VLPWRP0YUg6kHSsAvdDZVAnAjLSEG08VISWojVmDmmjjOjzfU4ztG5nHPmnDOj6a99RkofFmt/a6/1rW/vtXLSaQMlISPPhEmqCiHPOJ6+Nrz9dgY/ddJjb8f9/QvJGT/RoIe4yFMlH0rQiypHUGIymqgzdMtUctKmhiJ7GfO6cboDND2r5u6BPJ7sX8ONorUc25BLeWEeHRcO877qMo53TQy8rMF0jzA75CDk+Ma0L4RpaKRTc+SYFrMiER6bYvRVO+1Vz6k8XIqtpICnhTt5sGczzVvyaV63ifbSArqKD3GzYDu2ymt8b6hl5MVDxuytaMk50npcKNSTaFqMyd4fTLzppOtWNfdOnOb81h1c3LiXK7v3UVtQQmP+Luq25dJatJ7aowepOHmEe2eOU3+pjPrblSjJuFAYEwoNlVRCKJRCRIQN/3DQbW+jsb6G6if3sdkaeGurY/DlHfrunsJZf5XYUC+yaxhnTwfNz8qxtzSyuGBgqLPkWB+5qE+DISw9Q1oN4vMMEo96cQ72IfmcBKZ+EglPkIwF0ZRpIcDPvD7LrKuFL493MlBTjOLvJWOmVhGmo6TmfpOY8aBEJwlPDeP3DGVxaPInjv4PRHwjZJIBtKiHjC6TcLUhd5YT7a5AD1iEmjUUlYwSyhbGpAnmJJeY+qRYEy+x6Qnk8Ljw7ux9xP9LrM4YmmhsxH0kfo+gfn1PfKCLTFwSQ4ktK/yTkgRpEFN0NxMBFjSJeS2cbWRhy//RRUEymCWy8JIe4nPNdR6VlXH/3Fncva9ZWjRXnrxkRP6bhf/FFlfFVnKWz4EhO6M9TYx+fE1iqo95U+UvSOabKSjeJCkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACnklEQVR42k2RWUhUYRiGB+oi6L6oixAqKqFCi7IuumiB6DKii+qmi/IqaCGCgqJsX2i1BRQtsgWLSp20lNJ2JpfRtBlHneXMOc7iLGeZc86M5jz9TkRdfPz/9y8P7/u9Dts20dIxYlEZVdOQfD/xdbzC96mJznevaXM24HV9QI0GiEmDpMQ7TQ6ghXxo8VHURAxdV7EyokwdR9YyUGM+Bnxe3N4QT27c5Pza2VxbM4OjK2eyZe50jpfOwlm+icYzB3DVP+ZrbSWWt5d4twvJ9Q0lIGELmG0kcFimhqXJyAPD9D9oEJ9uUbFxHbVlJVwrXcKlZUXUzy/m2ZwiGteV0LxqA8dKFlJbcRhXzR367l1moOkFRjpB1kzhsIVU3Ugy3N6F51EzzSdvcmHbTvYsWMS+ecs5uLSM2yVlPCwu5u6CabxcMYc7m9dzavtmzu/aStX+vVSdrkBTU9gZodAWCo20QlgOMypL9HR9542YW111JTeuXqS2poanNXfpvH+W9nM7cFcfItH9npinB3ebk/rrx3E+f8ivcRNTj+MwMxqTGYW8qUA2Sk6TCAx2ko4O0dfZgeLvRRruIRL2oiYlDFUhkw6SM8cY8zzj49XFfLm9GjX4npxt/AH+EkDsKEbCTzoi0osNI4+4CQ52kYoMIg318P3zWyKBXrICposQc5k4ac8r4s0niLacJBNsJzsFnIo6p4ULoITiYUz2COCQUOgjqXiJhwdIjnoL95HgD6KhfoyxEcyUH9Xfh/6tkdTXFsZTskg6+Qc4YShkhVU7HSrUhCEzrocLZ9aUPbFOuciqIcxkoCAgnwnzofIIV8rLubh7N972OiYn7X+W8+YoeStSqEmx/1v/93nr/z5CqNvJj9bH9LfWkRrpEDPU+Q2AUZoZGMX5GAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;ScreenShot&quot;
-        title=&quot;&quot;
-        src=&quot;/static/57f6a4fd430b030d0cb617b0bbc0e564/f058b/protoType.png&quot;
-        srcset=&quot;/static/57f6a4fd430b030d0cb617b0bbc0e564/c26ae/protoType.png 158w,
-/static/57f6a4fd430b030d0cb617b0bbc0e564/6bdcf/protoType.png 315w,
-/static/57f6a4fd430b030d0cb617b0bbc0e564/f058b/protoType.png 630w,
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/57f6a4fd430b030d0cb617b0bbc0e564/8ac56/protoType.webp 240w,
+/static/57f6a4fd430b030d0cb617b0bbc0e564/d3be9/protoType.webp 480w,
+/static/57f6a4fd430b030d0cb617b0bbc0e564/bc514/protoType.webp 720w&quot;
+              sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/57f6a4fd430b030d0cb617b0bbc0e564/8ff5a/protoType.png 240w,
+/static/57f6a4fd430b030d0cb617b0bbc0e564/e85cb/protoType.png 480w,
 /static/57f6a4fd430b030d0cb617b0bbc0e564/37523/protoType.png 720w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
+            sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/57f6a4fd430b030d0cb617b0bbc0e564/37523/protoType.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;ScreenShot&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;登録より&lt;/h3&gt;
+&lt;h3 id=&quot;登録より&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%99%BB%E9%8C%B2%E3%82%88%E3%82%8A&quot; aria-label=&quot;登録より permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;登録より&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 412px; &quot;
@@ -202,25 +370,34 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 77.21518987341771%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR42o2TTWxUVRTHm5i4wLWJGhcmpHEhCIomJIbEKNENKxcaE42a+MGChI/YQCrBmBIIjVQpKKgJYFGSWkoLrUhpbGtbE2yh0NKZ0lJmOu2bzsz7mDcf7/u9mZ/3vamAOxa/nHNu7v2fe885t86xy+TlFKmFebJ5nRuDfQwd3slg6y7aDzZwaM8OLh8/gHS9n9mxfrLhvth1ivFr6IlZdCmFrirYVhnb0KhzzCKF3BwziSTXxmOcaW7hq41P0fryY+x7aRXvPP0IjatX0bn5WTq2vsXfR7+lc+928kJUnRhnYaCfxVvTlIpFPFOmzjZ0zFIW6eotZk53c2lfC01vbObE+vUcWPMcR9bU01X/PO1P1HNuw2r6XtxIwzNP0vj263Q3NTJ6qJHxthPISyk8Ox/eUCevK9z+a4J47zAXDx7n64+38cG6F/hk3St8vmkLza+9ya+bNvDT2kfpevVxej59j9O7t3Fk60ec+WIHzTu3k8nmxA1VcUOzgKlLqNoy+XyG5MIscfGckcFeznW0celyDwNXLjDd18boyUbm/vgObW4MV1kkdnWA/btFjXs6qboF7FKOOssoUDXTYC0LhHUy4Cs4Rpr4zVGmJ4bJLcVZTMaYid9gfm4KJT1DxVEY+f0sbfs/4/zPRwnMZVxDrgkG4nC4UBE4xSWyqWm09G2ku5MsJ6dQhV8UjZPmJxj58yKqFMcqLBLv/w35hyYu/PgNupIgsNSaYEUIVlYEQ3G/HCLVEgm8khQRJjPzSXxjmaoSI2zo5EwCwzQgyOOU5QcEo8PSPf/+2gOxGVpJlETj5lA7LXvep7vjFB3ff8nQ+WNRHYWgLjJmqdjq/wgsRSBTdUQcoUU2sBXwdBJTw/zT9wuTw12MXTkrGtQraqhQZ5Z1PKdMTtGQBaqWF76CaVlRfOduEkXVyMlKNBrZnIysqmh6kZJp4/o+KSlL2TBwTe2+YDIlsbAoUSqbLKWz6IUivh+IjRa242DZjrBuZB3Xi9ZCPM+nWCrjuk7t60VPtnUyIrOiyoR/W9c1jLIYp4pXI3BX/JqthPEKFd+Bqk/gWVgl0ZRQrLW7yK6TAQ2nXBIpWRQ9I8Yoc6/LD0PYrKjLgaOzt83gw2NV3j3sE7sjBL10NBr/jdLDkY4E/wX9MRNFwou4qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 77.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWklEQVR42o2TT2gcdRTHFw8ecvagInio9RKsbfVQhIKUiofeBAVRsAetgmKNtAS2qEgsNWKkTUuICI2JVmxjmoRYm6SamCVQTc0a0t3NJm12s9nZ7O7M7Mxkd/7vn4+/2YaYnvTwnfeHed957/vehFy7QknOsLZ2h4KmE52eYLqrjalzH/LjmZN0tn/A9Z7TSPM3SM5NUgjei8+zGf8LPbWMJmXQVQVH8DhmiZBrGRjFZRKrKW7NxRjo7OLTA4/S/WwLHz/TwiuPPUB4VwtDh59k8O2XmO0+y9Cp99Fi86jRW6xNTbK+eJuyYeCZMiHH1DDLBaSbiyz1jXDtoy46XjhM7969nG5t5Vzrbq4+sYfLD+/mp/27GN93gBOPP0L45UMMd4SZ/TzMXH8vxWwG3w46FISaLpOciZIYm2H0TA9fvvkubzy9j7f2PMeJg0f44tCLXDq4n2+eepDh5x9i7NhrfNv+HmffOcp34eN0th0nny/iWUrQoY6lSyhqDk3Lk15LkhD6RKbGGBwc4JfxMX6bHOX2xACzF8OsXL9AaXkOV8kQvznFZ0Lj8bEhGp6BIyYNWYKwbuXA3oDAOnnwZWpmjqWFWeLRCEo2TjYdI5mIcndlETm3RN2ViVy7xEDHMYb6z1OzNvAqRUK2IAyKA9RF0t1cp5CJUcolkVYX2EgvogoCo7CCdDdK5NdRVCmBbayTuHEFubeDka+/QlNSVIORtwkFWRPCr1Yk/LK05eeEn23CEx+zSml8kUeJ4YrahUQKx3GgVsL9t0PpPtSb3ebuj7chQVXl7+nLdLW/zvCVPgZ7PuH3qxeoCx1DVkWnauapO+oOKNRsoaOt0NjKNVx1y1eExjqpxRn+mPiehcgwf07+IBb0s+hYDgg1fKdCUSkhCyhqiaKsYFm2iFXurKa3c/lCsYkgrxllKrZHHcjkitiOK86mtEXomqQzEmvrWcoVEymXRxcFfrVGxbSERm6zwHG9pnU9v5kL4Ps+xmYZzxWxqQoNBWHV0dkoyCiKTPBv63oJs2LQqHk06v49uwP1nai6iAc138Iui5EDsu4Rg7aLNU72eaQyRSF6Xmw8v31O/4WqeW+BzS1XHY1T/RWOnq/zapdPbEUQelLzXIK7/D+oNW1OEMr8A4F/EmunREE+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;ScreenShot&quot;
-        title=&quot;&quot;
-        src=&quot;/static/b044ec4099919c166dc57297c751257b/9e32a/protoType-2.png&quot;
-        srcset=&quot;/static/b044ec4099919c166dc57297c751257b/c26ae/protoType-2.png 158w,
-/static/b044ec4099919c166dc57297c751257b/6bdcf/protoType-2.png 315w,
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b044ec4099919c166dc57297c751257b/8ac56/protoType-2.webp 240w,
+/static/b044ec4099919c166dc57297c751257b/3b1af/protoType-2.webp 412w&quot;
+              sizes=&quot;(max-width: 412px) 100vw, 412px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b044ec4099919c166dc57297c751257b/8ff5a/protoType-2.png 240w,
 /static/b044ec4099919c166dc57297c751257b/9e32a/protoType-2.png 412w&quot;
-        sizes=&quot;(max-width: 412px) 100vw, 412px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
+            sizes=&quot;(max-width: 412px) 100vw, 412px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b044ec4099919c166dc57297c751257b/9e32a/protoType-2.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;ScreenShot&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[8/10 の積み上げ]]></title><description><![CDATA[前回のタイトルもひどかったけど、このタイトルも相当酷いね。 本日のAWS学習 XXX ってなんだっけ もはやどうしてSAAをゲット（略 nanda? 自分なりの解釈 ASN ちょこざいな。AS番号のことじゃあないか。 AWS SAM…]]></description><link>https://masayoshi.work/20230810/</link><guid isPermaLink="false">https://masayoshi.work/20230810/</guid><pubDate>Thu, 10 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前回のタイトルもひどかったけど、このタイトルも相当酷いね。&lt;/p&gt;
-&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
-&lt;h2&gt;XXX ってなんだっけ&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[学習の記録]]></title><description><![CDATA[学習の記録]]></description><link>https://masayoshi.work/posts/20230810/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230810/</guid><pubDate>Thu, 10 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
+&lt;h2 id=&quot;xxx-ってなんだっけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#xxx-%E3%81%A3%E3%81%A6%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%91&quot; aria-label=&quot;xxx ってなんだっけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;XXX ってなんだっけ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;もはやどうしてSAAをゲット（略&lt;/li&gt;
 &lt;/ul&gt;
@@ -258,11 +435,11 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1&gt;本日のgatsbyjs&lt;/h1&gt;
+&lt;h1 id=&quot;本日のgatsbyjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEgatsbyjs&quot; aria-label=&quot;本日のgatsbyjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のgatsbyjs&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;sitemap つけ忘れていたので対策。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ボク SAP の道のり]]></title><description><![CDATA[本日のAWS学習 XXXってなんだっけ DB系もわけわからなくなっている。 nanda? 自分なりの解釈 Amazon DynamoDB NoSQLマン。JSON でゲットできるかな Amazon Redshift…]]></description><link>https://masayoshi.work/20230809/</link><guid isPermaLink="false">https://masayoshi.work/20230809/</guid><pubDate>Wed, 09 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;本日のAWS学習&lt;/h1&gt;
-&lt;h2&gt;XXXってなんだっけ&lt;/h2&gt;
+&lt;li&gt;sitemap つけ忘れていたので対策。1689260536121507840?ref_src=twsrc%5Etfw”&gt;August 9, 2023&lt;/a&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[学習の記録]]></title><description><![CDATA[学習の記録]]></description><link>https://masayoshi.work/posts/20230809/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230809/</guid><pubDate>Wed, 09 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;本日のaws学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AEaws%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のaws学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のAWS学習&lt;/h1&gt;
+&lt;h2 id=&quot;xxxってなんだっけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#xxx%E3%81%A3%E3%81%A6%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%91&quot; aria-label=&quot;xxxってなんだっけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;XXXってなんだっけ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;DB系もわけわからなくなっている。&lt;/li&gt;
 &lt;/ul&gt;
@@ -324,9 +501,9 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;本日のLPIC学習&lt;/h1&gt;
+&lt;h1 id=&quot;本日のlpic学習&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%9C%AC%E6%97%A5%E3%81%AElpic%E5%AD%A6%E7%BF%92&quot; aria-label=&quot;本日のlpic学習 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;本日のLPIC学習&lt;/h1&gt;
 &lt;p&gt;5年ぶりなのでターゲットを改めて確認してみる。&lt;/p&gt;
-&lt;h2&gt;現在のステータス&lt;/h2&gt;
+&lt;h2 id=&quot;現在のステータス&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%BF%E3%82%B9&quot; aria-label=&quot;現在のステータス permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;現在のステータス&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;301 試験。とっくに死亡。coreなんてものはなかったんだ。&lt;/li&gt;
 &lt;li&gt;302 試験はとっくに死亡。
@@ -345,20 +522,17 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;次のターゲット&lt;/h2&gt;
-&lt;p&gt;300 試験が各種試験の情報が出回っていてチャレンジしやすいと見た。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[インフラエンジニアとしてのアウトプットを]]></title><description><![CDATA[…]]></description><link>https://masayoshi.work/init/</link><guid isPermaLink="false">https://masayoshi.work/init/</guid><pubDate>Wed, 09 Aug 2023 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;きっかけ&lt;/h1&gt;
-&lt;p&gt;　インフラエンジニアとして活動することになった今日この頃。
+&lt;h2 id=&quot;次のターゲット&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%AC%A1%E3%81%AE%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88&quot; aria-label=&quot;次のターゲット permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;次のターゲット&lt;/h2&gt;
+&lt;p&gt;300 試験が各種試験の情報が出回っていてチャレンジしやすいと見た。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[インフラエンジニアとしてのアウトプット]]></title><description><![CDATA[インフラエンジニアとしてのアウトプット]]></description><link>https://masayoshi.work/posts/20230809_2/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230809_2/</guid><pubDate>Wed, 09 Aug 2023 18:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;きっかけ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%8D%E3%81%A3%E3%81%8B%E3%81%91&quot; aria-label=&quot;きっかけ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;きっかけ&lt;/h1&gt;
+&lt;p&gt;インフラエンジニアとして活動することになった今日この頃。
 開発に色目を使ったり、日頃遊びに遊びまくったツケがどんどん溜まっていて
 理想のタスク処理には程遠い状態になっています。&lt;/p&gt;
-&lt;p&gt;　ここは一つツケの精算としてインフラ面に着目したアウトプットをしていこうと思ったのです。はい。
+&lt;p&gt;ここは一つツケの精算としてインフラ面に着目したアウトプットをしていこうと思ったのです。はい。
 開発系は週末に楽しもうと思います。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;なお、開発系のアウトプットは&lt;a href=&quot;https://masayoshi.work/&quot;&gt;こちら&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;直近の対策したいこと&lt;/h2&gt;
+&lt;h2 id=&quot;直近の対策したいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%9B%B4%E8%BF%91%E3%81%AE%E5%AF%BE%E7%AD%96%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;直近の対策したいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;直近の対策したいこと&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;AWS&lt;/p&gt;
+&lt;li&gt;AWS&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;SAA を取得していたので、SAPと行きたいところだが、しばらく触れていなかったので AWS の知識が完全に吹っ飛んでいた。タクティクス・オウガのランスロットさん状態。
 &lt;ul&gt;
@@ -366,14 +540,12 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;LPIC&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;LPIC&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;Level3 の更新がそろそろ入るので期限までにはどうにかしたい。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[国内で販売されていたファミリーコンピュータソフトは約100…]]></description><link>https://masayoshi.work/20230531/</link><guid isPermaLink="false">https://masayoshi.work/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[TsumiGe(積みゲ) βリリースしました]]></title><description><![CDATA[TsumiGe(積みゲ) βリリースしました]]></description><link>https://masayoshi.work/posts/20230531/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230531/</guid><pubDate>Wed, 31 May 2023 17:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 447px; &quot;
     &gt;
@@ -386,28 +558,38 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVR42pWRW0jTcRTH914vEfRSIBgEPUT0EIVGN7IHwS5CkGQqlnnN63Tqcl42p3NzutrMZnQhMLIHM5c6N6+bWC60rKabeZmBVtoFQigEP/32V6rXfvDhfDnne36/c/jJ5memUFw+T35KLH6fh++LfmxWExMvHCQcP8rRkBBKz0bx45Ofr0sBfv5awapVc/FQOBZNAQNtVurLcog6fIBJ71tkc/4JitISKEyOo+WmAVdXC10tdxkZaOdhQw2xEcdIjzzJq0E7HxcDfP+2QPSJI+zbsY3IiHCUV+M4FbaXsJ1bmZkUF05PejFp82g0qqhTyVHnpVGrykeelsiTR0102h5i1VeiuJTAuKcb3xsXSbFn2B+6nT27QtmxZTN7t28i5vBuZn1eZIGZ92SJlTXKDNx9rbwZ7aentZmOB3dwPm7GKfRQbztTEx4WPviY9Y/S29lMSWYSyTHRnD5+kJRzJ1GlXmB+dhrZ0HMPV/NLySmsEJRRVF6NUqOnUERFaRUqjQF1jUlCqdZTUFJJcYWO/BIt8msayaNQVZEtet3DI8hejo1ToatHf/0WOlMj1UYLVYLquga0tWb0N25hbrrP9ca7GISWagKdqOvqb0q+GhGDD3pGXyMbG38nGi3UmpuovWFdx2zFIB4wW+9huX1fikFMjXcwWtZ9hn8I9lYbGxh7LT5lwP2c1FylNH5usfoP2YXlqLRGaSKt0UyVmCS4slys/NdXIcU8pYYMeQn97mFkS8tfcPS76Blw45QYEnpI0t19g+v0DmIXOPvdG/z19Gz4u/tcfF5aRub1TRF7JYu45GziUnKIF1wUOilTQZaiTJo+Xa4kLUiekpTcIhLT5ZI/fsOfkJpLTGIGvinxy8tfvtLR3cczey+2rh7aOhw8eeagvdMp5Z52OqS8zb5ea+9yipxT0v/SarOztCwmXF1dxeVyEQjM4fV6WVlZIXjW1tb43xO86zfwf6vkvzvYYgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.083333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACtElEQVR42p2RXUiTURjH3+u6CIKuhCjqJoKgi5CQtG8oqCyIBvkRlt+m7sNlM2c55/d05iqdFNXFKC+ypjY/pi1niRlapk5Xw9qFhh8hBFFM+HXe1yylrjrw43l4zv9/znOeIwUDfvTnVeSknMU/PsDCtJ8WuxVffyfn9kURtXEjxuhjfP3sZ37mE99/fKPebCI2IgKbSY/nsR3rVTXHIsPxjY4gTfp95KadIzc5jsZblXhdjbQ9vEP/cyeOm2XEHNpL+tFDvOlpY3r6Iwtfpjh5IJKdYRs4cjACQ0Ysx3fvYPeW9QR875AC46PUmDXUVRmpNuowadOwGHPQpiXQ9KABV4uD+goz+oR4hl91MD7cQ2JMNLs2h7F96ybC1q1hR9haVHu2MTkxhvQx8IGsC2coykunt/sR7wY9dDU5eHr/Nu5GB+5HDl50OfGPDTAVnGDSP0i3y0H+xUSSVac4sT+clNOHyRcjC04GkHr7BsjIMaLOvUb2pQJyr5ZiMJWLWMIlYzH5RZWYyqwUllvJE/Wc/CIuXysT0Yz2ShH6ghL0QpclvN6Xr5BeDw1TKAwV1+sos96ipOqGQmn1TcwWm6jXY2u4R03dHSVfub+M7DOV1zAw+BZpaHiEYmG02OxU1tYL7AqyudZ+lxviMDnKyIdabA2/dH+QvfIlg2/Fp3h6+0jVGJT21YZCBY0gW4zAWGyhWAjlC2WD/GTdCt0y2jwT6boreLx9SLNz83Q+8+L29P5FR3fPKv6lkel6vqSdmZ1DGpt4T0xSFrHJ2cSlqBVik7K5kKknUwxa7j5Nm/ebFLWBhHTdKn18qgZVQgYT7wNLHbZ2PKO1vZvmNjdPnnYKOmh2uWlp78Lp6lTqcq7URe50uZV8GafwNLW0L3UYCi3i9XoJBoP4fD5CoRD/uxYXF/kJq8Sq+3yUO+kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;ScreenShot&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png&quot;
-        srcset=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/c26ae/tsumigeSS.png 158w,
-/static/1243793c1ed5aefd78bc43afb74d52f8/6bdcf/tsumigeSS.png 315w,
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/8ac56/tsumigeSS.webp 240w,
+/static/1243793c1ed5aefd78bc43afb74d52f8/703ef/tsumigeSS.webp 447w&quot;
+              sizes=&quot;(max-width: 447px) 100vw, 447px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/8ff5a/tsumigeSS.png 240w,
 /static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png 447w&quot;
-        sizes=&quot;(max-width: 447px) 100vw, 447px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
+            sizes=&quot;(max-width: 447px) 100vw, 447px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/1243793c1ed5aefd78bc43afb74d52f8/a2d48/tsumigeSS.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;ScreenShot&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;国内で販売されていたファミリーコンピュータソフトは約1000本近くあります。
 子供の頃に買ってもらったはいいものの、最後まで終わることが出来ずに
 次に目移りしてしまったソフトは何本あるでしょう。&lt;/p&gt;
 &lt;p&gt;よく「積む」といいますが、実際にカセットを積んだらどの程度高くなるでしょう。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tsumige.masayoshi.work/&quot;&gt;https://tsumige.masayoshi.work/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tsumige.masayoshi.work/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://tsumige.masayoshi.work/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;構成&lt;/p&gt;
@@ -423,8 +605,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;li&gt;
 &lt;p&gt;デモンストレーション用なので認証周りをオミットしています。また、定期的にDBが削除されます。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[TwitterBotと、憲法と各国家試験のうち憲法分野で
-出題された過去問題を表示するWebサイトを作成しました。 https://kenpokungfu.masayoshi.work/KenpoKungFu/ 構成 java11 SQLite3 SQLite JDBC…]]></description><link>https://masayoshi.work/KenpoKungFuRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuRelease/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[KenpoKungFu βリリースしました]]></title><description><![CDATA[KenpoKungFu βリリースしました]]></description><link>https://masayoshi.work/posts/20230206/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230206/</guid><pubDate>Mon, 06 Feb 2023 15:32:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 444px; &quot;
     &gt;
@@ -437,26 +618,36 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB20lEQVR42mXO20/ScRjH8d+f2lqtmy666b5mBOhcTSscrGIMEwkBBcsGuSaBHH4OZByCOP3kmBwiheQk774CXXnx2vM8n+/32R6p6DdROLaQ9W1TDH5ACW3O+qzPOpsLx1szxRtBy5z4/z+fs5D3m2mkPEgR6xKuDT1unY6AZZWgdQXv+zUODK+FN5zuaYi7tMScaqIO1cJzkWtnbzc1vrdM1L5EIbCJFLKuYlvfYl9v5KtJz6HJQMS+LnoD5hUzYbuW8I6GmPsFae8GKY+OxMErZIcG2bks/s6rbFdTClmRTmxPSLhVxHdVnC7EnCqRqTk0Pubts3sYnt5B/mLkolWmXS9STftFfhej+gHvVPexrT3C9vIhOb+4sBD+SEl2UpQdFCJ2igslMZdOdkVuRxEq8c/UM0cz1aQHRewpEdvMmbwjrtvm/Mchki8UJiBHSOZ/MgGGwmQ6ot6qIicTxDNpshWFXFkhlc+QEOrNMoxaXA+aTIfCol4PfiGlGnmUTo3usE+t3xTa/Bn8pttrcTkaEK2lMUYdnHUbXAyv6Az/0rvqMrmsMO5Vb5GSrTyV/jnZTon9jJcjJUK6kWQqrmyPeriy3/heifEp52Mkru8zZjDuMRHLk37tln/EZRiX2ckd8QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5klEQVR42lWPWU9aURSF7z9t0rTpQx/61OemFscOabUNCdRInWW4WKmR1KFxBi4VraBAgQsyKkqpgIKon9vbNLU5+bL2Xmed7H2U5PowyY1J4qtT6JvjpP1jxKQ2et8YKfGSG+OGpjYn/nHr/UX6xNoIxcg8SsDewYzZgsdsZmPiFb6plywM9TNnfY/X8oGdzz3szPQQmu5iSzUZhNydhr99e2fc97Ll6pDBYyg++2ucAxN8sQyx+MnC0rCFgNovtZWRvlH8rl6hm5DnDXvzZoOwdwBN7SHo7pXsrfahubrQ/XaU745n7HpMMkmY/qPbomFPN4u2p3w0PcD6/B6a18Zp+YCTQorc3jqDL+4z1P2Iwc6HON49wfn2sXx7FCXpd6AHp9E1NylNNdA1F+mgKohvqEr2xxzF2AqF6DL58FcyATsZzSE4ORB03ySH+0soq/4A60GNSPInbaAltOUUy3mCkV1241FiuTSJbFoyMcKJGMWjrATLXDeP7lDm6vwQZa+UIFMpUG01yDfK5M9O+N38RbVepnbRJFTaxxZSyVSLnLbOqEiufl7lspalXc/Rrt1BeiV8nCDXOCJe0ZmNLrCcCbBfinAlux63a3ji31jLhZhNrHDBNXXZ/lz8S3l8WS8I+f+4AZPcF8FZydqoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;ScreenShot&quot;
-        title=&quot;&quot;
-        src=&quot;/static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png&quot;
-        srcset=&quot;/static/191a49bbbff4808f257bd91305e658a1/c26ae/kkSS.png 158w,
-/static/191a49bbbff4808f257bd91305e658a1/6bdcf/kkSS.png 315w,
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/191a49bbbff4808f257bd91305e658a1/8ac56/kkSS.webp 240w,
+/static/191a49bbbff4808f257bd91305e658a1/ced2a/kkSS.webp 444w&quot;
+              sizes=&quot;(max-width: 444px) 100vw, 444px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/191a49bbbff4808f257bd91305e658a1/8ff5a/kkSS.png 240w,
 /static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png 444w&quot;
-        sizes=&quot;(max-width: 444px) 100vw, 444px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
+            sizes=&quot;(max-width: 444px) 100vw, 444px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/191a49bbbff4808f257bd91305e658a1/9b7bd/kkSS.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;ScreenShot&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;TwitterBotと、憲法と各国家試験のうち憲法分野で
 出題された過去問題を表示するWebサイトを作成しました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://kenpokungfu.masayoshi.work/KenpoKungFu/&quot;&gt;https://kenpokungfu.masayoshi.work/KenpoKungFu/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kenpokungfu.masayoshi.work/KenpoKungFu/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://kenpokungfu.masayoshi.work/KenpoKungFu/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;構成
 &lt;ul&gt;
@@ -469,19 +660,15 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;行政書士試験の過去問題について対応中です。しばらくおまちください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT CLOSE します]]></title><description><![CDATA[Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
-Twitter社やtwittered…]]></description><link>https://masayoshi.work/20230206/</link><guid isPermaLink="false">https://masayoshi.work/20230206/</guid><pubDate>Mon, 06 Feb 2023 13:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
+&lt;p&gt;行政書士試験の過去問題について対応中です。しばらくおまちください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT CLOSE します]]></title><description><![CDATA[憲法カンフーBOT CLOSE します]]></description><link>https://masayoshi.work/posts/20230206/close/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230206/close/</guid><pubDate>Mon, 06 Feb 2023 13:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。
 Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888&quot;&gt;https://twitter.com/kenpo_kungfu/status/1622427549182885888&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;&amp;mdash; 憲法カンフー (@kenpo_kungfu) &lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
-行政書士試験問題の掲載を許諾頂きました。ありがとうございます。 適切に運用するため、いくつかコードを追加する予定です。
-引き続き構築に励みたいと考えております。]]></description><link>https://masayoshi.work/20230126/</link><guid isPermaLink="false">https://masayoshi.work/20230126/</guid><pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://twitter.com/kenpo_kungfu/status/1622427549182885888&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Twitter API の無料サービスが2/9で廃止されるとのことで、当アカウントが定期的に行なっている憲法条文も停止することになると思います。Twitter社やtwitteredライブラリ開発者の皆様には感謝しています。短い時間でしたがとても楽しめました。ありがとうございます。&lt;/p&gt;&amp;mdash; 憲法カンフー (@kenpo_kungfu) &lt;a href=&quot;https://twitter.com/kenpo_kungfu/status/1622427549182885888?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt; </content:encoded></item><item><title><![CDATA[試験問題の掲載を許諾いただきました]]></title><description><![CDATA[試験問題の掲載を許諾いただきました]]></description><link>https://masayoshi.work/posts/20230126/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230126/</guid><pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;現在憲法カンフーWebを作成していますが、一般社団法人行政書士試験研究センター様より
 行政書士試験問題の掲載を許諾頂きました。ありがとうございます。&lt;/p&gt;
 &lt;p&gt;適切に運用するため、いくつかコードを追加する予定です。
-引き続き構築に励みたいと考えております。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT リリースしました]]></title><description><![CDATA[日本国憲法を1時間に1回つぶやくTwitterBotをリリースしました。
-現在作成中のWebサイト(憲法カンフー)と連携させていきます。 憲法カンフーBOT 構成 java11 maven SQLite3 SQLite JDBC Driver twittered…]]></description><link>https://masayoshi.work/KenpoKungFuBOTRelease/</link><guid isPermaLink="false">https://masayoshi.work/KenpoKungFuBOTRelease/</guid><pubDate>Sun, 22 Jan 2023 00:25:00 GMT</pubDate><content:encoded>&lt;p&gt;日本国憲法を1時間に1回つぶやくTwitterBotをリリースしました。
+引き続き構築に励みたいと考えております。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[憲法カンフーBOT リリースしました]]></title><description><![CDATA[憲法カンフーBOT リリースしました]]></description><link>https://masayoshi.work/posts/20230122/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230122/</guid><pubDate>Sun, 22 Jan 2023 00:25:00 GMT</pubDate><content:encoded>&lt;p&gt;日本国憲法を1時間に1回つぶやくTwitterBotをリリースしました。
 現在作成中のWebサイト(憲法カンフー)と連携させていきます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu&quot;&gt;憲法カンフーBOT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kenpo_kungfu&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;憲法カンフーBOT&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;構成
 &lt;ul&gt;
@@ -496,50 +683,6 @@ Twitter社やtwitteredライブラリ開発者の皆様には感謝していま�
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;学習目的なので特に政治・思想的な話題は完全にスルーします。（予防線）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[masayoshi.work リリースしました]]></title><description><![CDATA[masayoshi.work リリースしました。 GatsbyJS の gatsby-starter-blog テンプレートを使って
-極めてシンプルなサイトを作ってみました。]]></description><link>https://masayoshi.work/masayoshi.workRelease/</link><guid isPermaLink="false">https://masayoshi.work/masayoshi.workRelease/</guid><pubDate>Sat, 21 Jan 2023 23:59:00 GMT</pubDate><content:encoded>&lt;p&gt;masayoshi.work リリースしました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;GatsbyJS&lt;/a&gt; の gatsby-starter-blog テンプレートを使って
-極めてシンプルなサイトを作ってみました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。実務では開発と縁がない模様。 ご連絡はDM(@MasayoshiWork)でお願いいたします。。 申し訳ございません。現在お仕事は承っておりません。 使用言語/DB Perl BASH PHP Java MySQL PostgreSQL…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Sun, 01 Jan 2023 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。実務では開発と縁がない模様。&lt;/p&gt;
-&lt;p&gt;ご連絡はDM(@MasayoshiWork)でお願いいたします。&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;使用言語/DB&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Perl&lt;/li&gt;
-&lt;li&gt;BASH&lt;/li&gt;
-&lt;li&gt;PHP&lt;/li&gt;
-&lt;li&gt;Java&lt;/li&gt;
-&lt;li&gt;MySQL&lt;/li&gt;
-&lt;li&gt;PostgreSQL&lt;/li&gt;
-&lt;li&gt;SQLite&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;取得資格&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;AWS Certified Solutions Architect Associate&lt;/li&gt;
-&lt;li&gt;Azure Fundamentals&lt;/li&gt;
-&lt;li&gt;ITパスポート&lt;/li&gt;
-&lt;li&gt;ITILファウンデーション&lt;/li&gt;
-&lt;li&gt;Linux Professional Institute Certification Level 3
-&lt;ul&gt;
-&lt;li&gt;LPI-303 Security&lt;/li&gt;
-&lt;li&gt;LPI-304 Virtualization &amp;#x26; High Availability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Oracle Certified Java Programer,Silver SE 7&lt;/li&gt;
-&lt;li&gt;ORACLE MASTER Bronze Oracle Database 10g&lt;/li&gt;
-&lt;li&gt;PHP5技術者認定準上級&lt;/li&gt;
-&lt;li&gt;Red Hat Certified System Administrator&lt;/li&gt;
-&lt;li&gt;VBAエキスパート&lt;/li&gt;
-&lt;li&gt;Windows Server 2008 Server Administrator&lt;/li&gt;
-&lt;li&gt;情報セキュリティマネジメント&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;申し訳ございません。現在お仕事は承っておりません。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;学習目的なので特に政治・思想的な話題は完全にスルーします。（予防線）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[masayoshi.work リリースしました]]></title><description><![CDATA[masayoshi.work リリースしました]]></description><link>https://masayoshi.work/posts/20230121/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230121/</guid><pubDate>Sat, 21 Jan 2023 23:59:00 GMT</pubDate><content:encoded>&lt;p&gt;masayoshi.work リリースしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GatsbyJS&lt;/a&gt; の gatsby-starter-blog テンプレートを使って
+極めてシンプルなサイトを作ってみました。&lt;/p&gt;</content:encoded></item></channel></rss>

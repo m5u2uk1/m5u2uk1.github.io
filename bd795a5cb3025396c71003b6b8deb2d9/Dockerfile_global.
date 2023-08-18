@@ -1,0 +1,67 @@
+# syntax=docker/dockerfile:1.4.1
+# ベースイメージ
+FROM debian:unstable
+
+# 変数定義
+
+# コンテナ作成後、bashを起動する
+#CMD ["bash"]
+
+# コンテナ作成後、apache を起動する
+CMD ["/usr/sbin/apachectl start"]
+
+# VOLUME [ "/var/www/html" ]
+
+RUN apt-get update
+RUN apt-get -y install tzdata
+RUN apt-get -y install apache2
+
+# global は、vim と libyaml を必要としてる
+RUN apt-get -y install vim
+RUN apt-get -y install libyaml-0-2
+RUN apt-get -u install universal-ctags
+
+# RUN apt install exuberant-ctags -y
+RUN apt-get -y install global
+
+# tar
+RUN apt-get -y install tar xz-utils
+# RedHat のパッケージを展開したい
+RUN apt-get -y install rpm2cpio
+RUN apt-get -y install cpio
+
+# ソースをゲットする手段
+RUN apt-get -y install wget curl
+
+# apache のコンフィグを強引に描く
+
+COPY <<EOF /etc/apache2/conf-available/globalMan.conf
+<Directory "/var/www/html">
+    Options +ExecCGI
+    AddHandler cgi-script .cgi .pl .py .rb
+</Directory>
+EOF
+
+# TAGづけ用コマンドの作成
+COPY <<EOF /usr/local/bin/tags
+#!/bin/bash
+gtags -v
+htags -aosnFfv
+EOF
+
+RUN chmod 755 /usr/local/bin/tags
+
+# cgid モジュールを有効にする
+RUN a2enmod cgid
+
+# cgid モジュールを有効にする
+RUN a2enconf globalMan
+
+# 色々やったのでapache は再起動する
+RUN /usr/sbin/apachectl start
+
+
+# 作業DIRはココ
+WORKDIR /var/www/html
+
+
