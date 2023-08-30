@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Aug 2023 06:07:46 GMT</lastBuildDate><item><title><![CDATA[LPIC 3 300 取得]]></title><description><![CDATA[LPIC3 300 取得]]></description><link>https://masayoshi.work/posts/20230827/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230827/</guid><pubDate>Sun, 27 Aug 2023 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;lpic-3-mixed-environments-取得&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lpic-3-mixed-environments-%E5%8F%96%E5%BE%97&quot; aria-label=&quot;lpic 3 mixed environments 取得 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LPIC-3 Mixed Environments 取得&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Aug 2023 10:28:17 GMT</lastBuildDate><item><title><![CDATA[数字で見る生徒数減少の実態]]></title><description><![CDATA[数字で見る生徒数減少の実態]]></description><link>https://masayoshi.work/posts/20230830/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230830/</guid><pubDate>Wed, 30 Aug 2023 19:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;キッカケは下心&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%AD%E3%83%83%E3%82%AB%E3%82%B1%E3%81%AF%E4%B8%8B%E5%BF%83&quot; aria-label=&quot;キッカケは下心 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;キッカケは下心&lt;/h2&gt;
+&lt;p&gt;どうやらPythonの国内資格を取るといい感じにプラス評価を頂けると小耳に挟んだので
+急遽Pythonのリカレント学習に励むことにしました。&lt;/p&gt;
+&lt;p&gt;pandas を使うサンプルコードがあったので、昔に用意していた Jupyter Notebook を引っ張り出し、
+そのまま実行しても面白くもないので何か大きなデータが落ちてないかと調べてみたら、
+田舎の行政が母校の生徒数を公開しているとのこと。面白そうなのでこれを利用してみようと思う。&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;pandas の力はやっぱりすごい。実質4行書いただけで綺麗にプロットできてしまう。
+大学で R を教わった時と同じぐらい簡単さと衝撃。&lt;/p&gt;
+&lt;p&gt;read_excel() にすれば、Excel 読み込ませられる。今回は csv を用意していたが、
+行政側が Excel でファイルを公開してるところも多いので簡単に対応できるのも嬉しい。
+引数にURLを食わせるとダウンロードまでしてくれる。別途 cURL とか用意しなくてもいいのも嬉しい。
+これは人気になるはずだ。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pd
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; plotly
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; plotly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;graph_objs &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; go
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; plotly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pio
+pio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;renderers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;default &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jupyterlab&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 実質↓だけ&lt;/span&gt;
+df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;read_csv&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hogehoge.csv&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plot_data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; go&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Bar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;西暦&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;y&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;生徒数計&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fig &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; go&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Figure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;plot_data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 611px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7948cd207e9035ed4e22ef2642d5e1aa/36bb5/graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3klEQVR42pVRXU9TQRDlJxM/IrR8WWj5KKWoRYMmmGgCEqMYH0z0wYgPflBAQmJIRC4UbUtpa29r7+7MvRePs7sVfVMfTmYyM3vmzNk+pTRO6hpdCgUMvxuiLfD/A26eQWGMPiDEw6eEO8sae16Ar/UApVqAY4PTAF/+EaVaF50gNISE5UcB+pMhbt8nVJoKjY7Cqa9QbihZoFBp/AVNZYV8V5FTuLqmkZhgTN8gLK0QNnYVtj66QUNsSMv13wv+RLkXzTWdX4QP1hQGxhmzC4QLw4yJOcZYllFYIuzsKdR8R25QNUvaCvXeFdVvkrdNLYBie3KE1ScaAylHaKJRakgvjjCyUnvxWounCkdVhcOKwvp7jWcvtb3EKyu8eqfxfF3y43OF+lzhlauMqeuE8RwjkWbMFAiD0ssvEhbvETLz7oKhDGNQbFq4K29ExOUxxtvN2H3KyuPAPs7dJEs8U2Ck82x9nbtFGJ5kjE6bRe5hVpaYfjLtLhiZYoF4/8ES/hCFLL8sQ/OE/gQjlSMMTTo/M1K7NEqyUGzIk51LzRKSGRJLRPE102c786ZoCc9QOYnw6SDG9m7LRu8oQnGnl5cibGy3sO9FkseiwseB9D8fxihKbvr73pmdabYi/ARvyLibdcbVIgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/7948cd207e9035ed4e22ef2642d5e1aa/8ac56/graph.webp 240w,
+/static/7948cd207e9035ed4e22ef2642d5e1aa/d3be9/graph.webp 480w,
+/static/7948cd207e9035ed4e22ef2642d5e1aa/ef8bf/graph.webp 611w&quot;
+              sizes=&quot;(max-width: 611px) 100vw, 611px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/7948cd207e9035ed4e22ef2642d5e1aa/8ff5a/graph.png 240w,
+/static/7948cd207e9035ed4e22ef2642d5e1aa/e85cb/graph.png 480w,
+/static/7948cd207e9035ed4e22ef2642d5e1aa/36bb5/graph.png 611w&quot;
+            sizes=&quot;(max-width: 611px) 100vw, 611px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/7948cd207e9035ed4e22ef2642d5e1aa/36bb5/graph.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;ScreenShot&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;生徒数が四半世紀で大体半分ぐらいに落ち込んでいるのが見て取れる。2005年ぐらいまで
+右肩下がり、あとは現状維持のようで相当苦戦しているようだ。&lt;/p&gt;
+&lt;p&gt;まだ軽量なデータしか触っていないので便利感に浸るところまでは至ってないけど、
+開くのにも躊躇しそうな地理データ &lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; とかをプロットしていくと実感を感じやすいかもしれない。&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;各方面に迷惑がかからないように具体的な名前は伏せさせていただきます&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;国土地理院で公開していた記憶があります。QGISを使ったレポートを書いたときに使わせていただきました。&lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[LPIC 3 300 取得]]></title><description><![CDATA[LPIC3 300 取得]]></description><link>https://masayoshi.work/posts/20230827/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230827/</guid><pubDate>Sun, 27 Aug 2023 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;lpic-3-mixed-environments-取得&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lpic-3-mixed-environments-%E5%8F%96%E5%BE%97&quot; aria-label=&quot;lpic 3 mixed environments 取得 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LPIC-3 Mixed Environments 取得&lt;/h2&gt;
 &lt;p&gt;302 取得からから数年、本日300を取得しました。
 全コンプにこだわりはないので気が向いたら305や306をやってみようとか思ってます。&lt;/p&gt;
 &lt;ul&gt;
