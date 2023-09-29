@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Sep 2023 11:14:19 GMT</lastBuildDate><item><title><![CDATA[君はSchooというのを知っているかな？]]></title><description><![CDATA[利用していますよ。あのコンテンツは利用者の期待を一身に背負って知見を増やそうとしたんですから]]></description><link>https://masayoshi.work/posts/20230928/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230928/</guid><pubDate>Thu, 28 Sep 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;イントロダクション&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3&quot; aria-label=&quot;イントロダクション permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;イントロダクション&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Sep 2023 12:00:46 GMT</lastBuildDate><item><title><![CDATA[世知辛い]]></title><link>https://masayoshi.work/posts/20230929/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230929/</guid><pubDate>Fri, 29 Sep 2023 21:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;swift-でサンプルアプリをガンガン書いていたら&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#swift-%E3%81%A7%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89&quot; aria-label=&quot;swift でサンプルアプリをガンガン書いていたら permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Swift でサンプルアプリをガンガン書いていたら・・・&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 300px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/f93b5/ss.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFgEAAwAAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAH3yISdBGuWOb+g4olNGumbaRRf/8QAHRAAAgICAwEAAAAAAAAAAAAAAQIDEAAREiAxMv/aAAgBAQABBQLoDuj5HunOljclslBKwJxpvlGJbP/EABkRAAMAAwAAAAAAAAAAAAAAAAEQEQISIf/aAAgBAwEBPwFDGhbci//EABkRAAMBAQEAAAAAAAAAAAAAAAECEAMREv/aAAgBAgEBPwGNoFPIcwW9T//EABoQAAICAwAAAAAAAAAAAAAAABAhACABMUH/2gAIAQEABj8Cuz3YUeK//8QAHhAAAgICAgMAAAAAAAAAAAAAAREQIQAxIEFRgaH/2gAIAQEAAT8hXiEB1wmzAsi9KG5G8T2lL7iiWrWFshD7BEERgYCaj//aAAwDAQACAAMAAAAQcAsMZA//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxCMjBkv/8QAFxEBAQEBAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxCAX2aAz//EAB4QAQEAAgICAwAAAAAAAAAAAAERACEQMUFxUWGB/9oACAEBAAE/EAFQC4XzMAQB6MWCvjBLBI+ScVo7jgBhU0fo8Mm6Q94ZC0QdfYeDWyqDt1rJSfmE274dSIaco3Q6hx//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/8ac56/ss.webp 240w,
+/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/c85cb/ss.webp 300w&quot;
+              sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/09b79/ss.jpg 240w,
+/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/f93b5/ss.jpg 300w&quot;
+            sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/d7476ba3c5e7cd0ad4050ac4852ad1a0/f93b5/ss.jpg&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;こんなサンプルアプリをガンガン書いて、ガンガン実機に転送していたら
+xcode さんからお叱りのメッセージをいただきました。7日に10個の無料枠を超えた模様。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Your maximum App ID limit has been reached. 
+You may create up to 10 App IDs every 7 days.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;あるサイトではIDを使いまわせばいいんや！と書いてあったのですが、どうも私には
+合わない回避方法なので時間が来るまでじっと待つか、これまでに転送したアプリの中身を消して
+再利用することにしたいと思います！（それが通るかはわからないのですけれども）&lt;/p&gt;
+&lt;p&gt;それもこれもお金がないのが悪いんや。&lt;/p&gt;
+&lt;p&gt;それにしても計算ドリルが欲しかっただけなのにネイティブアプリの作り方からやろうなんて
+DASH村にも程があると思った今日この頃。&lt;/p&gt;
+&lt;h2 id=&quot;いぇーい見てる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%84%E3%81%87%E3%83%BC%E3%81%84%E8%A6%8B%E3%81%A6%E3%82%8B&quot; aria-label=&quot;いぇーい見てる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;いぇーい見てる？&lt;/h2&gt;
+&lt;p&gt;何がどうと言うわけではありません。お互いにルール通りに運用しているだけですよね？違います？&lt;/p&gt;</content:encoded></item><item><title><![CDATA[君はSchooというのを知っているかな？]]></title><description><![CDATA[利用していますよ。あのコンテンツは利用者の期待を一身に背負って知見を増やそうとしたんですから]]></description><link>https://masayoshi.work/posts/20230928/</link><guid isPermaLink="false">https://masayoshi.work/posts/20230928/</guid><pubDate>Thu, 28 Sep 2023 20:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;イントロダクション&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3&quot; aria-label=&quot;イントロダクション permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;イントロダクション&lt;/h2&gt;
 &lt;p&gt;私はとある企業に勤めています。期間限定ですが利用する許可をいただいていました。
 ただ、私の周りでも使っているような気配がなかなか見えないのです。ということで、
 「先生を探す」から全3584件をディグって個人的に面白そうランキングをつくってみました。&lt;/p&gt;
