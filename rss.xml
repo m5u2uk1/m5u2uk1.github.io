@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Oct 2023 03:29:40 GMT</lastBuildDate><item><title><![CDATA[設定ファイルに追記したい]]></title><link>https://masayoshi.work/posts/ansible/20231015/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/20231015/</guid><pubDate>Sun, 15 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Oct 2023 05:16:20 GMT</lastBuildDate><item><title><![CDATA[設定ファイルの末尾にゴリっと追記したい。]]></title><link>https://masayoshi.work/posts/ansible/20231021/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/20231021/</guid><pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
+&lt;p&gt;設定ファイルの末尾に設定をゴリっと追加したい。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;設定ファイル&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; example.conf
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;example&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+hogehoge &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hoge
+fugafuga &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; fuga&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プレイブック&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 127.0.0.1
+
+  &lt;span class=&quot;token key atrule&quot;&gt;vars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;fileName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; example.conf
+
+&lt;span class=&quot;token key atrule&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 設定ファイルに追記したい
+      &lt;span class=&quot;token key atrule&quot;&gt;ansible.builtin.blockinfile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
+        &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;{{ fileName }}&quot;&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;
+          
+          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;exampleAppend&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+          hogehoeg = hoge
+          fugafuga = fuga
+        &lt;span class=&quot;token key atrule&quot;&gt;insertafter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; EOF
+        &lt;span class=&quot;token key atrule&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; present&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;このプレイブックで出来たこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%93%E3%81%AE%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF%E3%81%A7%E5%87%BA%E6%9D%A5%E3%81%9F%E3%81%93%E3%81%A8&quot; aria-label=&quot;このプレイブックで出来たこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;このプレイブックで出来たこと&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;samba の設定ファイルっぽい example.conf がある。ファイル末尾に以下の行を追加&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;
+[exampleAppend]
+hogehoeg = hoge
+fugafuga = fuga&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;雑感&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E9%9B%91%E6%84%9F&quot; aria-label=&quot;雑感 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;雑感&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今回の block キーに記載している | 。これHTMLでいうPREタグっぽい動きをするんだけど、なんというか、その、わかりづらい。こういう記号に妙な意味を持たせるのはperl以来スクリプト言語にありがちな悪い癖だと思っている。やめれｗ&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ansible と連携して cow に働かせたい]]></title><link>https://masayoshi.work/posts/ansible/cowsay/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/cowsay/</guid><pubDate>Sun, 15 Oct 2023 01:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;概要&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%A6%82%E8%A6%81&quot; aria-label=&quot;概要 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;概要&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;playbook をもくもくと書いていると味気ない。&lt;/li&gt;
+&lt;li&gt;sl コマンドのようなスリリングが欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;cowsay-をインストール&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cowsay-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&quot; aria-label=&quot;cowsay をインストール permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;cowsay をインストール&lt;/h1&gt;
+&lt;h4 id=&quot;せやかて工藤centos-stream-やねん&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%9B%E3%82%84%E3%81%8B%E3%81%A6%E5%B7%A5%E8%97%A4centos-stream-%E3%82%84%E3%81%AD%E3%82%93&quot; aria-label=&quot;せやかて工藤centos stream やねん permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;せやかて工藤。CentOS Stream やねん。&lt;/h4&gt;
+&lt;p&gt;CentOS Stream ではcowsayを採用してくれなかった模様。
+githubからありがたく頂いてこよう。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/schacon/cowsay.git
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; cowsay
+./install.sh &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;もうこの時点でansible-playでplaybookを実行すると、良い感じにcowsayが連携してくれる。&lt;/p&gt;
+&lt;p&gt;殺伐としたコンソールに一服の清涼剤が！&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; __________________ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; PLAY &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ ------------------ 
+        &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;   ^__^
+         &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;_______
+            &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;----w &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+
+ ________________________ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Gathering Facts&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ ------------------------ 
+        &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;   ^__^
+         &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;_______
+            &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;----w &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+
+ok: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+ _________________ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ ----------------- 
+        &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;   ^__^
+         &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;_______
+            &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;----w &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+
+ok: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;msg&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello.&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ ____________ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; PLAY RECAP &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ ------------ 
+        &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;   ^__^
+         &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;_______
+            &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;----w &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+
+localhost                  &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ok&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;changed&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;unreachable&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;failed&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;skipped&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;rescued&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;ignored&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[設定ファイルに追記したい]]></title><link>https://masayoshi.work/posts/ansible/20231015/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/20231015/</guid><pubDate>Sun, 15 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
 &lt;p&gt;設定ファイルに任意の1行を追加したい。&lt;/p&gt;
 &lt;p&gt;同じプレイブックを複数回実行してその度に追加されるぐらいならbashを使った方がいい。&lt;/p&gt;
 &lt;ul&gt;
