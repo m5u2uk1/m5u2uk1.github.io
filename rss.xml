@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Oct 2023 05:16:20 GMT</lastBuildDate><item><title><![CDATA[設定ファイルの末尾にゴリっと追記したい。]]></title><link>https://masayoshi.work/posts/ansible/20231021/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/20231021/</guid><pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Oct 2023 14:48:47 GMT</lastBuildDate><item><title><![CDATA[RHEL系OSでパッケージのアップデートをしたい。ただしkernel、テメーはダメだ]]></title><link>https://masayoshi.work/posts/ansible/202310222/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/202310222/</guid><pubDate>Sun, 22 Oct 2023 23:30:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
+&lt;p&gt;任意のパッケージを最新のバージョンにアップデートしたい。ただし kernel を更新するのは
+色々面倒くさいことになるのでやりたくない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;プレイブック&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 127.0.0.1
+
+&lt;span class=&quot;token key atrule&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; package update
+      &lt;span class=&quot;token key atrule&quot;&gt;ansible.builtin.yum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;{{ item }}&quot;&lt;/span&gt; 
+        &lt;span class=&quot;token key atrule&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; present
+        &lt;span class=&quot;token key atrule&quot;&gt;exclude&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; kernel
+      &lt;span class=&quot;token key atrule&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; hogehoge
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; fugafuga
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; mogemoge&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;できること&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8&quot; aria-label=&quot;できること permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;できること&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;hogehoge,fugafuga,mogemoge パッケージの最新がインストールされます。&lt;/li&gt;
+&lt;li&gt;hostsも適当に書き換えておいてください。&lt;/li&gt;
+&lt;li&gt;exlcude 行にインストール・アップデートしたくはないパッケージ、今回はKernelを記入します。&lt;/li&gt;
+&lt;li&gt;定石だと、yumの設定ファイル側に記載しそうなものだけれども、「勝手にkernelを更新した犯人」にされることもありそうなら、より安全側に倒すならansible側でも書いた方が良いと思われます。
+&lt;ul&gt;
+&lt;li&gt;yum history で実行タイミングをある程度は把握できますが、念の為。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;その他&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%9D%E3%81%AE%E4%BB%96&quot; aria-label=&quot;その他 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ansible がどうやってOSのバージョンを取得しているか追ってみたい気もしないでもない。おそらく、/etc/redhat-release 的なファイルをゲットしているだけだと思うのだが…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;セキュリティ系に進みたい場合のポートフォリオ作成に向けて動くには以下が良いらしいです。知らんけど。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学習しよう　※私の周りにはワナビーはいないはずなのでこれはどうでもいい&lt;/li&gt;
+&lt;li&gt;CTF に参加&lt;/li&gt;
+&lt;li&gt;個人プロジェクト立ち上げ。要は知識のアウトプット&lt;/li&gt;
+&lt;li&gt;資格取得　&lt;/li&gt;
+&lt;li&gt;コミュニティへの参加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;若いエンジニアがキラキラした目で前向きに頑張っているのを見ると、私ももう少し頑張ろうって気になります。はい。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[設定ファイルの末尾にゴリっと追記したい。]]></title><link>https://masayoshi.work/posts/ansible/20231021/</link><guid isPermaLink="false">https://masayoshi.work/posts/ansible/20231021/</guid><pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;やりたいこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-label=&quot;やりたいこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;やりたいこと&lt;/h2&gt;
 &lt;p&gt;設定ファイルの末尾に設定をゴリっと追加したい。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
