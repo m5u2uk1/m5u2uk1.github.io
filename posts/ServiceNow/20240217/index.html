@@ -156,10 +156,50 @@ SeriveNowの都合により書く気配がしてきたのでメモ。</p>
   <span class="token literal-property property">firstName</span> <span class="token operator">:</span> <span class="token string">'名前'</span><span class="token punctuation">,</span>
   <span class="token literal-property property">lastName</span> <span class="token operator">:</span> <span class="token string">'名字'</span><span class="token punctuation">,</span>
   <span class="token literal-property property">age</span> <span class="token operator">:</span> <span class="token number">114</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div></div></div></div><div class="Post-module--footer--f8705"><div class="Meta-module--meta--dae0a"><p class="Meta-module--date--4d30d">Published<!-- --> <!-- -->Feb 17, 2024</p></div><div class="Tags-module--tags--18589"><ul class="Tags-module--list--82ae6"><li class="Tags-module--item--52015"><a class="Button-module--button--b1113" href="/tag/servicenow/">ServiceNow</a></li><li class="Tags-module--item--52015"><a class="Button-module--button--b1113" href="/tag/javascript/">JavaScript</a></li></ul></div><div class="Author-module--author--1c58d"><p class="Author-module--bio--08950">わたしが作成したサイト・サービスをまとめています。最近は割と雑記も多いです。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。<a class="Author-module--twitter--90647" href="https://www.twitter.com/MasayoshiWork" rel="noopener noreferrer" target="_blank"><strong>masayoshi.work</strong> on Twitter</a></p></div></div><div class="Post-module--comments--d3b99"></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/ServiceNow/20240217/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<h3 id="関数式" style="position:relative;"><a href="#%E9%96%A2%E6%95%B0%E5%BC%8F" aria-label="関数式 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>関数式</h3>
+<ul>
+<li>関数の宣言方法にも種類があって、スタンダードな関数宣言と関数式というのがある（らしい）</li>
+<li>式になってて、やっぱり最後に「;」が要る。</li>
+<li>普通に関数宣言するとコードの末尾に書こうが最初に宣言を通してくれる。関数式は処理系がその行が読むタイミングで宣言する。
+<ul>
+<li>もしかしてメモリ的に有利になることがあるのか？？</li>
+</ul>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">
+<span class="token comment">// いつもの君</span>
+<span class="token keyword">function</span> <span class="token function">ugoUgo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">// 関数処理をつらつらと</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// スタンダードな関数式はこんな感じ</span>
+<span class="token keyword">const</span> <span class="token function-variable function">hogeHoge</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 関数処理をつらつらと</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>アロー（=>）を使うと楽に書ける<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>。割と驚きな書き方。</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// アロー関数の例</span>
+<span class="token keyword">const</span> <span class="token function-variable function">hogeHoge</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// 関数処理をつらつらと</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 引数が1つなら()を省略できる。ただし引数が1つ以上や無いときは省略できない。</span>
+<span class="token keyword">const</span> <span class="token function-variable function">fugaFuga</span> <span class="token operator">=</span> <span class="token parameter">arg1</span>  <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// 関数処理をつらつらと</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 関数処理が1行なら{}やreturnも省略できる。</span>
+<span class="token keyword">const</span> <span class="token function-variable function">mogeMoge</span> <span class="token operator">=</span> <span class="token parameter">arg1</span>  <span class="token operator">=></span> arg1 <span class="token operator">+</span> <span class="token string">'が戻り値'</span> <span class="token punctuation">;</span>
+</code></pre></div>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-1">ES2015(ES6)から。<a href="#fnref-1" class="footnote-backref">↩</a></li>
+</ol>
+</div></div></div></div><div class="Post-module--footer--f8705"><div class="Meta-module--meta--dae0a"><p class="Meta-module--date--4d30d">Published<!-- --> <!-- -->Feb 18, 2024</p></div><div class="Tags-module--tags--18589"><ul class="Tags-module--list--82ae6"><li class="Tags-module--item--52015"><a class="Button-module--button--b1113" href="/tag/servicenow/">ServiceNow</a></li><li class="Tags-module--item--52015"><a class="Button-module--button--b1113" href="/tag/javascript/">JavaScript</a></li></ul></div><div class="Author-module--author--1c58d"><p class="Author-module--bio--08950">わたしが作成したサイト・サービスをまとめています。最近は割と雑記も多いです。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。<a class="Author-module--twitter--90647" href="https://www.twitter.com/MasayoshiWork" rel="noopener noreferrer" target="_blank"><strong>masayoshi.work</strong> on Twitter</a></p></div></div><div class="Post-module--comments--d3b99"></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/ServiceNow/20240217/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
           <script
             id="gatsby-chunk-mapping"
           >
             window.___chunkMapping="{\"app\":[\"/app-6f4af9bbd32318cf9a49.js\"],\"component---cache-caches-gatsby-plugin-offline-app-shell-js\":[\"/component---cache-caches-gatsby-plugin-offline-app-shell-js-0c915c7b1bdb5eac4fdf.js\"],\"component---src-templates-categories-template-categories-template-tsx\":[\"/component---src-templates-categories-template-categories-template-tsx-97c53a529ec054996c85.js\"],\"component---src-templates-category-template-category-template-tsx\":[\"/component---src-templates-category-template-category-template-tsx-e39091784e66085a5bcb.js\"],\"component---src-templates-index-template-index-template-tsx\":[\"/component---src-templates-index-template-index-template-tsx-9b9c879433a64dac4263.js\"],\"component---src-templates-not-found-template-not-found-template-tsx\":[\"/component---src-templates-not-found-template-not-found-template-tsx-bd821a6a4095161ae5b0.js\"],\"component---src-templates-page-template-page-template-tsx\":[\"/component---src-templates-page-template-page-template-tsx-c9e457ad727e76af4005.js\"],\"component---src-templates-post-template-post-template-tsx\":[\"/component---src-templates-post-template-post-template-tsx-a45bdb9539d7479e1cb6.js\"],\"component---src-templates-tag-template-tag-template-tsx\":[\"/component---src-templates-tag-template-tag-template-tsx-3bbef9fe2c0c2bd0ff0b.js\"],\"component---src-templates-tags-template-tags-template-tsx\":[\"/component---src-templates-tags-template-tags-template-tsx-e7816a1574e42225d57e.js\"]}";
           </script>
-        <script>window.___webpackCompilationHash="f012cc18df07072f3025";</script><script src="/webpack-runtime-c52c15603e9a3304f425.js" async></script><script src="/framework-d7cb54b687f80d3792e0.js" async></script><script src="/app-6f4af9bbd32318cf9a49.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
+        <script>window.___webpackCompilationHash="0dad6d9eb9f059b097ac";</script><script src="/webpack-runtime-c52c15603e9a3304f425.js" async></script><script src="/framework-d7cb54b687f80d3792e0.js" async></script><script src="/app-6f4af9bbd32318cf9a49.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>

@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Feb 2024 01:10:29 GMT</lastBuildDate><item><title><![CDATA[recurrent CCNA]]></title><description><![CDATA[もう一度学び直してみるCCNA]]></description><link>https://masayoshi.work/posts/network/glossary/</link><guid isPermaLink="false">https://masayoshi.work/posts/network/glossary/</guid><pubDate>Sat, 17 Feb 2024 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;glossary&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 22 Feb 2024 11:05:25 GMT</lastBuildDate><item><title><![CDATA[const ってこういうことかもしれない]]></title><link>https://masayoshi.work/posts/ServiceNow/20240221/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240221/</guid><pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.583333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR42mPQcHYWVrO3F9GysBBSsrQU03R0lGcAAg1HR2NNO8cwLXt7CXUrKykDGw9ReXt7AVUnC2mQulVXrrA17VqqahYdzSdjYcFpb2/PATKLQcPOoVnD1mEpkJ6maeswT9PWNkPD1r4WiFs07eynaNo5tAPFwzVt7ddq2NnPAfJnqZhbtxYv6G/vOrRmekxzxWJlU4uZ2g5Oy0D6GIDESqCi+Zp2dm1AugzsOluHRUCXhWra2k0CWtSlYeeYBhSbp27r2KtpYx+jbmWbkTW9c/nE05tDSpZM7lI0MZ+u7eC4WsfOyRUAdQBFYknQy20AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ac56/ServiceNow_logo.svg.webp 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/23a50/ServiceNow_logo.svg.webp 440w&quot;
+              sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ff5a/ServiceNow_logo.svg.png 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png 440w&quot;
+            sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+            alt=&quot;ServiceNow_logo&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;javascript-君のいう-const-ってこういうこと&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%E5%90%9B%E3%81%AE%E3%81%84%E3%81%86-const-%E3%81%A3%E3%81%A6%E3%81%93%E3%81%86%E3%81%84%E3%81%86%E3%81%93%E3%81%A8&quot; aria-label=&quot;javascript 君のいう const ってこういうこと permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript 君のいう const ってこういうこと？？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多分Javaと同じようなメモリ管理をしている気がしてて、const によって定数っぽく扱われるのは黄色の箇所、プロパティやメソッドが書き込まれている番地を示すポインタだけなので、オレンジの番地にある実際のプロパティやメソッドは変更が可能になっている。例えば黄色の箇所にある、プロパティAはどの番地に格納されているかを示す情報を書き換えようとするとそれはエラーになる。であってる？？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9855b0ca998588fc5786eb535fe5b2c4/1132d/const.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABWUlEQVR42p2STW/TQBCG8+s5wgFx48IViR8AqqDiQBXCCSUOlSqljVN/hISs98teO96nEwNCUOfCSI9Gu5p95x3NTrojZKsZ2+Ur7N0b2uw1pphSaYfWlaAfUVUVdV0zFpOuh/36I2rxBH39jLh+is3eYmzAWiPYRxhjaJpmXDC0oLJPxM0LYvaSfv0cnb5DVU6cqMHNvyil8N6fcXjs8XZHMHfCGn+4wemCugkylh/Fe0fbBojxD78Fx7r0fZSayP/E5PQw/tUp0nUdar/F7Da4HznukGP3ubgvhrMVmmr7i1Im2uOcJ4Qw7jC0R4pVwnZ+wS65pJy/53vygd3ycsj51wvadDbQpVNUmnBQPzd/VlBlN7KoKfXqin4zkyyLy77Q3F6JyGf6+9nAqcZkS7SxBNn8GUEZuUxp8gS7WdAU3yTPCeU17n5BnS+HuxOhELHyVn6FHhw+ACv3sCn2PlPkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/9855b0ca998588fc5786eb535fe5b2c4/8ac56/const.webp 240w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/d3be9/const.webp 480w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/e46b2/const.webp 960w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/35062/const.webp 1158w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/9855b0ca998588fc5786eb535fe5b2c4/8ff5a/const.png 240w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/e85cb/const.png 480w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/d9199/const.png 960w,
+/static/9855b0ca998588fc5786eb535fe5b2c4/1132d/const.png 1158w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/9855b0ca998588fc5786eb535fe5b2c4/d9199/const.png&quot;
+            alt=&quot;ScreenShot&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ServiceNow では JS らしい]]></title><link>https://masayoshi.work/posts/ServiceNow/20240217/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240217/</guid><pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.583333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR42mPQcHYWVrO3F9GysBBSsrQU03R0lGcAAg1HR2NNO8cwLXt7CXUrKykDGw9ReXt7AVUnC2mQulVXrrA17VqqahYdzSdjYcFpb2/PATKLQcPOoVnD1mEpkJ6maeswT9PWNkPD1r4WiFs07eynaNo5tAPFwzVt7ddq2NnPAfJnqZhbtxYv6G/vOrRmekxzxWJlU4uZ2g5Oy0D6GIDESqCi+Zp2dm1AugzsOluHRUCXhWra2k0CWtSlYeeYBhSbp27r2KtpYx+jbmWbkTW9c/nE05tDSpZM7lI0MZ+u7eC4WsfOyRUAdQBFYknQy20AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ac56/ServiceNow_logo.svg.webp 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/23a50/ServiceNow_logo.svg.webp 440w&quot;
+              sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ff5a/ServiceNow_logo.svg.png 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png 440w&quot;
+            sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+            alt=&quot;ServiceNow_logo&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;javascript-君のこと忘れてたよ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%E5%90%9B%E3%81%AE%E3%81%93%E3%81%A8%E5%BF%98%E3%82%8C%E3%81%A6%E3%81%9F%E3%82%88&quot; aria-label=&quot;javascript 君のこと忘れてたよ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript 君のこと忘れてたよ&lt;/h2&gt;
+&lt;p&gt;遠い昔に書いていたし存在は知ってるけど、相当期間自分では書いてこなかったわけですが
+SeriveNowの都合により書く気配がしてきたのでメモ。&lt;/p&gt;
+&lt;h3 id=&quot;型&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%9E%8B&quot; aria-label=&quot;型 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;JSは動的型付け言語。意識しておいた方がいいよね。
+&lt;ul&gt;
+&lt;li&gt;TypeScript は、静的型付けっぽくなるらしい。知らんけど。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;const-君さぁ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#const-%E5%90%9B%E3%81%95%E3%81%81&quot; aria-label=&quot;const 君さぁ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;const 君さぁ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;const でオブジェクトを宣言するとオブジェクトそのものは保護される。配列も同様に配列そのものは保護される。
+&lt;ul&gt;
+&lt;li&gt;中身やらは保護されんのよ。注意。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;テンプレートリテラル&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%83%AA%E3%83%86%E3%83%A9%E3%83%AB&quot; aria-label=&quot;テンプレートリテラル permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;テンプレートリテラル　&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;バッククォートでくくると、BASH のように書ける。これはわかりやすくていい。&lt;/li&gt;
+&lt;li&gt;ES2015 で実装されたみたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; firstName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名前&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; lastName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名字&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; fullName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;lastName&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;firstName&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;オブジェクト型変数&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E5%9E%8B%E5%A4%89%E6%95%B0&quot; aria-label=&quot;オブジェクト型変数 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;オブジェクト型変数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;表現があっているか不明&lt;/li&gt;
+&lt;li&gt;どうもクラスを意識してしまうが。コンストラクタもメソッドもないクラスと考えておけば。&lt;/li&gt;
+&lt;li&gt;変数の宣言なので最後に「;」がいるんよ。と覚えておこう。Javaのノリだとエラー起こしそう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;firstName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名前&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;lastName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名字&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;関数式&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E9%96%A2%E6%95%B0%E5%BC%8F&quot; aria-label=&quot;関数式 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;関数式&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;関数の宣言方法にも種類があって、スタンダードな関数宣言と関数式というのがある（らしい）&lt;/li&gt;
+&lt;li&gt;式になってて、やっぱり最後に「;」が要る。&lt;/li&gt;
+&lt;li&gt;普通に関数宣言するとコードの末尾に書こうが最初に宣言を通してくれる。関数式は処理系がその行が読むタイミングで宣言する。
+&lt;ul&gt;
+&lt;li&gt;もしかしてメモリ的に有利になることがあるのか？？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;
+&lt;span class=&quot;token comment&quot;&gt;// いつもの君&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ugoUgo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 関数処理をつらつらと&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// スタンダードな関数式はこんな感じ&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;hogeHoge&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 関数処理をつらつらと&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;アロー（=&gt;）を使うと楽に書ける&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。割と驚きな書き方。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// アロー関数の例&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;hogeHoge&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 関数処理をつらつらと&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 引数が1つなら()を省略できる。ただし引数が1つ以上や無いときは省略できない。&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;fugaFuga&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;arg1&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 関数処理をつらつらと&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 関数処理が1行なら{}やreturnも省略できる。&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;mogeMoge&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;arg1&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; arg1 &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;が戻り値&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;ES2015(ES6)から。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[recurrent CCNA]]></title><description><![CDATA[もう一度学び直してみるCCNA]]></description><link>https://masayoshi.work/posts/network/glossary/</link><guid isPermaLink="false">https://masayoshi.work/posts/network/glossary/</guid><pubDate>Sat, 17 Feb 2024 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;glossary&lt;/p&gt;
 &lt;p&gt;C社依存の用語は基本覚えてないので確認するメモ。Google先生、ChatGPT先生、その他、各先人に感謝。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;もし各項目を深掘りすることがある場合は独立してページを作ります。&lt;/li&gt;
@@ -335,85 +540,7 @@
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;Bridge IDとプライオリティ値が同じ場合、MACアドレスが最も小さいスイッチがルートブリッジになります。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ServiceNow では JS らしい]]></title><link>https://masayoshi.work/posts/ServiceNow/20240217/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240217/</guid><pubDate>Sat, 17 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 14.583333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR42mPQcHYWVrO3F9GysBBSsrQU03R0lGcAAg1HR2NNO8cwLXt7CXUrKykDGw9ReXt7AVUnC2mQulVXrrA17VqqahYdzSdjYcFpb2/PATKLQcPOoVnD1mEpkJ6maeswT9PWNkPD1r4WiFs07eynaNo5tAPFwzVt7ddq2NnPAfJnqZhbtxYv6G/vOrRmekxzxWJlU4uZ2g5Oy0D6GIDESqCi+Zp2dm1AugzsOluHRUCXhWra2k0CWtSlYeeYBhSbp27r2KtpYx+jbmWbkTW9c/nE05tDSpZM7lI0MZ+u7eC4WsfOyRUAdQBFYknQy20AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source
-              srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ac56/ServiceNow_logo.svg.webp 240w,
-/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/23a50/ServiceNow_logo.svg.webp 440w&quot;
-              sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
-              type=&quot;image/webp&quot;
-            /&gt;
-          &lt;source
-            srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ff5a/ServiceNow_logo.svg.png 240w,
-/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png 440w&quot;
-            sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
-            type=&quot;image/png&quot;
-          /&gt;
-          &lt;img
-            class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
-            alt=&quot;ServiceNow_logo&quot;
-            title=&quot;&quot;
-            loading=&quot;lazy&quot;
-            decoding=&quot;async&quot;
-            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-          /&gt;
-        &lt;/picture&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;javascript-君のこと忘れてたよ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%E5%90%9B%E3%81%AE%E3%81%93%E3%81%A8%E5%BF%98%E3%82%8C%E3%81%A6%E3%81%9F%E3%82%88&quot; aria-label=&quot;javascript 君のこと忘れてたよ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JavaScript 君のこと忘れてたよ&lt;/h2&gt;
-&lt;p&gt;遠い昔に書いていたし存在は知ってるけど、相当期間自分では書いてこなかったわけですが
-SeriveNowの都合により書く気配がしてきたのでメモ。&lt;/p&gt;
-&lt;h3 id=&quot;型&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%9E%8B&quot; aria-label=&quot;型 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;型&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;JSは動的型付け言語。意識しておいた方がいいよね。
-&lt;ul&gt;
-&lt;li&gt;TypeScript は、静的型付けっぽくなるらしい。知らんけど。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;const-君さぁ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#const-%E5%90%9B%E3%81%95%E3%81%81&quot; aria-label=&quot;const 君さぁ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;const 君さぁ&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;const でオブジェクトを宣言するとオブジェクトそのものは保護される。配列も同様に配列そのものは保護される。
-&lt;ul&gt;
-&lt;li&gt;中身やらは保護されんのよ。注意。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;テンプレートリテラル&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%83%AA%E3%83%86%E3%83%A9%E3%83%AB&quot; aria-label=&quot;テンプレートリテラル permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;テンプレートリテラル　&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;バッククォートでくくると、BASH のように書ける。これはわかりやすくていい。&lt;/li&gt;
-&lt;li&gt;ES2015 で実装されたみたい。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; firstName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名前&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; lastName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名字&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; fullName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;lastName&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;firstName&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;オブジェクト型変数&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E5%9E%8B%E5%A4%89%E6%95%B0&quot; aria-label=&quot;オブジェクト型変数 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;オブジェクト型変数&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;表現があっているか不明&lt;/li&gt;
-&lt;li&gt;どうもクラスを意識してしまうが。コンストラクタもメソッドもないクラスと考えておけば。&lt;/li&gt;
-&lt;li&gt;変数の宣言なので最後に「;」がいるんよ。と覚えておこう。Javaのノリだとエラー起こしそう。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;firstName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名前&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;lastName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;名字&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[ServiceNow 2/5 の気づき]]></title><link>https://masayoshi.work/posts/ServiceNow/20240205/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240205/</guid><pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ServiceNow 2/5 の気づき]]></title><link>https://masayoshi.work/posts/ServiceNow/20240205/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240205/</guid><pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
     &gt;
