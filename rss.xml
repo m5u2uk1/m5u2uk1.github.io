@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Mar 2024 13:00:10 GMT</lastBuildDate><item><title><![CDATA[const ってこういうことかもしれない]]></title><link>https://masayoshi.work/posts/ServiceNow/20240221/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240221/</guid><pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work]]></title><description><![CDATA[masayoshi.work]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Apr 2024 13:20:35 GMT</lastBuildDate><item><title><![CDATA[view。SQLと勘違いしないこと]]></title><link>https://masayoshi.work/posts/ServiceNow/20240415/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240415/</guid><pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.583333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR42mPQcHYWVrO3F9GysBBSsrQU03R0lGcAAg1HR2NNO8cwLXt7CXUrKykDGw9ReXt7AVUnC2mQulVXrrA17VqqahYdzSdjYcFpb2/PATKLQcPOoVnD1mEpkJ6maeswT9PWNkPD1r4WiFs07eynaNo5tAPFwzVt7ddq2NnPAfJnqZhbtxYv6G/vOrRmekxzxWJlU4uZ2g5Oy0D6GIDESqCi+Zp2dm1AugzsOluHRUCXhWra2k0CWtSlYeeYBhSbp27r2KtpYx+jbmWbkTW9c/nE05tDSpZM7lI0MZ+u7eC4WsfOyRUAdQBFYknQy20AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ac56/ServiceNow_logo.svg.webp 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/23a50/ServiceNow_logo.svg.webp 440w&quot;
+              sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ff5a/ServiceNow_logo.svg.png 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png 440w&quot;
+            sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+            alt=&quot;ServiceNow_logo&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;view-について&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#view-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-label=&quot;view について permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;view について&lt;/h2&gt;
+&lt;p&gt;ServiceNow を扱う際にはDBの知識が無いと死ぬことになるのだけれども、DBで使う用語に惑わされることも少しあったりする。&lt;/p&gt;
+&lt;p&gt;今回はビューについてハマったメモ。&lt;/p&gt;
+&lt;h3 id=&quot;そもそも&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%9D%E3%82%82%E3%81%9D%E3%82%82&quot; aria-label=&quot;そもそも permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;そもそも&lt;/h3&gt;
+&lt;p&gt;SQL でいう view は ServiceNow でいうデータベースビュー。ServiceNow ではもっぱらデータソースのテーブルにあるフィールドをリスト形式やフォーム形式で開いた時に、どのフィールドを表示させるかを定義するもの。リスト表示でもフォーム表示でもviewがあって、view rule というもので条件によって view を強制させるとともとかできるようなのでいい感じに表現ができるみたい。&lt;/p&gt;
+&lt;p&gt;SQLのselectみたいに思えなくもないけどjoinが出来ないのでお察しください。&lt;/p&gt;
+&lt;h3 id=&quot;つくりかた&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F&quot; aria-label=&quot;つくりかた permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;つくりかた&lt;/h3&gt;
+&lt;p&gt;System UI &gt; Views を開いて右上にある New から作れると思う。思うのだけれども私はかなり手間取ったので Form Designer から作ったほうがきっと幸せになれる。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[フィールドの値を持ってくるパターン]]></title><link>https://masayoshi.work/posts/ServiceNow/20240314/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240314/</guid><pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.583333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR42mPQcHYWVrO3F9GysBBSsrQU03R0lGcAAg1HR2NNO8cwLXt7CXUrKykDGw9ReXt7AVUnC2mQulVXrrA17VqqahYdzSdjYcFpb2/PATKLQcPOoVnD1mEpkJ6maeswT9PWNkPD1r4WiFs07eynaNo5tAPFwzVt7ddq2NnPAfJnqZhbtxYv6G/vOrRmekxzxWJlU4uZ2g5Oy0D6GIDESqCi+Zp2dm1AugzsOluHRUCXhWra2k0CWtSlYeeYBhSbp27r2KtpYx+jbmWbkTW9c/nE05tDSpZM7lI0MZ+u7eC4WsfOyRUAdQBFYknQy20AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ac56/ServiceNow_logo.svg.webp 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/23a50/ServiceNow_logo.svg.webp 440w&quot;
+              sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/8ff5a/ServiceNow_logo.svg.png 240w,
+/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png 440w&quot;
+            sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/76bbf6f162f91b3e6b8cef6c8ef84b5d/48c0e/ServiceNow_logo.svg.png&quot;
+            alt=&quot;ServiceNow_logo&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Business Rule を書いていてちょっと理解が難しかったところがあったのでメモ。
+どれもレコードに格納されたフィールドを取ってくるのだけれども、どれも微妙に欲しいものが違うので注意。&lt;/p&gt;
+&lt;h2 id=&quot;普通に値を持ってくる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%99%AE%E9%80%9A%E3%81%AB%E5%80%A4%E3%82%92%E6%8C%81%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B&quot; aria-label=&quot;普通に値を持ってくる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;普通に値を持ってくる&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;getValue()を使って取得できます。
+&lt;ul&gt;
+&lt;li&gt;参照型の場合は参照先のsysidが取得されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;例　
+current&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;fieldName&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;どのように値出力しているかを踏まえて持ってくる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E5%80%A4%E5%87%BA%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%8B%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%A6%E6%8C%81%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B&quot; aria-label=&quot;どのように値出力しているかを踏まえて持ってくる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;どのように値出力しているかを踏まえて持ってくる&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;例えば、レコード上では1と保存しているけど、フォームにHTML出力させると「有効」と表示するなど、保存したものと出力したものが違っていて出力した表示がほしい場合はgetDisplayValue()。表示値というみたいね。
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;例
+current&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getDisplayValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;fieldName&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[const ってこういうことかもしれない]]></title><link>https://masayoshi.work/posts/ServiceNow/20240221/</link><guid isPermaLink="false">https://masayoshi.work/posts/ServiceNow/20240221/</guid><pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; &quot;
     &gt;
@@ -828,7 +933,7 @@ Flow Templates for CRM を適用するには、sn_ux_crm_ft が前提らしい�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 160.89385474860333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAD3klEQVR42u3U60+TVxwH8PMvLHEvt2Qu882WLS4LxAWsJbZIi+WyroXennKzUGrLtS1Pa2/U0mzLmNNNLloBBSUBi1ojk5pxlbHE7K3bMPovTG6FUr47z9OWVQXkhS/2wpN+ci6/3/md0z5tief9I2j6NBu+D/Ix+AWDoS+r0Z+lx0A29ZkWPx4sgvm9XNQfOIL6d1+PhA7I0PNOIfoPKnD1ozIEsuU4/nEWBB8ehvDQ5zzBocP7RorFNtQofagp86BC6YVW7cFXKifkVJHCAUkJC2np/pFzN6Lg2tJGHEuJTazGE4htJq1tJLC8nsAKtRzb5PvXIZF74/AODKPxQi9au0K8lospqTnHdmkArd1Xtue7ITcjdyFzBpBjskJotuEYle7TBKetyGIMOGpshtBi/y9Gx3kNLF1r214jw6M3kSsrhlDFoLDNB4nVDYnNg0JKanNTHkiaWJwUiyA1mCBl2yG1uiC1eyFpsOOTo8cg0Bsgc/j5vaTv2hBycnKgqzXhBN0sa3HiJC1QRH1t86Gg1YV8ymQ4Db2FhajZTdfO8IeKzFZoJVIUFJcgr4k+wJYzIDfCt1DSYMVxen0pPaG8xQERfQviRhZ1rBMFdC5r8iD47WV0+LuhNgcgonliWkDlOgvWbobfZUJVux/F3A2Hx25D7vsO5c0O6O0elLvPQu/ywegK4vzPP6Hn6jWM0EN/ffAA8/PzmIrex6WBEC4PhjA6HsX83Az+ePQIvzxcwLnhEZAhmuy/0I3R7i5UVVZBYagBc6oSajquszSgs/MHDPT3YWjoOs539aDJYoTFoIPZUoMqk5HP45RU10JjttAbhsdQaXfC4fGgze2GRqOFslwFpUoFRVkZ7kQi+G1hAQtUX38/ZKWlUKjUNFYOJY0rUsoobk7CtKBcp4dAnI9ckZgW1ECn1W7T0jnDMGD0emi5NV0qpssc62hMx89J+E4ESvoZfnOxB93t7XzBTGqOWp30UmwnfMFSTxC1vg5c7/wepyorwGjUqKCnbmMy6PZGRm7dhqjVjVz6K5AbG3FCpUMeUwNhdT2EVUaqLtXvDxmfmMDo3O8I3YsidH8SV6JT6ONMJA1OzmFw6mGyn0z2mfGXkZmZGf7fJpFIYKe2tryElef/UM+xtrqC1ZVlbO2SyzUyPT3ND2Lr69iIx1+wvrGBPxcX8eTpUzz+6288frKIxWfPsBaLvZKbRmZnZ/e8Iba26GuLH8bpBs5ejfT29iJCv7zhcBhjY2Ov4NZfsENOJuL1esGyLBwOx46cTicvPd4tL410dHQgGAy+MSQQCOBNelvwbcH/Q8F/AZgRhVkcLjSOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 160.89385474860333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAD30lEQVR42u3U7U9TVxwH8PMvLHEvt2Qu882WLS4LxAWsJbZIi+VhrM/tLU8WSmmhQFtua5+opdmWMaebPGgFFJQEbNUamWAmTzKWmL11G0b/hclzS/nu3AtlRQF94Yu98KSf3N85v9/9ndPetsT3/hHYPs1G4IN8DHzBYPDLKvRlGdCfTX2mw48Hi1D/Xi7qDhxB3buvRiIHZOh+pxB9B+W48pESoewyHP84C4IPD0N46HOe4NDh10aKxQ5UKwKoVvpQrvBDp/HhK7UbZVSR3AVJCQtp6esjZ6+PgxsLiSQWUutYTqawur5pJZHC4loKS9Ti6jp/fRUSvzsKf/8QGs/3oKUzwmu+sGVrznFc7EdL1+Xt+V7IjfgdyNwh5JjtEFocOEalr2mCejuyGCOOmpogtDr/y9E4r4Gla63ba2Ro5AZyZcUQqhkUtgYgsXshcfhQSEkdXsoHiY3FSbEIUqMZUrYNUrsHUqcfkgYnPjl6DAKDETJXkL+X9F4dRE5ODvQ1ZpygN8ua3ThJGxRRXzsCKGjxIJ8yG+thsLIQNXnp2ml+U5HFDp1EioLiEuTZ6ANsPg1yPXoTJQ12HKfHl9IdVM0uiOhbEDeyqGXdKKBzmc2H8LeX0B7sgsYSgojWiWkDtecMWKcFQY8ZlW1BFHMnHIrdQlngO6iaXDA4fVB5z8DgCcDkCePczz+h+8pVDNNNf71/H7Ozs5gYv4eL/RFcGohgZHQcszNT+OPRI/zycA5nh4ZBBmlx8HwXRro6UVlRCbmxGsypCmhoXGttQEfHD+jv68Xg4DWc6+yGzWqC1aiHxVqNSrOJr+OUVNVAa7HSE0ZjqHC64fL50Or1QqvVQaFSQ6FWQ65U4nY8jt/m5jBH9fb1QVZaCrlaS3MqKGhevkVJcXMSpQ3L9AYIxPnIFYlpQy30Ot02HZ0zDAPGYICOW9Nv5fSZsX47R6K341DQz/CbC93oamvjG2bScDSaTS/kdsM3LPWFURNox7WO73GqohyMVoNyutsmPcqZDNvruyPDN29B1OJFLv0VlJkacUKtRx5TDWFVHYSVpi21GfH+yOjYGEZmfkfk7jgi9x7g8vgEejljmwYezGBg4iG9ps3syL+ITE1N8f82qVQKu42VxQUsPf+Heo6V5SUsLy1iY49abpDJyUk+WF1bQyKZ3GEtkcCf8/N48vQpHv/1Nx4/mcf8s2dYWV19qTaNTE9P73tCbGzQ1wYfJukNnP0G6enpQZx+eaPRKGKx2Eu49R12qclE/H4/WJaFy+Xaldvt5qXjverSSHt7O8Lh8BtDQqEQ3qS3Dd82/D80/BdcsoVP4paY8wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -2042,7 +2147,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAClklEQVR42k2S20tUURTGfRGC/gCpHiq6UAaVKGj1IBRB0VtED9VLPWRP0YUg6kHSsAvdDZVAnAjLSEG08VISWojVmDmmjjOjzfU4ztG5nHPmnDOj6a99RkofFmt/a6/1rW/vtXLSaQMlISPPhEmqCiHPOJ6+Nrz9dgY/ddJjb8f9/QvJGT/RoIe4yFMlH0rQiypHUGIymqgzdMtUctKmhiJ7GfO6cboDND2r5u6BPJ7sX8ONorUc25BLeWEeHRcO877qMo53TQy8rMF0jzA75CDk+Ma0L4RpaKRTc+SYFrMiER6bYvRVO+1Vz6k8XIqtpICnhTt5sGczzVvyaV63ifbSArqKD3GzYDu2ymt8b6hl5MVDxuytaMk50npcKNSTaFqMyd4fTLzppOtWNfdOnOb81h1c3LiXK7v3UVtQQmP+Luq25dJatJ7aowepOHmEe2eOU3+pjPrblSjJuFAYEwoNlVRCKJRCRIQN/3DQbW+jsb6G6if3sdkaeGurY/DlHfrunsJZf5XYUC+yaxhnTwfNz8qxtzSyuGBgqLPkWB+5qE+DISw9Q1oN4vMMEo96cQ72IfmcBKZ+EglPkIwF0ZRpIcDPvD7LrKuFL493MlBTjOLvJWOmVhGmo6TmfpOY8aBEJwlPDeP3DGVxaPInjv4PRHwjZJIBtKiHjC6TcLUhd5YT7a5AD1iEmjUUlYwSyhbGpAnmJJeY+qRYEy+x6Qnk8Ljw7ux9xP9LrM4YmmhsxH0kfo+gfn1PfKCLTFwSQ4ktK/yTkgRpEFN0NxMBFjSJeS2cbWRhy//RRUEymCWy8JIe4nPNdR6VlXH/3Fncva9ZWjRXnrxkRP6bhf/FFlfFVnKWz4EhO6M9TYx+fE1iqo95U+UvSOabKSjeJCkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAClklEQVR42k2S20tUURTGfRGC/gCpHiq6UAaVKGj1IBRB0VtED9VLPWRP0YUgIpA07EZXQyUQJ8IyUhBtvJSEFmI1Zo6p48xocz2Oc3Qu55w558xo+mufkdKHxdrf2mt969t7rZx02kBJyMgzYZKqQsgzjqevDW+/ncFPnfTY23F//0Jyxk806CEu8lTJhxL0osoRlJiMJuoM3TKVnLSpochexrxunO4ATc+quXsgjyf713CjaC3HNuRSXphHx4XDvK+6jONdEwMvazDdI8wOOQg5vjHtC2EaGunUHDmmxaxIhMemGH3VTnvVcyoPl2IrKeBp4U4e7NlM85Z8mtdtor20gK7iQ9ws2I6t8hrfG2oZefGQMXsrWnKOtB4XCvUkmhZjsvcHE2866bpVzb0Tpzm/dQcXN+7lyu591BaU0Ji/i7ptubQWraf26EEqTh7h3pnj1F8qo/52JUoyLhTGhEJDJZUQCqUQEWHDPxx029torK+h+sl9bLYG3trqGHx5h767p3DWXyU21IvsGsbZ00Hzs3LsLY0sLhgY6iw51kcu6tNgCEvPkFaD+DyDxKNenIN9SD4ngamfRMITJGNBNGVaCPAzr88y62rhy+OdDNQUo/h7yZipVYTpKKm53yRmPCjRScJTw/g9Q1kcmvyJo/8DEd8ImWQALeoho8skXG3IneVEuyvQAxahZg1FJaOEsoUxaYI5ySWmPinWxEtsegI5PC68O3sf8f8SqzOGJhobcR+J3yOoX98TH+giE5fEUGLLCv+kJEEaxBTdzUSABU1iXgtnG1nY8n90UZAMZoksvKSH+FxznUdlZdw/dxZ372uWFs2VJy8Zkf9m4X+xxVWxlZzlc2DIzmhPE6MfX5OY6mPeVPkLSNKbKVzCpAAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -2085,7 +2190,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 77.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR42o2TTWxUVRTHm5i4wLWJGhcmpHEhCIomJIbEKNENKxcaE42a+MGChI/YQCrBmBIIjVQpKKgJYFGSWkoLrUhpbGtbE2yh0NKZ0lJmOu2bzsz7mDcf7/u9mZ/3vamAOxa/nHNu7v2fe885t86xy+TlFKmFebJ5nRuDfQwd3slg6y7aDzZwaM8OLh8/gHS9n9mxfrLhvth1ivFr6IlZdCmFrirYVhnb0KhzzCKF3BwziSTXxmOcaW7hq41P0fryY+x7aRXvPP0IjatX0bn5WTq2vsXfR7+lc+928kJUnRhnYaCfxVvTlIpFPFOmzjZ0zFIW6eotZk53c2lfC01vbObE+vUcWPMcR9bU01X/PO1P1HNuw2r6XtxIwzNP0vj263Q3NTJ6qJHxthPISyk8Ox/eUCevK9z+a4J47zAXDx7n64+38cG6F/hk3St8vmkLza+9ya+bNvDT2kfpevVxej59j9O7t3Fk60ec+WIHzTu3k8nmxA1VcUOzgKlLqNoy+XyG5MIscfGckcFeznW0celyDwNXLjDd18boyUbm/vgObW4MV1kkdnWA/btFjXs6qboF7FKOOssoUDXTYC0LhHUy4Cs4Rpr4zVGmJ4bJLcVZTMaYid9gfm4KJT1DxVEY+f0sbfs/4/zPRwnMZVxDrgkG4nC4UBE4xSWyqWm09G2ku5MsJ6dQhV8UjZPmJxj58yKqFMcqLBLv/w35hyYu/PgNupIgsNSaYEUIVlYEQ3G/HCLVEgm8khQRJjPzSXxjmaoSI2zo5EwCwzQgyOOU5QcEo8PSPf/+2gOxGVpJlETj5lA7LXvep7vjFB3ff8nQ+WNRHYWgLjJmqdjq/wgsRSBTdUQcoUU2sBXwdBJTw/zT9wuTw12MXTkrGtQraqhQZ5Z1PKdMTtGQBaqWF76CaVlRfOduEkXVyMlKNBrZnIysqmh6kZJp4/o+KSlL2TBwTe2+YDIlsbAoUSqbLKWz6IUivh+IjRa242DZjrBuZB3Xi9ZCPM+nWCrjuk7t60VPtnUyIrOiyoR/W9c1jLIYp4pXI3BX/JqthPEKFd+Bqk/gWVgl0ZRQrLW7yK6TAQ2nXBIpWRQ9I8Yoc6/LD0PYrKjLgaOzt83gw2NV3j3sE7sjBL10NBr/jdLDkY4E/wX9MRNFwou4qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 77.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYElEQVR42o2TTWxUVRTHm5i4wLULjAsTRRcSSEUTEqMxfm5cudCYaNREAwsSCoFAKsGQEgiNVCkoqAlgqyS1lBZakdJYalsTLFBo6Uw/KDOd9k1n5n3Mm4/3/d7Mz/veVMAdi1/OOTf3/s+955xb59hl8nKK1MI82bzOzSv9DB3expXW7XQc3Mmh3Q1cOn4A6cYAs2MDZMN9sRsU49fRE7PoUgpdVbCtMrahUeeYRQq5OaYTSa5fi9He3MK+jU/Q+tJj7H1xFR88+QiNz6yi683n6Nz8Hn8f/ZauPVvJC1F1/BoLgwMs3p6iVCzimTJ1tqFjlrJIV28zc7qHi3tbaHr7LU7U13Ng7fMcWbuG7mfX0bF6DWc3PE3/CxvZ8dRqGt9/g56mRkYPNXKt7QTyUgrPzoc31MnrCjN/jRPvG+bCweN8/fkWPllfzxfrX2bHq+/S/Po7/PrKBn5a9yjdrz1O76aPOL1rC0c2f0b7lw00b9tKJpsTN1TFDc0Cpi6hasvk8xmSC7PExXNGBvs429nGxUu9DF4+z1R/O6MnG5n74zu0uTFcZZHY1UH272qgv7eLqlvALuWos4wCVTMN1rJAWCcDvoJjpInfGmVqfJjcUpzFZIzp+E3m5yZR0tNUHIWR38/Qtn8T534+SmAu4xpyTTAQh8OFisApLpFNTaGlZ5DuTrCcnEQVflE0TpofZ+TPC6hSHKuwSHzgN+Qfmjj/4zfoSoLAUmuCFSFYWREMxf1yiFRLJPBKUkSYzMwn8Y1lqkqMsKET0wkM04Agj1OWHxCMDkv3/PtrD8RmaCVREo1bQx207P6Yns5TdH7/FUPnjkV1FIK6yJilYqv/I7AUgUzVEXGEFtnAVsDTSUwO80//L0wMdzN2+YxoUJ+ooUKdWdbxnDI5RUMWqFpe+AqmZUXxnbtJFFUjJyvRaGRzMrKqoulFSqaN6/ukpCxlw8A1tfuCyZTEwqJEqWyylM6iF4r4fiA2WtiOg2U7wrqRdVwvWgvxPJ9iqYzrOrWvFz3Z1smIzIoqE/5tXdcwymKcKl6NwF3xa7YSxitUfAeqPoFnYZVEU0Kx1p4i208G7DzlkkjJougZMUaZe11+GMJmRV0OHJ09bQafHqvy4WGf2B0h6KWj0fhvlB6OdCT4LyOoE087oheuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -2273,7 +2378,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.083333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVR42pWRW0jTcRTH914vEfRSIBgEPUT0EIVGN7IHwS5CkGQqlnnN63Tqcl42p3NzutrMZnQhMLIHM5c6N6+bWC60rKabeZmBVtoFQigEP/32V6rXfvDhfDnne36/c/jJ5memUFw+T35KLH6fh++LfmxWExMvHCQcP8rRkBBKz0bx45Ofr0sBfv5awapVc/FQOBZNAQNtVurLcog6fIBJ71tkc/4JitISKEyOo+WmAVdXC10tdxkZaOdhQw2xEcdIjzzJq0E7HxcDfP+2QPSJI+zbsY3IiHCUV+M4FbaXsJ1bmZkUF05PejFp82g0qqhTyVHnpVGrykeelsiTR0102h5i1VeiuJTAuKcb3xsXSbFn2B+6nT27QtmxZTN7t28i5vBuZn1eZIGZ92SJlTXKDNx9rbwZ7aentZmOB3dwPm7GKfRQbztTEx4WPviY9Y/S29lMSWYSyTHRnD5+kJRzJ1GlXmB+dhrZ0HMPV/NLySmsEJRRVF6NUqOnUERFaRUqjQF1jUlCqdZTUFJJcYWO/BIt8msayaNQVZEtet3DI8hejo1ToatHf/0WOlMj1UYLVYLquga0tWb0N25hbrrP9ca7GISWagKdqOvqb0q+GhGDD3pGXyMbG38nGi3UmpuovWFdx2zFIB4wW+9huX1fikFMjXcwWtZ9hn8I9lYbGxh7LT5lwP2c1FylNH5usfoP2YXlqLRGaSKt0UyVmCS4slys/NdXIcU8pYYMeQn97mFkS8tfcPS76Blw45QYEnpI0t19g+v0DmIXOPvdG/z19Gz4u/tcfF5aRub1TRF7JYu45GziUnKIF1wUOilTQZaiTJo+Xa4kLUiekpTcIhLT5ZI/fsOfkJpLTGIGvinxy8tfvtLR3cczey+2rh7aOhw8eeagvdMp5Z52OqS8zb5ea+9yipxT0v/SarOztCwmXF1dxeVyEQjM4fV6WVlZIXjW1tb43xO86zfwf6vkvzvYYgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.083333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC20lEQVR42pWRW0jTcRTH914vEfRSIRgEPYT0EEVGWVQPgt0gSPKGZV7L23Tacl62pnNzudzMZmQRKNmDlUudm9dNrBZaVtPNvMzALmoJIRSCn377K9lrP/hwvpzzPb/fOfxkM5PjKC6dJy8lBr/Pw+JnPzaridGXDhKORhAREkLxmSh+fvXzfS7Ar99LWLVqYg+GY9Hk0/fUSnVJNlGH9jHmfY9s2j9KYVoCBclxNN824OpopqO5gVd9rTTVVhJz/AjpkSd402/ny+cAiz9mOXvsMHu2byHyeDjKK3GcPBDGgR2bmRwTF06MeTFpc6kzqripkqPOTaNKlYc8LZEnj+pptzVh1d9AcTGBEU8nvncukmJOszd0K7t3hrJt00bCtm4g+tAupnxeZIHJj2SKlTXKDNw9Lbwb6qWrpZG2h/dwPm7E2dLEQHcr46MeZj/5mPIP0d3eSNHVJJKjz3Lq6H5Szp1AlXqBmakJZAMvPFzJKya7oExQQmFpBUqNngIRFcXlqDQG1JUmCaVaT37RDa6V6cgr0iK/rpE8ClU5WaLXPfgK2evhEcp01ehv3UFnqqPCaKFcUHGzFm2VGX3NHcz1D7hV14BBaKkm0Im6rvq25KsUMfigZ+gtsuGRD6LRQpW5nqoa6ypmKwbxgNl6H8vdB1IMYqq7h9Gy6jP8Q7C3wljL8FvxKX3uF6TmKKXxc66p/5JVUIpKa5Qm0hrNlItJgivLxcrrvjIp5io1ZMiL6HUPIpubX8DR66Krz41TYkDoAUl39vSv0t2PXeDsda+x7ula83f2uPg2N4/M6xsn5nImcclZxKVkEy+IFTrpqoJMRYk0fbpcSVqQXCUpOYUkpsslf/yaPyE1h+jEDHzj4pfnF77T1tnDc3s3to4unrY5ePLcQWu7U8o9a3dIeZt9tdba4RQ5p6T/pcVmZ25eTLi8vIzL5SIQmMbr9bK0tETwrKys8L8neNcf9nar5g9cUtsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -2333,7 +2438,7 @@ IPAといっても情報処理推進機構とは一切関係はなかろう。&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB20lEQVR42mXO20/ScRjH8d+f2lqtmy666b5mBOhcTSscrGIMEwkBBcsGuSaBHH4OZByCOP3kmBwiheQk774CXXnx2vM8n+/32R6p6DdROLaQ9W1TDH5ACW3O+qzPOpsLx1szxRtBy5z4/z+fs5D3m2mkPEgR6xKuDT1unY6AZZWgdQXv+zUODK+FN5zuaYi7tMScaqIO1cJzkWtnbzc1vrdM1L5EIbCJFLKuYlvfYl9v5KtJz6HJQMS+LnoD5hUzYbuW8I6GmPsFae8GKY+OxMErZIcG2bks/s6rbFdTClmRTmxPSLhVxHdVnC7EnCqRqTk0Pubts3sYnt5B/mLkolWmXS9STftFfhej+gHvVPexrT3C9vIhOb+4sBD+SEl2UpQdFCJ2igslMZdOdkVuRxEq8c/UM0cz1aQHRewpEdvMmbwjrtvm/Mchki8UJiBHSOZ/MgGGwmQ6ot6qIicTxDNpshWFXFkhlc+QEOrNMoxaXA+aTIfCol4PfiGlGnmUTo3usE+t3xTa/Bn8pttrcTkaEK2lMUYdnHUbXAyv6Az/0rvqMrmsMO5Vb5GSrTyV/jnZTon9jJcjJUK6kWQqrmyPeriy3/heifEp52Mkru8zZjDuMRHLk37tln/EZRiX2ckd8QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB20lEQVR42mXO20/ScRjH8d+f2lqtmy666b5mBOhcTSscrGIMEwkBBcsGuSaBHH4OZByCOP3kmBwiheQk774CXXnx2vM8n+/32R6p4DdROLaQ9W1TDH5ACW3O+qzPOpsLx1szxRtBy5z4/z+fs5D3m2mkPEgR6xKuDT1unY6AZZWgdQXv+zUODK+FN5zuaYi7tMScaqIO1cJzkWtnbzc1vrdM1L5EIbCJFLKuYlvfYl9v5KtJz6HJQMS+LnoD5hUzYbuW8I6GmPsFae8GKY+OxMErZIcG2bks/s6rbFdTClmRTmxPSLhVxHdVnC7EnCqRqTk0Pubts3sYnt5B/mLkolWmXS9STftFfhej+gHvVPexrT3C9vIhOb+4sBD+SEl2UpQdFCJ2igslMZdOdkVuRxEq8c/UM0cz1aQHRewpEdvMmbwjrtvm/Mchki8UJiBHSOZ/MgGGwmQ6ot6qIicTxDNpshWFXFkhlc+QEOrNMoxaXA+aTIfCol4PfiGlGnmUTo3usE+t3xTa/Bn8pttrcTkaEK2lMUYdnHUbXAyv6Az/0rvqMrmsMO5Vb5GSrTyV/jnZTon9jJcjJUK6kWQqrmyPeriy3/heifEp52Mkru8zZjDuMRHLk37tln/B3hiWqyZ8TgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
