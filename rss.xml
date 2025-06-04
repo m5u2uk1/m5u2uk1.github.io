@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Dec 2024 14:45:18 GMT</lastBuildDate><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。 ご連絡はDM(@MasayoshiWork)でお願いいたします。。 申し訳ございません。現在お仕事は承っておりません。 使用言語/DB Perl BASH PHP Java MySQL…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 04 Jun 2025 07:02:06 GMT</lastBuildDate><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。 ご連絡はDM(@MasayoshiWork)でお願いいたします。。 申し訳ございません。現在お仕事は承っておりません。 使用言語/DB Perl BASH PHP Java MySQL…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。&lt;/p&gt;
 &lt;p&gt;ご連絡はDM(@MasayoshiWork)でお願いいたします。&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -41,7 +41,46 @@
 &lt;ol&gt;
 &lt;li id=&quot;fn-1&quot;&gt;申し訳ございません。現在お仕事は承っておりません。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[masayoshi.work リリースしました]]></title><description><![CDATA[masayoshi.work リリースしました。 GatsbyJS の gatsby-starter-blog テンプレートを使って
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[portfolio]]></title><description><![CDATA[Java 憲法カンフー 日本国憲法の条文と憲法知識を問う国家試験の過去問題の紹介するWebサイト Twitterに憲法の条文をつぶやくBot Backend は SQLite https://kenpokungfu.masayoshi.work/KenpoKungFu/ PHP…]]></description><link>https://masayoshi.work/portfolio/</link><guid isPermaLink="false">https://masayoshi.work/portfolio/</guid><pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;憲法カンフー
+&lt;ul&gt;
+&lt;li&gt;日本国憲法の条文と憲法知識を問う国家試験の過去問題の紹介するWebサイト&lt;/li&gt;
+&lt;li&gt;Twitterに憲法の条文をつぶやくBot&lt;/li&gt;
+&lt;li&gt;Backend は SQLite&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kenpokungfu.masayoshi.work/KenpoKungFu/&quot;&gt;https://kenpokungfu.masayoshi.work/KenpoKungFu/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PHP/Lalabel&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tsumige (積ゲ)
+&lt;ul&gt;
+&lt;li&gt;ファミコンのカセットを積み上げたらどれぐらいになるのか、高さを測るWebサイト&lt;/li&gt;
+&lt;li&gt;Backend は SQLite&lt;/li&gt;
+&lt;li&gt;一番難しかったのは、カセットのアイコン描いたこと。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tsumige.masayoshi.work/&quot;&gt;https://tsumige.masayoshi.work/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python/Streamlit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SES fortune
+&lt;ul&gt;
+&lt;li&gt;診断メーカーLikeなWebサイト。&lt;/li&gt;
+&lt;li&gt;Streamlit / Streamlit Cloud の学習目的。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sesfortune-u6ogjxviqbehow8t9ywv6b.streamlit.app/&quot;&gt;https://sesfortune-u6ogjxviqbehow8t9ywv6b.streamlit.app/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[masayoshi.work リリースしました]]></title><description><![CDATA[masayoshi.work リリースしました。 GatsbyJS の gatsby-starter-blog テンプレートを使って
 極めてシンプルなサイトを作ってみました。]]></description><link>https://masayoshi.work/masayoshi.workRelease/</link><guid isPermaLink="false">https://masayoshi.work/masayoshi.workRelease/</guid><pubDate>Sat, 21 Jan 2023 23:59:00 GMT</pubDate><content:encoded>&lt;p&gt;masayoshi.work リリースしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;GatsbyJS&lt;/a&gt; の gatsby-starter-blog テンプレートを使って
 極めてシンプルなサイトを作ってみました。&lt;/p&gt;</content:encoded></item></channel></rss>
