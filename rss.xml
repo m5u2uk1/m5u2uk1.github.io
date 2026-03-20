@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 26 Jun 2025 06:09:18 GMT</lastBuildDate><item><title><![CDATA[about me]]></title><description><![CDATA[運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。 ご連絡はDM(@MasayoshiWork)でお願いいたします。。 申し訳ございません。現在お仕事は承っておりません。 使用言語/DB Perl BASH PHP Java MySQL…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;運用やインフラ担当エンジニアです。開発系実務ではServiceNow(JS)を触ってます。&lt;/p&gt;
-&lt;p&gt;ご連絡はDM(@MasayoshiWork)でお願いいたします。&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[masayoshi.work RSS Feed]]></title><description><![CDATA[わたしが作成したサイト・サービスをまとめています。なお、当サイトに記載している情報などは組織・団体の公式見解とは無関係です。]]></description><link>https://masayoshi.work</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 Mar 2026 06:43:02 GMT</lastBuildDate><item><title><![CDATA[about me]]></title><description><![CDATA[ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニアです。
+もともとインフラ・クラウド系のバックグラウンドもあるので、基盤まわりの話もできます。 ご連絡はDM(@MasayoshiWork)でお願いいたします。[^1]。 使用言語/DB Perl…]]></description><link>https://masayoshi.work/about/</link><guid isPermaLink="false">https://masayoshi.work/about/</guid><pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニアです。
+もともとインフラ・クラウド系のバックグラウンドもあるので、基盤まわりの話もできます。&lt;/p&gt;
+&lt;p&gt;ご連絡はDM(@MasayoshiWork)でお願いいたします。[^1]。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;使用言語/DB&lt;/p&gt;
@@ -16,6 +18,7 @@
 &lt;li&gt;
 &lt;p&gt;取得資格&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;ServiceNow Certified System Administrator&lt;/li&gt;
 &lt;li&gt;AWS Certified Solutions Architect Associate&lt;/li&gt;
 &lt;li&gt;Azure Fundamentals&lt;/li&gt;
 &lt;li&gt;ITパスポート&lt;/li&gt;
@@ -30,19 +33,12 @@
 &lt;li&gt;ORACLE MASTER Bronze Oracle Database 10g&lt;/li&gt;
 &lt;li&gt;PHP5技術者認定準上級&lt;/li&gt;
 &lt;li&gt;Red Hat Certified System Administrator&lt;/li&gt;
-&lt;li&gt;ServiceNow Certified System Administrator&lt;/li&gt;
 &lt;li&gt;VBAエキスパート&lt;/li&gt;
 &lt;li&gt;Windows Server 2008 Server Administrator&lt;/li&gt;
 &lt;li&gt;情報セキュリティマネジメント&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;申し訳ございません。現在お仕事は承っておりません。&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[portfolio]]></title><description><![CDATA[Java 憲法カンフー 日本国憲法の条文と憲法知識を問う国家試験の過去問題の紹介するWebサイト Twitterに憲法の条文をつぶやくBot Backend は SQLite https://kenpokungfu.masayoshi.work/KenpoKungFu/ PHP…]]></description><link>https://masayoshi.work/portfolio/</link><guid isPermaLink="false">https://masayoshi.work/portfolio/</guid><pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[portfolio]]></title><description><![CDATA[Java 憲法カンフー 日本国憲法の条文と憲法知識を問う国家試験の過去問題の紹介するWebサイト Twitterに憲法の条文をつぶやくBot Backend は SQLite https://kenpokungfu.masayoshi.work/KenpoKungFu/ PHP…]]></description><link>https://masayoshi.work/portfolio/</link><guid isPermaLink="false">https://masayoshi.work/portfolio/</guid><pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Java&lt;/p&gt;
 &lt;ul&gt;
