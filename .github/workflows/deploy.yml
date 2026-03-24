@@ -1,0 +1,42 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "nextPlan/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: m5u2uk1/m5u2uk1.github.io
+          token: ${{ secrets.GH_PAT }}
+          path: target
+
+      - name: Sync files
+        run: |
+          rsync -av --delete \
+            --exclude='node_modules' \
+            --exclude='package.json' \
+            --exclude='package-lock.json' \
+            --exclude='gen-ogp.mjs' \
+            --exclude='ogp-preview.html' \
+            nextPlan/ target/
+
+      - name: Commit and push
+        run: |
+          cd target
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "deploy: $(date '+%Y-%m-%d %H:%M')"
+          git push

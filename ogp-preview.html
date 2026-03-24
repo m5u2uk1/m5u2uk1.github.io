@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 1200px; height: 630px; overflow: hidden; }
+
+    .wrap {
+      width: 1200px;
+      height: 630px;
+      background: linear-gradient(135deg, #0c2461 0%, #1e3a8a 50%, #1d4ed8 100%);
+      display: flex;
+      align-items: center;
+      position: relative;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    /* dot grid */
+    .wrap::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle, rgba(255,255,255,.06) 1.5px, transparent 1.5px);
+      background-size: 56px 56px;
+    }
+
+    /* glow */
+    .wrap::after {
+      content: '';
+      position: absolute;
+      right: 100px; top: 50%;
+      transform: translateY(-50%);
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(59,130,246,.18) 0%, transparent 70%);
+    }
+
+    .text {
+      position: relative;
+      z-index: 1;
+      padding-left: 80px;
+      flex: 1;
+    }
+
+    .label {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 10px;
+      color: rgba(219,234,254,.75);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-size: 96px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+    }
+
+    .url {
+      font-size: 26px;
+      color: rgba(147,197,253,.85);
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      width: 340px;
+      height: 2px;
+      background: rgba(255,255,255,.2);
+      margin-bottom: 24px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      background: rgba(255,255,255,.12);
+      color: rgba(255,255,255,.88);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 6px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.18);
+    }
+
+    .avatar {
+      position: relative;
+      z-index: 1;
+      width: 380px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-right: 40px;
+    }
+    .avatar img {
+      height: 480px;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,.4));
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="text">
+      <p class="label">Engineer</p>
+      <h1 class="name">Masayoshi</h1>
+      <p class="url">masayoshi.work</p>
+      <div class="divider"></div>
+      <div class="tags">
+        <span class="tag">ServiceNow</span>
+        <span class="tag">AWS</span>
+        <span class="tag">Java</span>
+        <span class="tag">PHP / Laravel</span>
+        <span class="tag">Python</span>
+      </div>
+    </div>
+    <div class="avatar">
+      <img src="avatar.png" alt="Masayoshi" />
+    </div>
+  </div>
+</body>
+</html>

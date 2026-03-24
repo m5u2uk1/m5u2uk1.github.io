@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>masayoshi.work</title>
+  <meta name="description" content="ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニア Masayoshi のポートフォリオサイトです。" />
+
+  <!-- OGP -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://masayoshi.work/" />
+  <meta property="og:title"       content="masayoshi.work" />
+  <meta property="og:description" content="ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニア Masayoshi のポートフォリオサイトです。" />
+  <meta property="og:image"       content="https://masayoshi.work/ogp.png" />
+  <meta property="og:locale"      content="ja_JP" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@MasayoshiWork" />
+  <meta name="twitter:title"       content="masayoshi.work" />
+  <meta name="twitter:description" content="ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニア Masayoshi のポートフォリオサイトです。" />
+  <meta name="twitter:image"       content="https://masayoshi.work/ogp.png" />
+
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#top" class="logo">masayoshi.work</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">資格</a>
+        <a href="#portfolio">Works</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-label fade-up">Engineer</p>
+          <h1 class="hero-name fade-up delay-1">Masayoshi</h1>
+          <p class="hero-desc fade-up delay-2">
+            ServiceNowを中心に、設計から実装・テストまでひと通り担当しているエンジニアです。 ServiceNow CSA取得済みです。 もともとインフラ・クラウド系のバックグラウンドもあるので、基盤まわりの話もできます。
+          </p>
+          <div class="hero-tags fade-up delay-3">
+            <span class="tag">ServiceNow</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Java</span>
+            <span class="tag">PHP / Laravel</span>
+            <span class="tag">Python</span>
+          </div>
+          <a href="#portfolio" class="btn fade-up delay-4">Works を見る</a>
+        </div>
+        <div class="hero-avatar fade-up delay-3">
+          <img src="avatar.png" alt="Masayoshi" />
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <div class="about-grid">
+        <div class="about-avatar reveal">
+          <img src="avatar.png" alt="Masayoshi" />
+        </div>
+        <div class="about-text reveal delay-1">
+          <p>
+            ServiceNow を中心に、要件定義・設計・実装・テストまで幅広く担当しているエンジニアです。<br>
+            ServiceNow CSA を取得しており、カスタムアプリ開発から運用改善まで対応しています。
+          </p>
+          <p>
+            もともとインフラ・クラウド系のバックグラウンドもあるため、<br>
+            基盤まわりの話も含めて提案できます。
+          </p>
+          <p>
+            個人開発では Java / PHP(Laravel) / Python(Streamlit) を使ったWebアプリをいくつか公開中。
+          </p>
+        </div>
+        <div class="about-langs reveal delay-2">
+          <h3>使用言語 / DB</h3>
+          <ul class="lang-list">
+            <li><span class="lang-icon">☕</span>Java</li>
+            <li><span class="lang-icon">🐘</span>PHP</li>
+            <li><span class="lang-icon">🐍</span>Python</li>
+            <li><span class="lang-icon">📜</span>Perl</li>
+            <li><span class="lang-icon">💻</span>Bash</li>
+            <li><span class="lang-icon">🐬</span>MySQL</li>
+            <li><span class="lang-icon">🐘</span>PostgreSQL</li>
+            <li><span class="lang-icon">🗃️</span>SQLite</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚙️</div>
+          <h3>ServiceNow</h3>
+          <p>カスタムアプリ開発・ワークフロー構築・インテグレーション設計。CSA取得済み。</p>
+        </div>
+        <div class="skill-card reveal delay-1">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud / Infra</h3>
+          <p>AWS・Azure 環境での設計・構築・運用。Linux サーバー管理。RHELテクニカルサポート経験あり</p>
+        </div>
+        <div class="skill-card reveal delay-2">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Java / PHP(Laravel) / Python(Streamlit) を使ったWebアプリ開発・公開。</p>
+        </div>
+        <div class="skill-card reveal delay-3">
+          <div class="skill-icon">🛡️</div>
+          <h3>Security</h3>
+          <p>LPIC-303 Security 取得。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section" id="certs">
+    <div class="container">
+      <h2 class="section-title reveal">資格 / Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-group reveal">
+          <h3 class="cert-category">Cloud / Infrastructure</h3>
+          <ul class="cert-list">
+            <li>
+              <span class="cert-badge blue">ServiceNow</span>
+              ServiceNow Certified System Administrator
+            </li>
+            <li>
+              <span class="cert-badge orange">AWS</span>
+              AWS Certified Solutions Architect – Associate
+            </li>
+            <li>
+              <span class="cert-badge sky">Azure</span>
+              Microsoft Azure Fundamentals
+            </li>
+          </ul>
+        </div>
+        <div class="cert-group reveal delay-1">
+          <h3 class="cert-category">Linux / OS</h3>
+          <ul class="cert-list">
+            <li>
+              <span class="cert-badge dark">LPI</span>
+              LPIC Level 3 – LPI-303 Security
+            </li>
+            <li>
+              <span class="cert-badge dark">LPI</span>
+              LPIC Level 3 – LPI-304 Virtualization &amp; HA
+            </li>
+            <li>
+              <span class="cert-badge red">Red Hat</span>
+              RHCSA (Red Hat Certified System Administrator)
+            </li>
+          </ul>
+        </div>
+        <div class="cert-group reveal delay-2">
+          <h3 class="cert-category">Development</h3>
+          <ul class="cert-list">
+            <li>
+              <span class="cert-badge brown">Java</span>
+              Oracle Certified Java Programmer Silver SE 7
+            </li>
+            <li>
+              <span class="cert-badge purple">Oracle DB</span>
+              ORACLE MASTER Bronze 10g
+            </li>
+            <li>
+              <span class="cert-badge teal">PHP</span>
+              PHP5技術者認定 準上級
+            </li>
+            <li>
+              <span class="cert-badge teal">Python</span>
+              Python 3 エンジニア認定基礎試験
+            </li>
+          </ul>
+        </div>
+        <div class="cert-group reveal delay-3">
+          <h3 class="cert-category">IT General</h3>
+          <ul class="cert-list">
+            <li>
+              <span class="cert-badge gray">IPA</span>
+              情報セキュリティマネジメント
+            </li>
+            <li>
+              <span class="cert-badge gray">IPA</span>
+              ITパスポート
+            </li>
+            <li>
+              <span class="cert-badge gray">ITIL</span>
+              ITIL Foundation
+            </li>
+            <li>
+              <span class="cert-badge gray">MS</span>
+              Windows Server 2008 Server Administrator
+            </li>
+            <li>
+              <span class="cert-badge gray">VBA</span>
+              VBAエキスパート
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section section-alt" id="portfolio">
+    <div class="container">
+      <h2 class="section-title reveal">Works</h2>
+      <p class="section-sub reveal">個人開発・公開中のサービス</p>
+      <div class="works-grid">
+
+        <a href="https://kenpokungfu.masayoshi.work/KenpoKungFu/" target="_blank" rel="noopener" class="work-card reveal">
+          <div class="work-header">
+            <span class="work-num">01</span>
+            <div class="work-tags">
+              <span class="tag-sm">Java</span>
+              <span class="tag-sm">SQLite</span>
+            </div>
+          </div>
+          <h3>憲法カンフー</h3>
+          <p>日本国憲法の条文と国家試験の過去問を紹介するWebサイト。憲法の条文をつぶやくTwitter Botも運用。</p>
+          <span class="work-link">Visit →</span>
+        </a>
+
+        <a href="https://tsumige.masayoshi.work/" target="_blank" rel="noopener" class="work-card reveal delay-1">
+          <div class="work-header">
+            <span class="work-num">02</span>
+            <div class="work-tags">
+              <span class="tag-sm">PHP</span>
+              <span class="tag-sm">Laravel</span>
+              <span class="tag-sm">SQLite</span>
+            </div>
+          </div>
+          <h3>Tsumige（積ゲ）</h3>
+          <p>ファミコンカセットを積み上げたときの高さを測るWebサービス。カセットアイコンも自作。</p>
+          <span class="work-link">Visit →</span>
+        </a>
+
+        <a href="https://sesfortune-u6ogjxviqbehow8t9ywv6b.streamlit.app/" target="_blank" rel="noopener" class="work-card reveal delay-2">
+          <div class="work-header">
+            <span class="work-num">03</span>
+            <div class="work-tags">
+              <span class="tag-sm">Python</span>
+              <span class="tag-sm">Streamlit</span>
+            </div>
+          </div>
+          <h3>SES Fortune</h3>
+          <p>診断メーカーLikeなWebサイト。Streamlit / Streamlit Cloud の学習目的で開発。</p>
+          <span class="work-link">Visit →</span>
+        </a>
+
+        <a href="https://then-vs-now-hya6tdrxw2qqttskcazmse.streamlit.app/" target="_blank" rel="noopener" class="work-card reveal delay-3">
+          <div class="work-header">
+            <span class="work-num">04</span>
+            <div class="work-tags">
+              <span class="tag-sm">Python</span>
+              <span class="tag-sm">Streamlit</span>
+            </div>
+          </div>
+          <h3>Then vs Now! クイズ</h3>
+          <p>『ワシの若い頃は…』というテーマのクイズアプリ。Streamlit の学習を兼ねて開発。</p>
+          <span class="work-link">Visit →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner reveal">
+      <h2 class="section-title">Contact</h2>
+      <p>お問い合わせは Twitter(X) の DM からお気軽にどうぞ。</p>
+      <a href="https://twitter.com/MasayoshiWork" target="_blank" rel="noopener" class="btn btn-outline">
+        @MasayoshiWork
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2024 Masayoshi. All rights reserved.</p>
+      <p class="footer-credit">Character by <a href="https://charat.me/" target="_blank" rel="noopener">CHARAT</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
