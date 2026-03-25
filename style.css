@@ -537,6 +537,12 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
   gap: 24px;
 }
+.contact-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .contact-section .section-title {
   color: var(--white);
 }
