@@ -364,7 +364,7 @@ a { text-decoration: none; color: inherit; }
 =========================== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .skill-card {
@@ -576,6 +576,55 @@ a { text-decoration: none; color: inherit; }
 }
 .footer-credit a:hover {
   color: var(--gray-400);
+}
+
+/* ===========================
+   BACK TO TOP
+=========================== */
+.back-to-top {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--blue-500), var(--blue-700));
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(59,130,246,.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px) scale(.9);
+  transition: opacity .3s ease, visibility .3s ease, transform .3s ease, box-shadow .2s ease;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+.back-to-top:hover {
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 10px 32px rgba(59,130,246,.6);
+}
+.back-to-top:active {
+  transform: scale(.96);
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
 }
 
 /* ===========================

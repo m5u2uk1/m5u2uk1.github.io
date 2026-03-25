@@ -7,6 +7,18 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 
 // ===========================
+// Back to top button
+// ===========================
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+  backToTop.classList.toggle('visible', window.scrollY > 300);
+}, { passive: true });
+
+backToTop.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ===========================
 // Hero fade-up on load
 // ===========================
 window.addEventListener('DOMContentLoaded', () => {
