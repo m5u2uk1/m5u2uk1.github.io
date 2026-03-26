@@ -468,6 +468,16 @@ a { text-decoration: none; color: inherit; }
   padding: 28px;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   cursor: pointer;
+  overflow: hidden;
+}
+.work-thumb {
+  width: calc(100% + 56px);
+  margin: -28px -28px 20px -28px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--radius) var(--radius) 0 0;
+  display: block;
 }
 .work-card:hover {
   transform: translateY(-6px);
