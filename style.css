@@ -502,6 +502,8 @@ a { text-decoration: none; color: inherit; }
 }
 .work-tags {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 6px;
 }
 .tag-sm {
@@ -531,6 +533,51 @@ a { text-decoration: none; color: inherit; }
   color: var(--gray-400);
   display: inline-block;
   transition: color var(--transition), transform var(--transition);
+}
+
+/* ===========================
+   EXPERIMENTS
+=========================== */
+.experiments-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+.experiment-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+}
+.experiment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.experiment-label {
+  color: var(--blue-700);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.experiment-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--gray-900);
+}
+.experiment-card p {
+  color: var(--gray-600);
+  font-size: .92rem;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.experiment-card p:last-child {
+  margin-bottom: 0;
 }
 
 /* ===========================
